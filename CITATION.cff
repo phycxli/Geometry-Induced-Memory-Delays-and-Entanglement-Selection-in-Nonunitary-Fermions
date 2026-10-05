@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this code repository when using the numerical methods or figure data."
+title: "Geometry-Induced Memory Delays and Entanglement Selection in Nonunitary Fermions"
+type: software
+authors:
+  - family-names: Li
+    given-names: Chengxi
+  - name: Haozhu
+  - family-names: Sun
+    given-names: Wanzi
+repository-code: "https://github.com/phycxli/Geometry-Induced-Memory-Delays-and-Entanglement-Selection-in-Nonunitary-Fermions"
+license: MIT
+version: 0.1.0
+date-released: 2026-10-05

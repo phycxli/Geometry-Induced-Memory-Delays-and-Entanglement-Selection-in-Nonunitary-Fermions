@@ -1,0 +1,48 @@
+{
+  "product_conditions": 112,
+  "new_product_conditions": 96,
+  "reused_product_conditions": 16,
+  "general_protocols": 8,
+  "product_states": 224,
+  "general_states": 168,
+  "total_states": 392,
+  "selected_product_states": 166,
+  "selected_general_states": 168,
+  "memory_retained_product_conditions": 57,
+  "prediction_rows": 672,
+  "new_heldout_states": 180,
+  "empirical_heldout_distance_mae": 0.04280199265853082,
+  "empirical_heldout_distance_max_error": 0.9999910219569357,
+  "empirical_heldout_false_joint_positive": 4,
+  "empirical_heldout_false_projector_positive": 7,
+  "empirical_heldout_false_joint_negative": 2,
+  "empirical_heldout_left_distance_mae": 0.08560398297049901,
+  "empirical_heldout_max_log_graph_error": 41.29079710324813,
+  "physical_fresh_validation_coverage": {
+    "global_gap_envelope": {
+      "states": 180,
+      "guaranteed_joint_count": 113,
+      "selected_reference": 137
+    },
+    "mode_weighted_envelope": {
+      "states": 180,
+      "guaranteed_joint_count": 123,
+      "selected_reference": 137
+    }
+  },
+  "max_general_distance": 2.286803315782938e-05,
+  "max_general_entropy_error": 6.966680725035075e-07,
+  "entropy_only_product_states": 12,
+  "max_physical_distance_bound_violation": 0.0,
+  "max_physical_entropy_bound_violation": -5.266785821671276e-27,
+  "max_double_projector_error": 1.7913441085588486e-07,
+  "max_double_entropy_error": 1.977380927886685e-07,
+  "max_W_projector_error": 2.0737928403107023e-10,
+  "max_W_entropy_error": 2.8817337405229182e-11,
+  "double_failed_states": 0,
+  "double_ratio_error_above_one_percent": 74,
+  "max_reference_relative_scalar_change": 4.328270359448657e-45,
+  "max_reference_entropy_change": 1.7788376611791364e-49,
+  "max_case_seconds": 46.05885269999271,
+  "scope": "gamma=2, L16-48, t5-25 deterministic OBC study; no thermodynamic or stochastic Born claim"
+}

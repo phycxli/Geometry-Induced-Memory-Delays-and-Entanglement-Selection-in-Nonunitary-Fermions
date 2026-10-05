@@ -1,0 +1,8 @@
+initial,states,actual_selected,guaranteed_selected,guaranteed_unselected,undecided,maximum_rank
+block_cell10,28,22,22,6,0,4.0
+block_cell12,28,21,21,7,0,4.0
+block_cell30,28,8,8,20,0,8.0
+block_cell36,28,10,10,18,0,12.0
+charge_density_wave,104,104,104,0,0,0.0
+left,56,42,42,14,0,4.0
+right,56,19,19,37,0,12.0

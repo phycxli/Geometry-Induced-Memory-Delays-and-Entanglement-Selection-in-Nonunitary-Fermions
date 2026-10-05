@@ -1,0 +1,7 @@
+kind,steps,physical_time,step_expm_error,product_expm_error,product_eig_error,eig_step_error
+unitary,1,0.05,0.0,0.0,0.0,0.0
+unitary,100,5.0,0.0,0.0,6.6678113035830925e-15,0.0
+unitary,300,15.0,0.0,0.0,2.0013367536779902e-14,0.0
+jordan,1,0.05,0.0,0.0,0.05,0.05
+jordan,100,5.0,0.0,0.0,5.0,0.05
+jordan,300,15.0,0.0,0.0,15.0,0.05

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geometry-induced-fermion-memory"
+version = "0.1.0"
+description = "Finite-time occupation memory and entanglement selection in nonunitary fermions"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+dependencies = [
+  "numpy>=2.2,<3",
+  "scipy>=1.16,<2",
+  "mpmath>=1.3,<2",
+  "matplotlib>=3.10,<4",
+  "threadpoolctl>=3.6,<4",
+  "psutil>=7,<8",
+]
+
+[project.optional-dependencies]
+hpc = ["gmpy2>=2.2,<3"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,133 @@
+case_id,length,gamma,skin,physical_time,steps,dt,t1,t2,boundary,roles,initials,initial_a,initial_b,distance_lower,guaranteed_memory
+L24_gamma1p6_g0p0_T200,24,1.6,0.0,10.0,200,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9993516358685297,True
+L24_gamma1p6_g0p0_T500,24,1.6,0.0,25.0,500,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,8.324953332649837e-08,False
+L24_gamma1p6_g0p0_T800,24,1.6,0.0,40.0,800,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,1.6661519379415697e-15,False
+L24_gamma1p6_g0p25_T200,24,1.6,0.25,10.0,200,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9549504914501286,True
+L24_gamma1p6_g0p25_T500,24,1.6,0.25,25.0,500,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,5.1342812705205484e-08,False
+L24_gamma1p6_g0p25_T800,24,1.6,0.25,40.0,800,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,2.053941940461149e-15,False
+L24_gamma2p0_g-0p25_T100,24,2.0,-0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,0.9999994117352355,True
+L24_gamma2p0_g-0p25_T100,24,2.0,-0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,0.9999994117352354,True
+L24_gamma2p0_g-0p25_T100,24,2.0,-0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,0.4998157530672761,True
+L24_gamma2p0_g-0p25_T300,24,2.0,-0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,1.1556829498190597e-05,False
+L24_gamma2p0_g-0p25_T300,24,2.0,-0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,1.2353920780248372e-06,False
+L24_gamma2p0_g-0p25_T300,24,2.0,-0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,5.891665543175746e-13,False
+L24_gamma2p0_g-0p25_T500,24,2.0,-0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,1.0314409543729269e-17,False
+L24_gamma2p0_g-0p25_T500,24,2.0,-0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,2.621847052686946e-18,False
+L24_gamma2p0_g-0p25_T500,24,2.0,-0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,1.5083625757322803e-24,False
+L24_gamma2p0_g0p0_T100,24,2.0,0.0,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,0.9999995253136965,True
+L24_gamma2p0_g0p0_T100,24,2.0,0.0,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,0.9999995253136973,True
+L24_gamma2p0_g0p0_T100,24,2.0,0.0,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,0.8618645343137935,True
+L24_gamma2p0_g0p0_T300,24,2.0,0.0,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,1.3088405646811467e-06,False
+L24_gamma2p0_g0p0_T300,24,2.0,0.0,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,7.314906638402643e-06,False
+L24_gamma2p0_g0p0_T300,24,2.0,0.0,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,1.0017878029965897e-12,False
+L24_gamma2p0_g0p0_T500,24,2.0,0.0,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,1.6591142421505051e-18,False
+L24_gamma2p0_g0p0_T500,24,2.0,0.0,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,8.696778172066112e-18,False
+L24_gamma2p0_g0p0_T500,24,2.0,0.0,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,1.7941094070126172e-24,False
+L24_gamma2p0_g0p25_T100,24,2.0,0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,0.9999995278679266,True
+L24_gamma2p0_g0p25_T100,24,2.0,0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,0.9999995278681959,True
+L24_gamma2p0_g0p25_T100,24,2.0,0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,0.9847778572104263,True
+L24_gamma2p0_g0p25_T300,24,2.0,0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,1.8814352103878294e-07,False
+L24_gamma2p0_g0p25_T300,24,2.0,0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,5.349948784805035e-05,False
+L24_gamma2p0_g0p25_T300,24,2.0,0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,2.6563942625029313e-12,False
+L24_gamma2p0_g0p25_T500,24,2.0,0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,4.2042733043911977e-19,False
+L24_gamma2p0_g0p25_T500,24,2.0,0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,4.424868678160295e-17,False
+L24_gamma2p0_g0p25_T500,24,2.0,0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,4.3762748239962064e-24,False
+L32_gamma2p0_g0p0_T300,32,2.0,0.0,15.0,300,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.14613576501512304,True
+L32_gamma2p0_g0p0_T310,32,2.0,0.0,15.5,310,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.03662709108710826,False
+L32_gamma2p0_g0p0_T320,32,2.0,0.0,16.0,320,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.009121801534971887,False
+L32_gamma2p0_g0p0_T330,32,2.0,0.0,16.5,330,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.002276907495675855,False
+L32_gamma2p0_g0p0_T340,32,2.0,0.0,17.0,340,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.0005698218019185327,False
+L32_gamma2p0_g0p0_T350,32,2.0,0.0,17.5,350,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.00014295172378444036,False
+L32_gamma2p0_g0p25_T250,32,2.0,0.25,12.5,250,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9893139529359104,True
+L32_gamma2p0_g0p25_T260,32,2.0,0.25,13.0,260,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.8630553455511872,True
+L32_gamma2p0_g0p25_T270,32,2.0,0.25,13.5,270,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.39685900446790023,True
+L32_gamma2p0_g0p25_T280,32,2.0,0.25,14.0,280,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.10919912427282846,True
+L32_gamma2p0_g0p25_T290,32,2.0,0.25,14.5,290,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.028000713054537996,False
+L32_gamma2p0_g0p25_T300,32,2.0,0.25,15.0,300,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.007164906721368143,False
+L40_gamma1p6_g0p0_T200,40,1.6,0.0,10.0,200,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9999971118798494,True
+L40_gamma1p6_g0p0_T500,40,1.6,0.0,25.0,500,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,0.07464507669753406,False
+L40_gamma1p6_g0p0_T800,40,1.6,0.0,40.0,800,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,1.3341084490288045e-09,False
+L40_gamma1p6_g0p25_T200,40,1.6,0.25,10.0,200,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,0.999995597183817,True
+L40_gamma1p6_g0p25_T500,40,1.6,0.25,25.0,500,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,0.004156059066214094,False
+L40_gamma1p6_g0p25_T800,40,1.6,0.25,40.0,800,0.05,0.5,1.0,open,['gain_strength'],"['charge_density_wave', 'left']",charge_density_wave,left,2.986807888316782e-10,False
+L40_gamma2p0_g-0p25_T100,40,2.0,-0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,0.9999993613971311,True
+L40_gamma2p0_g-0p25_T100,40,2.0,-0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,0.9999993613971311,True
+L40_gamma2p0_g-0p25_T100,40,2.0,-0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,0.9999993613872494,True
+L40_gamma2p0_g-0p25_T300,40,2.0,-0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,0.9999999999996833,True
+L40_gamma2p0_g-0p25_T300,40,2.0,-0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,0.9999998625215661,True
+L40_gamma2p0_g-0p25_T300,40,2.0,-0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,5.783578056752853e-08,False
+L40_gamma2p0_g-0p25_T500,40,2.0,-0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,8.925065065072815e-07,False
+L40_gamma2p0_g-0p25_T500,40,2.0,-0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,3.3633293697440357e-09,False
+L40_gamma2p0_g-0p25_T500,40,2.0,-0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,1.0395655586634815e-19,False
+L40_gamma2p0_g0p0_T100,40,2.0,0.0,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,0.9999994870170307,True
+L40_gamma2p0_g0p0_T100,40,2.0,0.0,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,0.9999994870170307,True
+L40_gamma2p0_g0p0_T100,40,2.0,0.0,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,0.9999994870161187,True
+L40_gamma2p0_g0p0_T300,40,2.0,0.0,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,0.999999998291399,True
+L40_gamma2p0_g0p0_T300,40,2.0,0.0,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,0.9999999999501916,True
+L40_gamma2p0_g0p0_T300,40,2.0,0.0,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,1.0547079644353684e-07,False
+L40_gamma2p0_g0p0_T350,40,2.0,0.0,17.5,350,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9980180392025132,True
+L40_gamma2p0_g0p0_T360,40,2.0,0.0,18.0,360,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9696015182778239,True
+L40_gamma2p0_g0p0_T370,40,2.0,0.0,18.5,370,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.7044779433318705,True
+L40_gamma2p0_g0p0_T380,40,2.0,0.0,19.0,380,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.24183296183927375,True
+L40_gamma2p0_g0p0_T390,40,2.0,0.0,19.5,390,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.06259285340868138,False
+L40_gamma2p0_g0p0_T400,40,2.0,0.0,20.0,400,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.015811854118409067,False
+L40_gamma2p0_g0p0_T500,40,2.0,0.0,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,1.7925437874974583e-08,False
+L40_gamma2p0_g0p0_T500,40,2.0,0.0,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,9.48978207799453e-08,False
+L40_gamma2p0_g0p0_T500,40,2.0,0.0,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,1.7971283712467538e-19,False
+L40_gamma2p0_g0p25_T100,40,2.0,0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,0.9999994865564458,True
+L40_gamma2p0_g0p25_T100,40,2.0,0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,0.9999994865564458,True
+L40_gamma2p0_g0p25_T100,40,2.0,0.25,5.0,100,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,0.9999994865564447,True
+L40_gamma2p0_g0p25_T300,40,2.0,0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,0.999993575673421,True
+L40_gamma2p0_g0p25_T300,40,2.0,0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,0.9999999999999868,True
+L40_gamma2p0_g0p25_T300,40,2.0,0.25,15.0,300,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,7.714341603332156e-07,False
+L40_gamma2p0_g0p25_T350,40,2.0,0.25,17.5,350,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.2925602945892593,True
+L40_gamma2p0_g0p25_T360,40,2.0,0.25,18.0,360,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.07867611778652864,False
+L40_gamma2p0_g0p25_T370,40,2.0,0.25,18.5,370,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.02039608258876044,False
+L40_gamma2p0_g0p25_T380,40,2.0,0.25,19.0,380,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.005283259284886706,False
+L40_gamma2p0_g0p25_T390,40,2.0,0.25,19.5,390,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.001370686646276604,False
+L40_gamma2p0_g0p25_T400,40,2.0,0.25,20.0,400,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.0003561814042946296,False
+L40_gamma2p0_g0p25_T500,40,2.0,0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,left,5.351278596081454e-10,False
+L40_gamma2p0_g0p25_T500,40,2.0,0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,right,3.8736132703239525e-06,False
+L40_gamma2p0_g0p25_T500,40,2.0,0.25,25.0,500,0.05,0.5,1.0,open,['orientation'],"['charge_density_wave', 'left', 'right', 'center_block']",charge_density_wave,center_block,1.2389747103729998e-18,False
+L48_gamma2p0_g0p0_T400,48,2.0,0.0,20.0,400,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9999998328864111,True
+L48_gamma2p0_g0p0_T410,48,2.0,0.0,20.5,410,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9999973535771445,True
+L48_gamma2p0_g0p0_T420,48,2.0,0.0,21.0,420,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.999958272446524,True
+L48_gamma2p0_g0p0_T430,48,2.0,0.0,21.5,430,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9993452307283672,True
+L48_gamma2p0_g0p0_T440,48,2.0,0.0,22.0,440,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9898992244443535,True
+L48_gamma2p0_g0p0_T450,48,2.0,0.0,22.5,450,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.8704339907299313,True
+L48_gamma2p0_g0p0_T460,48,2.0,0.0,23.0,460,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.40921111782974984,True
+L48_gamma2p0_g0p0_T470,48,2.0,0.0,23.5,470,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.11319499313996569,True
+L48_gamma2p0_g0p0_T480,48,2.0,0.0,24.0,480,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.028970135022927494,False
+L48_gamma2p0_g0p0_T490,48,2.0,0.0,24.5,490,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.007382637624890251,False
+L48_gamma2p0_g0p0_T500,48,2.0,0.0,25.0,500,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.0018830661413149104,False
+L48_gamma2p0_g0p0_T560,48,2.0,0.0,28.0,560,0.05,0.5,1.0,open,['window_extension'],"['charge_density_wave', 'left']",charge_density_wave,left,5.306260601016284e-07,False
+L48_gamma2p0_g0p0_T600,48,2.0,0.0,30.0,600,0.05,0.5,1.0,open,['window_extension'],"['charge_density_wave', 'left']",charge_density_wave,left,2.323002943279159e-09,False
+L48_gamma2p0_g0p25_T400,48,2.0,0.25,20.0,400,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9971539901196427,True
+L48_gamma2p0_g0p25_T410,48,2.0,0.25,20.5,410,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9599724570697804,True
+L48_gamma2p0_g0p25_T420,48,2.0,0.25,21.0,420,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.6646778793814128,True
+L48_gamma2p0_g0p25_T430,48,2.0,0.25,21.5,430,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.22534348621772193,True
+L48_gamma2p0_g0p25_T440,48,2.0,0.25,22.0,440,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.06011139964115853,False
+L48_gamma2p0_g0p25_T450,48,2.0,0.25,22.5,450,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.015698594286561788,False
+L48_gamma2p0_g0p25_T460,48,2.0,0.25,23.0,460,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.0040985648519333,False
+L48_gamma2p0_g0p25_T470,48,2.0,0.25,23.5,470,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.0010711983537256412,False
+L48_gamma2p0_g0p25_T480,48,2.0,0.25,24.0,480,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,0.00028027570442440343,False
+L48_gamma2p0_g0p25_T490,48,2.0,0.25,24.5,490,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,7.340937276333917e-05,False
+L48_gamma2p0_g0p25_T500,48,2.0,0.25,25.0,500,0.05,0.5,1.0,open,['dense_boundary'],"['charge_density_wave', 'left']",charge_density_wave,left,1.924602184924279e-05,False
+L48_gamma2p0_g0p25_T560,48,2.0,0.25,28.0,560,0.05,0.5,1.0,open,['window_extension'],"['charge_density_wave', 'left']",charge_density_wave,left,6.360678083248178e-09,False
+L48_gamma2p0_g0p25_T600,48,2.0,0.25,30.0,600,0.05,0.5,1.0,open,['window_extension'],"['charge_density_wave', 'left']",charge_density_wave,left,3.082475199379953e-11,False
+L56_gamma2p0_g0p0_T400,56,2.0,0.0,20.0,400,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,1.0,True
+L56_gamma2p0_g0p0_T500,56,2.0,0.0,25.0,500,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9999874369109999,True
+L56_gamma2p0_g0p0_T600,56,2.0,0.0,30.0,600,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,0.00023962169156692154,False
+L56_gamma2p0_g0p0_T700,56,2.0,0.0,35.0,700,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,3.1337485737145417e-10,False
+L56_gamma2p0_g0p25_T400,56,2.0,0.25,20.0,400,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9999999999979947,True
+L56_gamma2p0_g0p25_T500,56,2.0,0.25,25.0,500,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,0.5717076605181833,True
+L56_gamma2p0_g0p25_T600,56,2.0,0.25,30.0,600,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,1.0934613766588998e-06,False
+L56_gamma2p0_g0p25_T700,56,2.0,0.25,35.0,700,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,1.827995160496446e-12,False
+L64_gamma2p0_g0p0_T400,64,2.0,0.0,20.0,400,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,1.0,True
+L64_gamma2p0_g0p0_T500,64,2.0,0.0,25.0,500,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9999999999999989,True
+L64_gamma2p0_g0p0_T600,64,2.0,0.0,30.0,600,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9991921197060234,True
+L64_gamma2p0_g0p0_T700,64,2.0,0.0,35.0,700,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,3.190501860663666e-05,False
+L64_gamma2p0_g0p25_T400,64,2.0,0.25,20.0,400,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,1.0,True
+L64_gamma2p0_g0p25_T500,64,2.0,0.25,25.0,500,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,0.9999999992268086,True
+L64_gamma2p0_g0p25_T600,64,2.0,0.25,30.0,600,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,0.038933697130305554,False
+L64_gamma2p0_g0p25_T700,64,2.0,0.25,35.0,700,0.05,0.5,1.0,open,['unseen_size'],"['charge_density_wave', 'left']",charge_density_wave,left,6.42250254150287e-08,False

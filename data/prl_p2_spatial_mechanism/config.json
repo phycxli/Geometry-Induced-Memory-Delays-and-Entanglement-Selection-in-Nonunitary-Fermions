@@ -1,0 +1,2074 @@
+{
+  "study_date": "2026-10-04",
+  "version": 1,
+  "cases": [
+    {
+      "case_id": "L24_gamma1p6_g0p0_T200",
+      "length": 24,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "physical_time": 10.0,
+      "steps": 200,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L24_gamma1p6_g0p0_T500",
+      "length": 24,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L24_gamma1p6_g0p0_T800",
+      "length": 24,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "physical_time": 40.0,
+      "steps": 800,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L24_gamma1p6_g0p25_T200",
+      "length": 24,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "physical_time": 10.0,
+      "steps": 200,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L24_gamma1p6_g0p25_T500",
+      "length": 24,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L24_gamma1p6_g0p25_T800",
+      "length": 24,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "physical_time": 40.0,
+      "steps": 800,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma1p6_g0p0_T200",
+      "length": 40,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "physical_time": 10.0,
+      "steps": 200,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma1p6_g0p0_T500",
+      "length": 40,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma1p6_g0p0_T800",
+      "length": 40,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "physical_time": 40.0,
+      "steps": 800,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma1p6_g0p25_T200",
+      "length": 40,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "physical_time": 10.0,
+      "steps": 200,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma1p6_g0p25_T500",
+      "length": 40,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma1p6_g0p25_T800",
+      "length": 40,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "physical_time": 40.0,
+      "steps": 800,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "gain_strength"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L24_gamma2p0_g-0p25_T100",
+      "length": 24,
+      "gamma": 2.0,
+      "skin": -0.25,
+      "physical_time": 5.0,
+      "steps": 100,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L24_gamma2p0_g-0p25_T300",
+      "length": 24,
+      "gamma": 2.0,
+      "skin": -0.25,
+      "physical_time": 15.0,
+      "steps": 300,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L24_gamma2p0_g-0p25_T500",
+      "length": 24,
+      "gamma": 2.0,
+      "skin": -0.25,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L24_gamma2p0_g0p0_T100",
+      "length": 24,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 5.0,
+      "steps": 100,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L24_gamma2p0_g0p0_T300",
+      "length": 24,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 15.0,
+      "steps": 300,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L24_gamma2p0_g0p0_T500",
+      "length": 24,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L24_gamma2p0_g0p25_T100",
+      "length": 24,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 5.0,
+      "steps": 100,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L24_gamma2p0_g0p25_T300",
+      "length": 24,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 15.0,
+      "steps": 300,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L24_gamma2p0_g0p25_T500",
+      "length": 24,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T300",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 15.0,
+      "steps": 300,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T310",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 15.5,
+      "steps": 310,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T320",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 16.0,
+      "steps": 320,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T330",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 16.5,
+      "steps": 330,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T340",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 17.0,
+      "steps": 340,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T350",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 17.5,
+      "steps": 350,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T250",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 12.5,
+      "steps": 250,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T260",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 13.0,
+      "steps": 260,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T270",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 13.5,
+      "steps": 270,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T280",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 14.0,
+      "steps": 280,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T290",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 14.5,
+      "steps": 290,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T300",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 15.0,
+      "steps": 300,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g-0p25_T100",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": -0.25,
+      "physical_time": 5.0,
+      "steps": 100,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g-0p25_T300",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": -0.25,
+      "physical_time": 15.0,
+      "steps": 300,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g-0p25_T500",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": -0.25,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p0_T100",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 5.0,
+      "steps": 100,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p0_T300",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 15.0,
+      "steps": 300,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p0_T350",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 17.5,
+      "steps": 350,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p0_T360",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 18.0,
+      "steps": 360,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p0_T370",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 18.5,
+      "steps": 370,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p0_T380",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 19.0,
+      "steps": 380,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p0_T390",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 19.5,
+      "steps": 390,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p0_T400",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 20.0,
+      "steps": 400,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p0_T500",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p25_T100",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 5.0,
+      "steps": 100,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p25_T300",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 15.0,
+      "steps": 300,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p25_T350",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 17.5,
+      "steps": 350,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p25_T360",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 18.0,
+      "steps": 360,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p25_T370",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 18.5,
+      "steps": 370,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p25_T380",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 19.0,
+      "steps": 380,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p25_T390",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 19.5,
+      "steps": 390,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p25_T400",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 20.0,
+      "steps": 400,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L40_gamma2p0_g0p25_T500",
+      "length": 40,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "orientation"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right",
+        "center_block"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T400",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 20.0,
+      "steps": 400,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T410",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 20.5,
+      "steps": 410,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T420",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 21.0,
+      "steps": 420,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T430",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 21.5,
+      "steps": 430,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T440",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 22.0,
+      "steps": 440,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T450",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 22.5,
+      "steps": 450,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T460",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 23.0,
+      "steps": 460,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T470",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 23.5,
+      "steps": 470,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T480",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 24.0,
+      "steps": 480,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T490",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 24.5,
+      "steps": 490,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T500",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T560",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 28.0,
+      "steps": 560,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "window_extension"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p0_T600",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 30.0,
+      "steps": 600,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "window_extension"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T400",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 20.0,
+      "steps": 400,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T410",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 20.5,
+      "steps": 410,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T420",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 21.0,
+      "steps": 420,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T430",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 21.5,
+      "steps": 430,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T440",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 22.0,
+      "steps": 440,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T450",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 22.5,
+      "steps": 450,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T460",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 23.0,
+      "steps": 460,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T470",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 23.5,
+      "steps": 470,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T480",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 24.0,
+      "steps": 480,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T490",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 24.5,
+      "steps": 490,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T500",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "dense_boundary"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T560",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 28.0,
+      "steps": 560,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "window_extension"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L48_gamma2p0_g0p25_T600",
+      "length": 48,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 30.0,
+      "steps": 600,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "window_extension"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L56_gamma2p0_g0p0_T400",
+      "length": 56,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 20.0,
+      "steps": 400,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L56_gamma2p0_g0p0_T500",
+      "length": 56,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L56_gamma2p0_g0p0_T600",
+      "length": 56,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 30.0,
+      "steps": 600,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L56_gamma2p0_g0p0_T700",
+      "length": 56,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 35.0,
+      "steps": 700,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L56_gamma2p0_g0p25_T400",
+      "length": 56,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 20.0,
+      "steps": 400,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L56_gamma2p0_g0p25_T500",
+      "length": 56,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L56_gamma2p0_g0p25_T600",
+      "length": 56,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 30.0,
+      "steps": 600,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L56_gamma2p0_g0p25_T700",
+      "length": 56,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 35.0,
+      "steps": 700,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L64_gamma2p0_g0p0_T400",
+      "length": 64,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 20.0,
+      "steps": 400,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L64_gamma2p0_g0p0_T500",
+      "length": 64,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L64_gamma2p0_g0p0_T600",
+      "length": 64,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 30.0,
+      "steps": 600,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L64_gamma2p0_g0p0_T700",
+      "length": 64,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "physical_time": 35.0,
+      "steps": 700,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L64_gamma2p0_g0p25_T400",
+      "length": 64,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 20.0,
+      "steps": 400,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L64_gamma2p0_g0p25_T500",
+      "length": 64,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 25.0,
+      "steps": 500,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L64_gamma2p0_g0p25_T600",
+      "length": 64,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 30.0,
+      "steps": 600,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    },
+    {
+      "case_id": "L64_gamma2p0_g0p25_T700",
+      "length": 64,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "physical_time": 35.0,
+      "steps": 700,
+      "dt": 0.05,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "roles": [
+        "unseen_size"
+      ],
+      "initials": [
+        "charge_density_wave",
+        "left"
+      ]
+    }
+  ],
+  "families": [
+    [
+      16,
+      2.0,
+      -0.25
+    ],
+    [
+      16,
+      2.0,
+      0.0
+    ],
+    [
+      16,
+      2.0,
+      0.25
+    ],
+    [
+      24,
+      1.6,
+      0.0
+    ],
+    [
+      24,
+      1.6,
+      0.25
+    ],
+    [
+      24,
+      2.0,
+      -0.25
+    ],
+    [
+      24,
+      2.0,
+      0.0
+    ],
+    [
+      24,
+      2.0,
+      0.25
+    ],
+    [
+      32,
+      2.0,
+      -0.25
+    ],
+    [
+      32,
+      2.0,
+      0.0
+    ],
+    [
+      32,
+      2.0,
+      0.25
+    ],
+    [
+      40,
+      1.6,
+      0.0
+    ],
+    [
+      40,
+      1.6,
+      0.25
+    ],
+    [
+      40,
+      2.0,
+      -0.25
+    ],
+    [
+      40,
+      2.0,
+      0.0
+    ],
+    [
+      40,
+      2.0,
+      0.25
+    ],
+    [
+      48,
+      2.0,
+      -0.25
+    ],
+    [
+      48,
+      2.0,
+      0.0
+    ],
+    [
+      48,
+      2.0,
+      0.25
+    ],
+    [
+      56,
+      2.0,
+      0.0
+    ],
+    [
+      56,
+      2.0,
+      0.25
+    ],
+    [
+      64,
+      2.0,
+      0.0
+    ],
+    [
+      64,
+      2.0,
+      0.25
+    ]
+  ],
+  "planned_input_sha256": "F9B4931BC75B5A0AC2AA16B6D6543F88D0EAB9247630038B8EE58145C44BDD7D",
+  "precision_digits": [
+    120,
+    160,
+    200,
+    240
+  ],
+  "reference_goals": {
+    "projector": 1e-10,
+    "entropy": 1e-10,
+    "relative_scalar": 1e-08
+  },
+  "numerical_goals": {
+    "projector": 1e-06,
+    "entropy": 1e-06,
+    "orthogonality": 1e-10
+  },
+  "selection_tolerances": {
+    "projector": 0.05,
+    "absolute_entropy": 0.05
+  },
+  "memory_tolerances": {
+    "pair_projector": 0.1,
+    "pair_absolute_entropy": 0.1
+  },
+  "initials": {
+    "charge_density_wave": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22
+    ],
+    "left": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "right": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "center_block": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ]
+  },
+  "initial_policy": "coordinate products fixed across g,t; center starts at L/4; occupied complete unit cells",
+  "signed_graph": "F(t)=exp(-Lambda*t) F exp(-Lambda*t); Z(t)=Xplus+Xminus F(t); orth(Z(t))",
+  "distance_interval": "max(0,d(Qstatic,G)-eW) <= d(Qactual,W) <= min(1,d(Qstatic,G)+eW)",
+  "entropy_interval": "max(0,abs(Sstatic-SG)-m*h2(min(eW,.5))) to abs(Sstatic-SG)+m*h2(min(eW,.5))",
+  "direct_memory_lower": "abs(d(Qstatic_a,G)-d(Qstatic_b,G))",
+  "interpretation": "exact static spectral propagation plus finite-output perturbation bounds; no reduced universal law or interval arithmetic",
+  "conditional_extension": "gamma1.6 is frozen now; execute after main batches pass prediction/precision checks",
+  "development": "all previous data are development; new-size truth and orientation/dense new truth start after lock"
+}

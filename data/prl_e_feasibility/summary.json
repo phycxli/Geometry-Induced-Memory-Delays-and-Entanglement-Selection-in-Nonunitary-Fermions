@@ -1,0 +1,12 @@
+{
+  "families": 12,
+  "states": 252,
+  "pairs": 252,
+  "selected": 127,
+  "minimum_log_success": -179.01830688743107,
+  "maximum_log_success": -0.3840536448154941,
+  "max_reference_change": 1.3891998588374178e-42,
+  "fock_check": "passed",
+  "scope": "feasibility development, not additional blind mechanism validation or experimental data",
+  "completed_utc": "2026-10-04T13:37:31.422481+00:00"
+}

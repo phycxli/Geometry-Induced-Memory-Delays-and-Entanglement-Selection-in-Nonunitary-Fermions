@@ -1,0 +1,294 @@
+{
+  "locked_utc": "2026-10-03T19:28:42.795313+00:00",
+  "script_sha256": "85A1CA59FFFFA4CDB478742C1237A57296D04A841F93C4F074B1896B7575055B",
+  "config_sha256": "09BA6CBD4674723CF75FFCA1BE92A808DCB2EA2D4B6220383F1A6F966389781D",
+  "models": [
+    "global_gap_envelope",
+    "mode_weighted_envelope",
+    "early_log_graph_forecast"
+  ],
+  "empirical_model": {
+    "charge_density_wave": {
+      "0.0": {
+        "intercept_size_fit": [
+          -0.0007087381605269504,
+          -1.595935677207519
+        ],
+        "rate_size_fit": [
+          -0.0024174749247691963,
+          2.7340277543515588
+        ]
+      },
+      "0.25": {
+        "intercept_size_fit": [
+          -0.0019995442655927616,
+          -1.408865625463083
+        ],
+        "rate_size_fit": [
+          -0.002784852125715733,
+          2.722965497719992
+        ]
+      }
+    },
+    "left": {
+      "0.0": {
+        "intercept_size_fit": [
+          1.6888209654955277,
+          -8.369478214860033
+        ],
+        "rate_size_fit": [
+          0.02044052616704456,
+          2.677232391699798
+        ]
+      },
+      "0.25": {
+        "intercept_size_fit": [
+          2.1240399844201976,
+          -19.010027899014112
+        ],
+        "rate_size_fit": [
+          0.08324772062762059,
+          1.4078251951537126
+        ]
+      }
+    }
+  },
+  "training_fits": [
+    {
+      "initial": "charge_density_wave",
+      "skin": 0.0,
+      "length": 16,
+      "intercept": -1.6064269000196458,
+      "rate": 2.698335049378212
+    },
+    {
+      "initial": "charge_density_wave",
+      "skin": 0.0,
+      "length": 24,
+      "intercept": -1.6146425685727759,
+      "rate": 2.6700345685111797
+    },
+    {
+      "initial": "charge_density_wave",
+      "skin": 0.0,
+      "length": 32,
+      "intercept": -1.6177667105880764,
+      "rate": 2.659655450581904
+    },
+    {
+      "initial": "charge_density_wave",
+      "skin": 0.25,
+      "length": 16,
+      "intercept": -1.438223193501645,
+      "rate": 2.681886278999969
+    },
+    {
+      "initial": "charge_density_wave",
+      "skin": 0.25,
+      "length": 24,
+      "intercept": -1.462124968259156,
+      "rate": 2.649172216119963
+    },
+    {
+      "initial": "charge_density_wave",
+      "skin": 0.25,
+      "length": 32,
+      "intercept": -1.4702159017511285,
+      "rate": 2.637328644988516
+    },
+    {
+      "initial": "left",
+      "skin": 0.0,
+      "length": 16,
+      "intercept": 18.076122353527825,
+      "rate": 2.9332312673010694
+    },
+    {
+      "initial": "left",
+      "skin": 0.0,
+      "length": 24,
+      "intercept": 33.31329471611389,
+      "rate": 3.3099041058517558
+    },
+    {
+      "initial": "left",
+      "skin": 0.0,
+      "length": 32,
+      "intercept": 45.097257801456244,
+      "rate": 3.260279685973781
+    },
+    {
+      "initial": "left",
+      "skin": 0.25,
+      "length": 16,
+      "intercept": 16.07921320548507,
+      "rate": 2.852808565585628
+    },
+    {
+      "initial": "left",
+      "skin": 0.25,
+      "length": 24,
+      "intercept": 29.757729019518646,
+      "rate": 3.1797308094366374
+    },
+    {
+      "initial": "left",
+      "skin": 0.25,
+      "length": 32,
+      "intercept": 50.06385295620821,
+      "rate": 4.184772095627556
+    }
+  ],
+  "inputs": [
+    {
+      "path": "data/prl_p2_prediction/cases/L16_gamma2p0_g0p0_T100.json",
+      "sha256": "FDA209DA88E5805C16EF79C73E708EA54EC505B93DE7E81010E1AF735A62B90A"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L16_gamma2p0_g0p0_T150.json",
+      "sha256": "95708FD35520018184B8CFB4A8E73E1172955A0CA0BFADF8B3CAB5EEEC71456E"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L16_gamma2p0_g0p0_T200.json",
+      "sha256": "485137E934E92D4755C1239A03D0582967F4267D0EFA53033A90AD984C434F09"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L16_gamma2p0_g0p25_T100.json",
+      "sha256": "15B58DA750598F80B599D7792AC14F45EF464954017FAA44D50F98C2F27A8A73"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L16_gamma2p0_g0p25_T150.json",
+      "sha256": "EA6A139EB5485B82A0925F74E90C9BF9AF9C6863133DBCA763E3E9798AB41DEE"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L16_gamma2p0_g0p25_T200.json",
+      "sha256": "24502DE96F3872A0D859D813756270AD0CE93196498F602DC5BCF0E1F5C49142"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L24_gamma2p0_g0p0_T100.json",
+      "sha256": "9D35C8ABE0ADAC37BA6DC67F4680799A12E5640C48ECB7F4880D26CDCD3CBDB4"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L24_gamma2p0_g0p0_T150.json",
+      "sha256": "673C6A8BF6D1A7974A272267F139803C5C70EB66A96DF4CFAA18D8135CE4A559"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L24_gamma2p0_g0p0_T200.json",
+      "sha256": "BE024BEEDCA26D131B955035DB9A01656FEF3C79B26B54556676960BF7EE2E40"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L24_gamma2p0_g0p25_T100.json",
+      "sha256": "16F3C856076D66DF58DDA86E6869D2D2787D76DD576A69875759D5CFDB855384"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L24_gamma2p0_g0p25_T150.json",
+      "sha256": "D8C63FAF5EDE5F023DDC4B299EAF64E70B1ACDDB5403CEAE59B48A16ACAA94F3"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L24_gamma2p0_g0p25_T200.json",
+      "sha256": "E3FDA6B655A5C1BC4BBC3F83E63EB9AC63541803011244EB80C62685002CCF85"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L32_gamma2p0_g0p0_T100.json",
+      "sha256": "422C9CDFE18D4525F400006CF2927317C747AE80B975642BCCC722029DC290DE"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L32_gamma2p0_g0p0_T150.json",
+      "sha256": "531754531B458FB11A597EE056C0411EFE3135957A8A613277E7DB98CF19A3D3"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L32_gamma2p0_g0p0_T200.json",
+      "sha256": "76CDA56CC09114A58E37B39081F099ABAB7AE1765AA093AF37C5BD20DA235E60"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L32_gamma2p0_g0p25_T100.json",
+      "sha256": "F98D366129657AA035A5DCF3180DDB3ACAB6EBC526BC5BD50F41B1BA460449D9"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L32_gamma2p0_g0p25_T150.json",
+      "sha256": "024FFCBC45C04F4B03177691EEDD7274DA47B45635BEED672DB3AA540F8D3261"
+    },
+    {
+      "path": "data/prl_p2_prediction/cases/L32_gamma2p0_g0p25_T200.json",
+      "sha256": "BF7C204040CD4E3290FC3EDE391BBE8803ED79162C6D98AB3204F5D1B940CDCB"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L16_g0p0.json",
+      "sha256": "DEB121AFC8ECB2F2BEFB7D5130EA4CDD463665FDE4CBC6AE8A498310707216CB"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L16_g0p25.json",
+      "sha256": "38E212B3809A85AD553E52E64EAB22C74FD70AC4EEAC2952B291ED44FE43F129"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L24_g0p0.json",
+      "sha256": "C80A2E60C5CD04132FED9E1B45C05AF5EE5E9EBB2D3A1825D557CFD25472272C"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L24_g0p05.json",
+      "sha256": "31EFEA5AAC789070CE47CFB1E27224F987BBC402AE749AED56E0517095E8D26B"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L24_g0p1.json",
+      "sha256": "A2EBC3205B9EA42167D4BF0AA7E8E1D6D06A807260321AB05B825E644C2022A3"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L24_g0p25.json",
+      "sha256": "1FA68C248C8A12AE83404FC4E11491FBF0D57CEA22A62CC947B2CD8BA0EB74F9"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L32_g0p0.json",
+      "sha256": "F38E2D532D11605C7C000D69A1FDD05BD837092E148E01F2C62D09B78A562A52"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L32_g0p05.json",
+      "sha256": "E2F650CEEDE0DCE06D8B83FFE7C830B41CA22EB89ADBDE9702FAAB1664ECB5A7"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L32_g0p1.json",
+      "sha256": "909102BA7B51FFE58D85F1FB14B7EEDD1A4587A3B319A23526EB1D3371FC87FF"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L32_g0p25.json",
+      "sha256": "D02B204A404E1591F536337BA77CEFBDEEDB0A2373AF90DAE67FD223F68097D6"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L40_g0p0.json",
+      "sha256": "39BCCB9D2F8EA89B17F9E39B8864A3A8CCD48552D88FCEBAA98FDEF4F25894DD"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L40_g0p05.json",
+      "sha256": "3AA2EA8A4290D16C0E9989341C204C63A8CE7F1F9095CB29E2E96060A5BCAE9D"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L40_g0p1.json",
+      "sha256": "56148611290B2237133DFEFB8379D6A82D0064BD172AD1146185086A0D0A0E73"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L40_g0p25.json",
+      "sha256": "56D189FAC2F7E1D52BB2CE9FF665B521C705713060409F12605906E71FF4B678"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L48_g0p0.json",
+      "sha256": "4E0E6C7E5C01ADE86DCDD91D1C3F59BDAF5B5139429387F1057CD00D3C790CE9"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L48_g0p05.json",
+      "sha256": "44E17DC3072C9C388B73AE17DDAA6BFCCDA594CDBB644191ECB82AAEBBF88317"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L48_g0p1.json",
+      "sha256": "193A92D4B42207CA297E6D570995A186C63353EEFCC9D27B347B3EA8DD5D8E03"
+    },
+    {
+      "path": "data/prl_p2_prediction/static/L48_g0p25.json",
+      "sha256": "B1888478B2FD441389EBBCF8683BF78FEE1BE0309DD9B01B9E41359E5185B334"
+    }
+  ],
+  "policy": "never change predictors after new late/size/weak-skin truth is generated",
+  "empirical_definition": "OLS log(kappa)=intercept-rate*t at 5,7.5,10; OLS intercept/rate vs L at 16,24,32; linear g interpolation",
+  "physical_definition": "static Hamiltonian modes and initial overlap only; global norm or weighted Frobenius spectral envelope; no future M or SVD",
+  "entropy_policy": "physical envelopes imply rigorous mathematical entropy bounds; empirical entropy budget is only a proxy",
+  "prior_late_data": "four t=15 L16/32 endpoint-g conditions previously seen; they are not fresh time holdouts",
+  "scope": "bounds assume accurate static coefficients; numerical error budgets are empirical, not interval arithmetic"
+}

@@ -1,0 +1,30 @@
+{
+  "conditions": 36,
+  "states": 180,
+  "pairs": 216,
+  "families": 9,
+  "actual_selected": 138,
+  "guaranteed_selected": 135,
+  "guaranteed_unselected": 42,
+  "undecided": 3,
+  "wrong_guarantees": 0,
+  "remainder_target_passed": 180,
+  "max_rank": 12.0,
+  "max_actual_projector_error": 8.33621241576474e-06,
+  "actual_projector_memory": 64,
+  "guaranteed_projector_memory": 64,
+  "actual_entropy_memory": 47,
+  "guaranteed_entropy_memory": 47,
+  "entropy_selected_projection_unselected": 3,
+  "reference_digits": [
+    160
+  ],
+  "max_prediction_precision_change": 4.116134227474999e-83,
+  "completed_utc": "2026-10-04T14:48:25.745984+00:00",
+  "scope": "conditional fixed-particle no-click states; no typical Born ensemble or thermodynamic transition",
+  "pair_distance_intervals_covered": 216,
+  "pair_entropy_intervals_covered": 216,
+  "audit_digits": [
+    200
+  ]
+}

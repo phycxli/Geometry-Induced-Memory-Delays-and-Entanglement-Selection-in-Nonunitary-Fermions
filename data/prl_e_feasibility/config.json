@@ -1,0 +1,170 @@
+{
+  "families": [
+    {
+      "key": "ssh_L8_g0p0",
+      "model": "ssh",
+      "length": 8,
+      "skin": 0.0,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "ssh_L8_g0p15",
+      "model": "ssh",
+      "length": 8,
+      "skin": 0.15,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "ssh_L12_g0p0",
+      "model": "ssh",
+      "length": 12,
+      "skin": 0.0,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "ssh_L12_g0p15",
+      "model": "ssh",
+      "length": 12,
+      "skin": 0.15,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "ssh_L16_g0p0",
+      "model": "ssh",
+      "length": 16,
+      "skin": 0.0,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "ssh_L16_g0p15",
+      "model": "ssh",
+      "length": 16,
+      "skin": 0.15,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "complex_L8_g0p0",
+      "model": "complex",
+      "length": 8,
+      "skin": 0.0,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "complex_L8_g0p15",
+      "model": "complex",
+      "length": 8,
+      "skin": 0.15,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "complex_L12_g0p0",
+      "model": "complex",
+      "length": 12,
+      "skin": 0.0,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "complex_L12_g0p15",
+      "model": "complex",
+      "length": 12,
+      "skin": 0.15,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "complex_L16_g0p0",
+      "model": "complex",
+      "length": 16,
+      "skin": 0.0,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    },
+    {
+      "key": "complex_L16_g0p15",
+      "model": "complex",
+      "length": 16,
+      "skin": 0.15,
+      "gamma": 2.0,
+      "same_sublattice": 0.2,
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open"
+    }
+  ],
+  "times": [
+    ".5",
+    "1",
+    "2",
+    "3",
+    "4",
+    "6",
+    "8"
+  ],
+  "initials": [
+    "charge_density_wave",
+    "left",
+    "right"
+  ],
+  "efficiencies": [
+    ".9",
+    ".99",
+    ".999",
+    ".9999"
+  ],
+  "precision_digits": [
+    64,
+    96
+  ],
+  "scope": "feasibility development, not additional blind mechanism validation or experimental data",
+  "tomography": {
+    "absolute_entropy_goal": 0.05,
+    "total_failure_probability": 0.05,
+    "observable_range": [
+      -1,
+      1
+    ],
+    "settings": "L^2 conservative independent correlation settings"
+  }
+}

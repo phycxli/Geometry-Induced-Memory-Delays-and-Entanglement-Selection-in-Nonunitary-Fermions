@@ -1,0 +1,2 @@
+# Preserve exact bytes so scientific source and data SHA256 records remain valid.
+* -text

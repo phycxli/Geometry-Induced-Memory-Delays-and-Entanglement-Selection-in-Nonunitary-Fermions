@@ -1,0 +1,221 @@
+{
+  "status": "generated",
+  "generated_utc": "2026-10-05T10:19:06.275499+00:00",
+  "source_sha256": "3B06400987B957FD2F98ECD1007147614F0658C2D638F0F6081D636208224BF8",
+  "source_inputs": {
+    "data/prl_p3_new_sizes/states.csv": "7CAE2F618A0F43E8E4190B2590372F1415F834073C114C71AF759E8897F533E1",
+    "data/prl_theory_upgrade/widths.csv": "7D74E1F23356163C109F2D36DCB5465BBABBE63F4A4168ACEB85A4023BCD1EAB",
+    "data/prl_theory_upgrade/roots.csv": "7D65FA2824B1E65B7F2F8233D97BA811166C980F369E10DA78A749BC4592FE61",
+    "data/prl_theory_upgrade/reference_checks.csv": "F9C00E572D3E41ECC89C67F1EA8E2172CF938BC7021666D6C290E9BD2B06F67E",
+    "data/prl_theory_upgrade/weak_skin_response.csv": "BFE5CF7DA1C31413C518E91A98BACF3C9FD9BEC74ADB1644BCA320449D7A9198",
+    "data/prl_theory_upgrade/spatial_response_checks.csv": "6050D32097A9C45E09A6D087DECAC478428EB5C463DE8DE3F7BC20B33A66129E",
+    "data/prl_theory_upgrade/summary.json": "7846F26E31AECB32417590CC679BEC955D7B54523CDA9E0F0AA1BA7541A3A320",
+    "scripts/analyze_theory_upgrade.py": "7E5D9EC50182DAB041D83687E4C395C6F423791F909167B880052B9B9EABD71B"
+  },
+  "figures": {
+    "fig1_occupations": {
+      "panels": 2,
+      "schematic_sites": 8,
+      "model_sites": 8,
+      "model_unit_cells": 4,
+      "intracell_bonds": 4,
+      "intercell_bonds": 3,
+      "initial_occupied_sites": {
+        "CDW": [
+          0,
+          2,
+          4,
+          6
+        ],
+        "Left": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "Right": [
+          4,
+          5,
+          6,
+          7
+        ]
+      },
+      "model_labels": [
+        "H_eff=H-ic_*I",
+        "t1=1/2",
+        "e^g",
+        "e^-g",
+        "OBC"
+      ],
+      "apparatus": [
+        "open optical superlattice",
+        "site-selective particle loss",
+        "number-resolved imaging and final N screening",
+        "phase-controlled Raman coupling to a common lossy auxiliary mode"
+      ],
+      "shared_channel_phase": "v_B=i sgn(g) v_A; reservoir bandwidth kappa requires calibration",
+      "physical_gain": false,
+      "experimental_data": false,
+      "rendering": "deterministic shaded atoms and auxiliary mode, vector optics, lenses and detector; white background",
+      "figure_size_inches": [
+        3.4,
+        2.8
+      ],
+      "png_dpi": 600,
+      "scope": "proposed apparatus and initial occupations, not built hardware or a finite-size simulation"
+    },
+    "fig2_geometry_memory": {
+      "snapshot": {
+        "length": 192,
+        "skin": 0.25,
+        "time": 93.125,
+        "singular_ratio": 3.704890508858654e-107,
+        "right_input_overlap": 6.534750376382548e-147
+      },
+      "cdw_G_sufficient_times": {
+        "0.0": 1.0801557237464143,
+        "0.25": 3.4952542919199074
+      },
+      "panels": 3,
+      "presentation": {
+        "figure_size_inches": [
+          7.1,
+          2.5
+        ],
+        "png_dpi": 600,
+        "background": "white",
+        "grid": false,
+        "snapshot_style": "points with thin stems, no bars or filled regions",
+        "palette": {
+          "CDW": "#3068ab",
+          "Left": "#21866e",
+          "Right": "#c44956"
+        },
+        "initial_markers": {
+          "CDW": "o",
+          "Left": "s",
+          "Right": "D"
+        },
+        "skin_encoding": "g=0: solid and filled; g=1/4: dashed and open",
+        "panel_label_position": "bottom, aligned figure coordinates"
+      },
+      "scope": "a,b use independent W-referenced actual states; c uses G threshold roots and analytic CDW G bound"
+    },
+    "fig3_reflection_response": {
+      "panels": 2,
+      "lengths": [
+        224,
+        256,
+        320,
+        384,
+        512
+      ],
+      "presentation": {
+        "figure_size_inches": [
+          3.4,
+          3.3
+        ],
+        "png_dpi": 600,
+        "background": "white",
+        "grid": false,
+        "initial_markers": {
+          "Left": "s",
+          "Right": "D"
+        },
+        "skin_encoding": "g=0: solid and filled; g=1/4: dashed and open",
+        "response_encoding": "chi=2: solid and filled; chi=4: dashed and open",
+        "asymptotic_limits": [
+          -0.5,
+          0.5
+        ],
+        "reference_lines": "dotted",
+        "panel_label_position": "bottom, aligned figure coordinates"
+      },
+      "scope": "static reflected delta; not an absolute exponent or whitened overlap formula"
+    },
+    "fig4_continuous_window": {
+      "panels": 2,
+      "independent_displayed_points": 48,
+      "total_independently_bracketed_roots": 48,
+      "presentation": {
+        "figure_size_inches": [
+          3.4,
+          3.3
+        ],
+        "png_dpi": 600,
+        "background": "white",
+        "grid": false,
+        "filled_regions": false,
+        "initial_markers": {
+          "Left": "s",
+          "Right": "D",
+          "Block $L/16$": "^",
+          "Block $3L/16$": "v"
+        },
+        "skin_encoding": "g=0: solid and filled; g=1/4: dashed and open",
+        "contraction_boundary": 0.484,
+        "contraction_boundary_style": "dotted line",
+        "width_bounds": {
+          "0": 1.4656994320360752,
+          "0.25": 2.5197211219337543
+        },
+        "width_inset_ylim": [
+          1.275,
+          1.32
+        ],
+        "inset_uses_same_data": true,
+        "panel_label_position": "bottom, aligned figure coordinates"
+      },
+      "scope": "six-threshold lines guide the eye; dotted boundary lies inside the proved cone; large angles diagnostic"
+    }
+  },
+  "outputs": [
+    {
+      "path": "figures/prl_manuscript_revision/fig1_occupations.pdf",
+      "bytes": 50878,
+      "sha256": "04DD3F2E094099C96E28F711E52E657849F1AAFAAD84BE75F4E8ED56B778638F"
+    },
+    {
+      "path": "figures/prl_manuscript_revision/fig1_occupations.png",
+      "bytes": 387825,
+      "sha256": "0859DF4AA21E4AF94A19B720040615E7BD4261D91F7BC34458D5DBE594C435EE"
+    },
+    {
+      "path": "figures/prl_manuscript_revision/fig2_geometry_memory.pdf",
+      "bytes": 36223,
+      "sha256": "A1C6A3038C2080258BE83E2CDB2C9CC0F3C8B21889CEFE2E73279C384327BFD1"
+    },
+    {
+      "path": "figures/prl_manuscript_revision/fig2_geometry_memory.png",
+      "bytes": 274886,
+      "sha256": "0F1CDF442B20F6E82F67F777ECA697474981EB82A7E5BC47DB51B228946C808E"
+    },
+    {
+      "path": "figures/prl_manuscript_revision/fig3_reflection_response.pdf",
+      "bytes": 29979,
+      "sha256": "D98EAB1BAC3944C0AF9EBB9D336FF720DF07898F6519DE13AC4BE5F16990B3DB"
+    },
+    {
+      "path": "figures/prl_manuscript_revision/fig3_reflection_response.png",
+      "bytes": 194919,
+      "sha256": "6333DA7BE89F602942E3305C947722FB85C3E3E2BCBF9DBD2EBA90ED1559C039"
+    },
+    {
+      "path": "figures/prl_manuscript_revision/fig4_continuous_window.pdf",
+      "bytes": 44370,
+      "sha256": "ADB891437AC0872A96594EF9AFF798839046B952DC865BB927021D1124DE14E4"
+    },
+    {
+      "path": "figures/prl_manuscript_revision/fig4_continuous_window.png",
+      "bytes": 250872,
+      "sha256": "D611344DED7AB8DEA92CA3166B5B898BAF121C33FD9F2F757494CEBC0DF0B0FD"
+    }
+  ],
+  "new_scientific_computations": false,
+  "panel_titles": false,
+  "panel_label_position": "below axes",
+  "redrawn_figures": [
+    "fig1_occupations"
+  ],
+  "scope": "four-figure editorial redraw from frozen data; schematic occupations and analytic bounds explicitly identified"
+}

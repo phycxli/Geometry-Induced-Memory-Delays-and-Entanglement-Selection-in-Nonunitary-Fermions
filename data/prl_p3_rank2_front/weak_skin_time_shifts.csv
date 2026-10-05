@@ -1,0 +1,9 @@
+length,initial,gL,rank2_candidate_shift,sampled_shift_lower,sampled_shift_upper,direction_resolved,candidate_compatible,scope
+128,left,2,-0.3234839891916579,-0.3399999999999892,-0.29999999999999716,True,True,"difference of two local sampled intervals, conditional on tracking the same branch"
+128,left,4,-0.6459148158010066,-0.6599999999999966,-0.6200000000000045,True,True,"difference of two local sampled intervals, conditional on tracking the same branch"
+128,right,2,0.31944879446490404,0.29999999999999716,0.3399999999999892,True,True,"difference of two local sampled intervals, conditional on tracking the same branch"
+128,right,4,0.6399061657731977,0.6200000000000045,0.6599999999999966,True,True,"difference of two local sampled intervals, conditional on tracking the same branch"
+144,left,2,-0.32639165072359333,-0.35999999999999943,-0.3199999999999932,True,True,"difference of two local sampled intervals, conditional on tracking the same branch"
+144,left,4,-0.651823690154913,-0.6800000000000068,-0.6400000000000006,True,True,"difference of two local sampled intervals, conditional on tracking the same branch"
+144,right,2,0.32282203295801537,0.29999999999999716,0.3400000000000034,True,True,"difference of two local sampled intervals, conditional on tracking the same branch"
+144,right,4,0.6465648496130711,0.6200000000000045,0.6599999999999966,True,True,"difference of two local sampled intervals, conditional on tracking the same branch"

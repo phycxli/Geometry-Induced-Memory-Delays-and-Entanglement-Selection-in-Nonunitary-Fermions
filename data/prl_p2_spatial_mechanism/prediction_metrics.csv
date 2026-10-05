@@ -1,0 +1,8 @@
+role,states,pairs,actual_selected,guaranteed_selected,guaranteed_unselected,wrong_selected,wrong_unselected,actual_memory,guaranteed_memory,max_projector_prediction_error,max_entropy_prediction_error,double_failed
+all,228,132,165,161,63,0,0,59,59,7.154970458963018e-16,0.0,15
+new_only,204,120,147,143,57,0,0,53,53,7.154970458963018e-16,0.0,15
+dense_boundary,92,46,67,67,25,0,0,22,22,6.152915001778487e-16,0.0,3
+window_extension,8,4,8,8,0,0,0,0,0,5.606743307290936e-16,0.0,0
+orientation,72,54,48,46,24,0,0,24,24,5.941941310076631e-16,0.0,6
+unseen_size,32,16,23,23,9,0,0,9,9,7.154970458963018e-16,0.0,6
+gain_strength,24,12,19,17,5,0,0,4,4,5.912414453850196e-16,0.0,0

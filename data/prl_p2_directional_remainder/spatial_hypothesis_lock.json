@@ -1,0 +1,8 @@
+{
+  "locked_utc": "2026-10-04T04:22:40.342073+00:00",
+  "rows": 12,
+  "script_sha256": "94420657D213C2804D6A785FF9B0BD3166D677DD3F1B32F4921961912D1A3077",
+  "config_sha256": "B6EE7F3CC45045EBE93E2410B8E42BD9488483E9CB9FAD3126D9F2F97B66D41F",
+  "method": "reflected finite-chain Gram inverse trace bounds: 1/tr(J) <= delta <= tr(J)/tr(J^2), J=M^-1",
+  "interpretation": "finite m Gram inversion, not an asymptotic exponent or constant-time law"
+}

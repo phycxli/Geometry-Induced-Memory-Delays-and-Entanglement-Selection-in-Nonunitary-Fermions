@@ -1,0 +1,78 @@
+{
+  "updated_utc": "2026-10-04T18:36:12.309896+00:00",
+  "families": 10,
+  "root_levels": 240,
+  "new_root_levels": 96,
+  "root_statuses": {
+    "sampled_large_angle_branch": 60,
+    "certified_radius": 180
+  },
+  "root_ranks": {
+    "12": 240
+  },
+  "maximum_remainder": 2.8541843276930835e-21,
+  "maximum_root_precision_change": 1.6722178260867334e-199,
+  "continuously_bounded_roots": 180,
+  "maximum_actual_G_root_radius": 2.886156110092436e-06,
+  "width_30_to_01_range": [
+    1.280989265441903,
+    1.3109559059143123
+  ],
+  "width_90_to_10_range": [
+    1.1225656509399329,
+    1.1490571975708121
+  ],
+  "width_bounds": {
+    "0": 1.4656994320360752,
+    "0.25": 2.5197211219337543
+  },
+  "time_extrapolations": {
+    "completed": 96,
+    "passed": 96,
+    "maximum_error": 0.11253008047742696
+  },
+  "gram_extrapolations": {
+    "completed": 12,
+    "passed": 12,
+    "maximum_error": 0.01349973080914424
+  },
+  "independent_references": 96,
+  "correct_root_sides": 96,
+  "slope_bounds_passed": 96,
+  "maximum_reference_precision_change": 1.84755403481313e-97,
+  "independently_bracketed_G_roots": 48,
+  "spatial_response": {
+    "gram_families": 10,
+    "response_new_families": 4,
+    "structure_development_checks": 6,
+    "gram_rows": 50,
+    "finite_right_intervals": 25,
+    "finite_right_passed": 25,
+    "weak_ratios": 20,
+    "maximum_log_delta_precision_change": 7.39215069256903e-38,
+    "weak_deviation_by_size": {
+      "224": {
+        "left": 0.0977718056265644,
+        "right": 0.028953683770339467
+      },
+      "256": {
+        "left": 0.09249296821667485,
+        "right": 0.025514188049100994
+      },
+      "320": {
+        "left": 0.08414385356428511,
+        "right": 0.020578824240146787
+      },
+      "384": {
+        "left": 0.07776525121118993,
+        "right": 0.017218973256717618
+      },
+      "512": {
+        "left": 0.06850291426587773,
+        "right": 0.012958631486753802
+      }
+    },
+    "scope": "finite right inequalities and weak-skin convergence; no absolute reciprocal exponent or prefactor theorem"
+  },
+  "scope": "low-threshold first crossings to G and persistent W envelopes; broad-window empirical scan; no sharp reflected exponent or full cutoff theorem"
+}

@@ -1,0 +1,17 @@
+length,skin,initial,last_fail,first_sustained_sample,observation_end,right_censored,left_censored,subsequent_passed_samples
+80,0.0,left,40.0,42.5,55.0,False,False,3
+80,0.0,right,40.0,42.5,55.0,False,False,3
+80,0.25,left,37.5,40.0,55.0,False,False,4
+80,0.25,right,42.5,45.0,55.0,False,False,2
+96,0.0,left,48.0,57.599999999999994,57.599999999999994,False,False,0
+96,0.0,right,48.0,57.599999999999994,57.599999999999994,False,False,0
+96,0.05,left,48.0,57.599999999999994,57.599999999999994,False,False,0
+96,0.05,right,48.0,57.599999999999994,57.599999999999994,False,False,0
+96,0.25,left,,48.0,57.599999999999994,False,True,1
+96,0.25,right,48.0,57.599999999999994,57.599999999999994,False,False,0
+112,0.0,left,56.0,67.2,67.2,False,False,0
+112,0.0,right,56.0,67.2,67.2,False,False,0
+112,0.05,left,56.0,67.2,67.2,False,False,0
+112,0.05,right,56.0,67.2,67.2,False,False,0
+112,0.25,left,,56.0,67.2,False,True,1
+112,0.25,right,56.0,67.2,67.2,False,False,0

@@ -1,0 +1,153 @@
+{
+  "locked_utc": "2026-10-04T13:33:36.910048+00:00",
+  "states": 328,
+  "pairs": 336,
+  "config_sha256": "4D1EE8FBA8735696DB0A66FC98DB777DB01517A26A40CB1CA061ECCC8BCC9DF1",
+  "source_sha256": "ADA678DB83229793ADBAF518103005C21742FFC075172597EE4BC4A813AA80D0",
+  "inputs": [
+    {
+      "path": "data/prl_p3_new_sizes/config.json",
+      "sha256": "4D1EE8FBA8735696DB0A66FC98DB777DB01517A26A40CB1CA061ECCC8BCC9DF1"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/front_hypothesis_lock.json",
+      "sha256": "AE1A2CF1B55953CC64FE0EC6A88F75FCEFFDA1A916A5CE758EFF90E61F4F3EB8"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L160_g0p25.json",
+      "sha256": "45D92B1204B4DF464D609CC57578B108D2676D9BA992A0EB3B394E445DBD01F7"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L160_g0p25.raw.json.gz",
+      "sha256": "B7AD9CB05E1F58268A268773DFE8EC6AE68D8FE8F39510F17A2E25AD99185C23"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L160_gL0.json",
+      "sha256": "A9B02EE77816A86A2B4655D64837F9228BE989D449ED8E86E8E7900A9DE6BED0"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L160_gL0.raw.json.gz",
+      "sha256": "20FDC8685BF9AD84F138C8F0CCB8AAE6CF6987D0EEF0372435D8219B93DFB4C0"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L160_gL2.json",
+      "sha256": "965FFC9FF199B52F13903E4974BF629E632A7AEF217D9335DDEF2BBB1DA479D5"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L160_gL2.raw.json.gz",
+      "sha256": "15791DF872B02D512D9607E6CAC64E0DF0C92B00E4E780E8F8F56B40CFD949A3"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L160_gL4.json",
+      "sha256": "40E9A9122A7DF95EBA99084CA4A125416FAB9FB7EFD1E3E4D3AF365B3DBEA518"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L160_gL4.raw.json.gz",
+      "sha256": "6858317C83B55BC319E4B96EACFB18FBA9FA518EB625DE8BCA41BF3194206344"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L192_g0p25.json",
+      "sha256": "B647AF67CC4D3751B8ABF0B915A9A13C53F25FCC32DD1E4E703496E696F8755D"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L192_g0p25.raw.json.gz",
+      "sha256": "07EEE189A03E6097EEE13564198EFC85782985317B5B1D885C53A226F2310AA3"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L192_gL0.json",
+      "sha256": "5E63B4BD2AB1EC9A779AB093238ED3FADF5C364B5723805B983B26284CD0BE0F"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L192_gL0.raw.json.gz",
+      "sha256": "C3642F8625824767B916A6ADEFA51ADA83502E6914EA117773D6354D0B3F7DA8"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L192_gL2.json",
+      "sha256": "494451E445BE1FE35034B4F6507880A62D8416E40CD36A1B9E46428F81AA88C3"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L192_gL2.raw.json.gz",
+      "sha256": "83D43E0DB7D75A5C80284B920829662E159192B282E921288E6B4D156BC30380"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L192_gL4.json",
+      "sha256": "BFDF9A05D2B70C98DDB455F84423DCACEEB40E313853AB57A6BF4D9644692A99"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/predictions/L192_gL4.raw.json.gz",
+      "sha256": "1F53DD8A5D9C3FEFE8E9FB64A86DC8A5A37A2B2FDDC99F9A9061CE3FC2CA2572"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/size_hypothesis_lock.json",
+      "sha256": "ED2F8820C5E817E2DE042CEDA21153339BDCF1CC00F2E53F7DC8FB7149A31559"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/spatial_lock.json",
+      "sha256": "AD536C8FF95781281D678E41C42290E4029FD4890BBFF47D7D216819B4AF3D1D"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L160_g0p25.json",
+      "sha256": "3F5FB19C14B96C5D3D655E263192209A76223DEF1B14F26707E528513F5922C4"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L160_g0p25.raw.json.gz",
+      "sha256": "E53829877D53D31C66CA90BB3DD8016F8C65E08769BBE51DBE8B11D9647BEABB"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L160_gL0.json",
+      "sha256": "D69E7F60E5ECD18720E131ED77E644417BDA957A0B9642AFA046AA66CCF02D57"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L160_gL0.raw.json.gz",
+      "sha256": "B6B0C5E78F5038CACA302D4CE0FEB043392BD979D8B74FE3948C37CA063D2E03"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L160_gL2.json",
+      "sha256": "669478327E6AC42897C0A5E9D58E6E152AE64FBCBA2C1F346666D56E6E9FD373"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L160_gL2.raw.json.gz",
+      "sha256": "793F746B84BC1990D15745C8B25FDAA1CE883C14E628833142AC285E70B62101"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L160_gL4.json",
+      "sha256": "3E4F5B87A036AA170E41656C02D39E97582DDF759BC93DF66AABFF00D0811243"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L160_gL4.raw.json.gz",
+      "sha256": "46070A05A4C5FBB3F22C32D833538C916785615BEF0F919B75A2489F8BB217FA"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L192_g0p25.json",
+      "sha256": "18E0EFEB00EC2B3305EA3A06BFB619FFECBDC5514EAE2EDE04995B62680CA20E"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L192_g0p25.raw.json.gz",
+      "sha256": "948E6C00B2ECFA577EA978E1394E6C2A4086EE01657A4C0F66AF5344894BC418"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L192_gL0.json",
+      "sha256": "30CAB73A1D65692088F78FFABE0FE2DBD182C598D39152252398DC2357AB6EE0"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L192_gL0.raw.json.gz",
+      "sha256": "270210E26B644A973539F22027EE698B3BA0A65F488A844E0C1502B7F6F3A2A2"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L192_gL2.json",
+      "sha256": "016A9CFDB16B732F53AF742888A3B0056DDE63D8B66D6ABC5F06D61B77A0FE04"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L192_gL2.raw.json.gz",
+      "sha256": "A7E460358B58EC50A4466363B16CEFDCAAB6D02725E9AC8D3FBE4C0A025D67D0"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L192_gL4.json",
+      "sha256": "700176258889C88DE039AFF2230509029BA6D7C596FFBC40CA71D44E5ADB45F7"
+    },
+    {
+      "path": "data/prl_p3_new_sizes/static/L192_gL4.raw.json.gz",
+      "sha256": "F28F6AD4927208203F4C58E98270C94DB0306B6B9CA205A30351B0829BEB06EE"
+    }
+  ]
+}

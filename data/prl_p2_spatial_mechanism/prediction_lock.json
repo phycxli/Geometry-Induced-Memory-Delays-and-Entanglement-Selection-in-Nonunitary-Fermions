@@ -1,0 +1,2547 @@
+{
+  "locked_utc": "2026-10-03T20:29:05.979220+00:00",
+  "config_sha256": "A422632DBD2D759307236A87A1B065FF62651132F48585EBAD84F20202AEF0BC",
+  "script_sha256": "000544813855ED6F8D650BBEF97BB712225855527F4A0B2994DE8344F2A9705C",
+  "states": 228,
+  "pairs": 132,
+  "models": [
+    "signed_static_graph_with_output_interval"
+  ],
+  "prediction_inputs": [
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L16_gamma2p0_g-0p25.json",
+      "sha256": "334BB38B220E93AF6C22AE420B940B922EBC2C783B464EA09766AB045B335329"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L16_gamma2p0_g-0p25.npz",
+      "sha256": "8739C76E681F900923B900C9DF0EF75CF421D39CABB54650C4B9AD19B6A76D85"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L16_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "F15C471EAF606D4A2C1EE1D3D6CB8422F60F69819EA283C5DE229B957AE7E7EE"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L16_gamma2p0_g0p0.json",
+      "sha256": "54EFF14D92F59A0E0B27CC064DB0572E1C3A0A369B04D1424AEC470746E84789"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L16_gamma2p0_g0p0.npz",
+      "sha256": "8739C76E681F900923B900C9DF0EF75CF421D39CABB54650C4B9AD19B6A76D85"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L16_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "6681AA06C14C4CE67C0CF6DB4E1E42DA259A0BCF91F7609C5945C52FF896A93A"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L16_gamma2p0_g0p25.json",
+      "sha256": "CEC44565DA86BBB129D40ECC61EFFA88F0F01FE55136806604BDD43E065FF49D"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L16_gamma2p0_g0p25.npz",
+      "sha256": "8739C76E681F900923B900C9DF0EF75CF421D39CABB54650C4B9AD19B6A76D85"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L16_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "9378486A52A8D4D3F54E7F3869F2378DBAE0D51D5068A14BA1A38CE07ACDFA5A"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma1p6_g0p0.json",
+      "sha256": "CD0D08CD5981595004B8FFC31985DB04D0D5668B7E4DD52F2B2049EF80D153D3"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma1p6_g0p0.npz",
+      "sha256": "A1E32905BA955E114DB31086472A9A5F13C886F3D4D315EAEA80ABA1CB2B41F3"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma1p6_g0p0.raw.json.gz",
+      "sha256": "E181F5767486978DF9174418EA20CEE92CC6CA1D5571F85FDA22CEEE6212AD04"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma1p6_g0p25.json",
+      "sha256": "D4FCB1B6AA3BD31B5F45136BB01563149B44128295963006EE78F343C1CDE31B"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma1p6_g0p25.npz",
+      "sha256": "9AF96DF0359FD08B0A380BE3E39BB56ECACE70D0327B56E5813FE83829928518"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma1p6_g0p25.raw.json.gz",
+      "sha256": "C9D4007C9DF4B22AF5A0E0A30C72395578F92A240ECB0A870CCF919DB05688C6"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma2p0_g-0p25.json",
+      "sha256": "E8ECA82D55A8A1BA057B72925C5794DFCF0A275D47D26C02C9D56CB39F827BDE"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma2p0_g-0p25.npz",
+      "sha256": "4E9DE0B29B4BB26C51B3EFAB400301571B3DD1BCCBD96EC3918C2A4EB458AED7"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "EC06DC8F23F50BA032F4235B25100894F4BA92426D41222018EDF8B6A5C6A787"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma2p0_g0p0.json",
+      "sha256": "BD4BB462FA21F88AED81DEAA6470DD73D285D551875D7CCC79C84CD725F55260"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma2p0_g0p0.npz",
+      "sha256": "FE3896F4A7C7F872F94AE2CE6A44F41927CB62AEB1614802E37798E83D07BFD6"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "EB125A05831A5D09462F5881D3A96E1399EB1DDA1708158FD2B4B95E6547727B"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma2p0_g0p25.json",
+      "sha256": "8A4132C822060E01AF9E9F39019370A3F3018F2C59E985380EDF84A1358022FF"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma2p0_g0p25.npz",
+      "sha256": "3102D05F9B82171502FE93F5E85639D6CDE15D8F5E9730D14515BF5614696F91"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L24_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "D6AC69E561DE4EFCDC446CF06A307FD176F5BA36897BD31806A271D564031319"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L32_gamma2p0_g-0p25.json",
+      "sha256": "DD68008534014034FE087D4DB11ECA11862DF5DC04D41CCE908B09C964703265"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L32_gamma2p0_g-0p25.npz",
+      "sha256": "8739C76E681F900923B900C9DF0EF75CF421D39CABB54650C4B9AD19B6A76D85"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L32_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "E4DC3224B444CEE0A2A1804BC0B727CAA151A73AECA99836F0A979D471C5EB4D"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L32_gamma2p0_g0p0.json",
+      "sha256": "8414DCF3DA49C246001E0D93F8CDF3041DA8FA5C119A1BD9D4905177EBC55870"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L32_gamma2p0_g0p0.npz",
+      "sha256": "C20B194013DEB50CBAC42DDEE37FD77AF18D513DBF635EFD37D9FC2EFFC1D6E7"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L32_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "D18B93EDE31F1F4CE1AD7ADC23DF6CB7D1B11475C1AC07C2FC80C27CD69C79F9"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L32_gamma2p0_g0p25.json",
+      "sha256": "29AF1D2A9F1E8FF69FF730FF8E28677997768A7FCA047612ACB7DC8D969C1C2D"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L32_gamma2p0_g0p25.npz",
+      "sha256": "FC3F0EBAB4E9511B0827B836FB41F95BB63387E33FA9C2221FBECA2FC67CE42C"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L32_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "0567415361B1A92F603FEB9A014D4BFDDEC944E2D52E9947DD697276B70B019A"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma1p6_g0p0.json",
+      "sha256": "6DE621DBD4E6E3A98E02B173750204BAEC1474B63245F7B8EA28616D8ECA1BEF"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma1p6_g0p0.npz",
+      "sha256": "875D6DA2BF84EA88F5F309E1B561C6C213BC89D00A3A6C55DA17429778B5ADC8"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma1p6_g0p0.raw.json.gz",
+      "sha256": "CECF572CE0C704EFA1EE0768DE0F752909550F1A3244B91F7126C1D228BE5077"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma1p6_g0p25.json",
+      "sha256": "BE69736C9F81A0AA2752B0E56861BD1CD1520F4CDFB8815A2820E7E692D19EAA"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma1p6_g0p25.npz",
+      "sha256": "177F7D62D72A42908D24070B1F82361A00D0882CA6E1CB0FE43D93075084F0C3"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma1p6_g0p25.raw.json.gz",
+      "sha256": "3B72EB0C612774B1747A8DDDFF73B1A90CB14CFC95DD6D35BA3F37E1F6E47274"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma2p0_g-0p25.json",
+      "sha256": "2F8FAE79474FA1CEC26D826F1E07CEA3819A3F725DFAD67C06C865B101355D20"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma2p0_g-0p25.npz",
+      "sha256": "34D68E208B92FEC876BA937912BA851374A3E126E353ED5EFBD4DFA541B421A2"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "61FBEB358833A5A1B5DEBF689B4C1BD3D8724702F062E4610A5512D2D3EB0EE2"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma2p0_g0p0.json",
+      "sha256": "7453ECB3B2910282B8553BD0ED24D1C0EC8FCCA4AC26E0A6070BB8AF8C599E6C"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma2p0_g0p0.npz",
+      "sha256": "8B3D4BD6598854A80CC9EBFF055431DE0D8E551132908C23E9EF417F0E701AB7"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "737B634B37BCCE38FB721D7BD00A9E46A44E96AA67B1376AE4E5990C5D3F9EB2"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma2p0_g0p25.json",
+      "sha256": "E22BB43BBDB44F58891CFF65069D8B293C6DB8F650E63C3B3447E739ACEDD92A"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma2p0_g0p25.npz",
+      "sha256": "BC7C13E73CE508CD12D972B7BAD81037AC663618565C483EB8D0F8463D626DC8"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L40_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "8918F1DC5A73CDAF54E60925510A24855B805DDEAEBA8A9E035A400A00CD8598"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L48_gamma2p0_g-0p25.json",
+      "sha256": "F7CD0A92ACA33342207EFD8A69DF13C6116F79FFEA4BC3CEB12505EA722B5144"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L48_gamma2p0_g-0p25.npz",
+      "sha256": "8739C76E681F900923B900C9DF0EF75CF421D39CABB54650C4B9AD19B6A76D85"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L48_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "6CDB0661B2704A1A0A73515BE9580EBFE855FD0F361D712129384488A2FABF2E"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L48_gamma2p0_g0p0.json",
+      "sha256": "2DF8C6A671D17948AFF2ACF62B233C459E6E55786D7C804104177293FA008FD1"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L48_gamma2p0_g0p0.npz",
+      "sha256": "9D348C01F21796B20BA15413A6DB376DBD3601277C8C7D83F5CB2F6246309C8D"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L48_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "2465AC1D9ED767097939387EE23C039383B332BA90C82A4A648C9FE06052A68B"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L48_gamma2p0_g0p25.json",
+      "sha256": "3A4436C732219A64B22C166A73B711D80B4E68306E9A86EC223DE336FD5FDE9E"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L48_gamma2p0_g0p25.npz",
+      "sha256": "D710BEC56FC9D7403EBF1C37DFDE3E2A3EDDCDB1313328BF44A4D5AD625B304F"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L48_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "72513E3ED29A307F3FE710873A147A984C62A77F8F1EAE0CFE8B504D32AD951E"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L56_gamma2p0_g0p0.json",
+      "sha256": "49B620BC88DE7868E901290C0FDA7C1040873EBC982733BD3D1615F97C37772B"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L56_gamma2p0_g0p0.npz",
+      "sha256": "A6409E82F26010029553AB53BB1CC72FA06179A05A10B5FF74C1BCC26D7AD415"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L56_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "05FE289E4B2C7CA8A04CAC43A3FC9D955DCCC917254292624CC14ABDE91CF354"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L56_gamma2p0_g0p25.json",
+      "sha256": "093386C42B2EB47D5FB2C619890B3855BA8730ECB35D17B52AB95753F5705CC2"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L56_gamma2p0_g0p25.npz",
+      "sha256": "44E8D72724D9873B7397B7CECFE7E5B6426322EB97B461D509FF6D9CF0F7D2B6"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L56_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "9D647AF3BF30C4BD32793AA4987BB04A67AA59B12DAC1602978A343F00E4BD15"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L64_gamma2p0_g0p0.json",
+      "sha256": "03189876313D055CBE0870853CDA748579CD261EBDF07A836F190F150702EC7B"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L64_gamma2p0_g0p0.npz",
+      "sha256": "0821E8395182B25AB46290BC4984DA2A6621AC0D6BC201AD1ACE27D69D79FB43"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L64_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "A168674B1E057B0D9D340823DDD855E7ABCFE72E6CAE5F589256862614FAC643"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L64_gamma2p0_g0p25.json",
+      "sha256": "380B01E05F25A269C28DC52F25906DBD983FCB96B9837E7940B9537D395B17EA"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L64_gamma2p0_g0p25.npz",
+      "sha256": "00799D709F7D709DC7104119CF6B439187381E5094D6CF589D8047FAEA27E81E"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/predictions/L64_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "ADD6A9C4C7EB22CDDCD2C6D6281DC5767C46202E40514F6943B34FD8F769B11F"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L16_gamma2p0_g-0p25.json",
+      "sha256": "D6A5FADB55A5D49849C6803D991292E74C3A43748D1346F27F819819C3E7A406"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L16_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "D2DAAA9C72DA3524792A99D8B167EA9F75845F98552C71CD29AF5E1C0DA25017"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L16_gamma2p0_g0p0.json",
+      "sha256": "302290F00D12451A63EFA377C37EA9CEA978FB403E0772E0EF3950512C392C97"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L16_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "9C52421D49368D3F3A57F587912CE10E7DA419E5E5B57AE82FC0105BD5EBCCA6"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L16_gamma2p0_g0p25.json",
+      "sha256": "1E1BEA1F7B396F979C26F1B3C7A8BD8F4C4AB9AE608F043472D96AB55154FD52"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L16_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "3CADA7F998BBFEA7E78441352F3CFDFB6D0D6CA9DD088318DA78D8D0A2CA0BA1"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma1p6_g0p0.json",
+      "sha256": "D33971C2497D257AB3676BB25266389A37151A0ED91151FDB7C109621C894837"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma1p6_g0p0.raw.json.gz",
+      "sha256": "5922ECB77B76B6A1F0B7B0AE540AE5BC7434CBC096CBF084E5611088545AA164"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma1p6_g0p25.json",
+      "sha256": "F0C088CB06ADF49A5565B3FDEC48294480191364515A3D1F65C12E0CA524BF59"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma1p6_g0p25.raw.json.gz",
+      "sha256": "F28A380BB3C8400DA9860F275F223F76FF3673E6FFEFD45255C8CC4288A1B76D"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma2p0_g-0p25.json",
+      "sha256": "F97A9F3754AF430FF7F37D4F1A6573DFECB216C7ED5E8F6345D6BDD6995D0DC8"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "9BD15D6B40B853880012653F32AE0A77599F7D76707D50667AB8B559452724BC"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma2p0_g0p0.json",
+      "sha256": "639220BFDF8DF3C0028D9FF9F9D2C06B852EDFCD64FA6A0C6AD5CE49351C9F33"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "14A454D66DE7AD4E950C39615B8977186F5A682D7BCB87568D366F1EE8286D8B"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma2p0_g0p25.json",
+      "sha256": "2CF9B4C9DABC4BC05BEDD2C487EF58782DCA8E86870614A47799A7147F08E49E"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L24_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "CBEF870C15D6697FA82585D38531E2A2270BCBB1A088CAAFFF054D19787EE12D"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L32_gamma2p0_g-0p25.json",
+      "sha256": "B9620DC75333376992E329A63539BC7BE43C6F15C44909D57553031F4EA358D4"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L32_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "D7D4770FE103CD4B0D33F3EE4E206CF3DB659C984F06D266F2AE294C0EACA6A1"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L32_gamma2p0_g0p0.json",
+      "sha256": "37B6F05D8AB980920716B60B7B165772DE4EEFBDEC96F26A5230337A03B356D6"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L32_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "AD2326F5BBBF84C3EC6589B1A2E1766138C8B6EAF5203FF1930C870A24DFD3C8"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L32_gamma2p0_g0p25.json",
+      "sha256": "CEF94EC74606E7C7591EDD5AE2DCD9D7F6AFF314EAA1165AF9810C488AC202C4"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L32_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "D98006CCAC807E2BC271C99A299FCC65D789376D63D2FA1876E1CFC125BD8CDC"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma1p6_g0p0.json",
+      "sha256": "F756C60C148CFD270B2534CB31A2E95B781D100A430F29B7463642780AE9917D"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma1p6_g0p0.raw.json.gz",
+      "sha256": "E28F30B9A253AE893E12374F61F2CF9B6CAAB4D2D894E9476DF86E6367F60199"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma1p6_g0p25.json",
+      "sha256": "4A36F846C63D84D2F9529A04042D90C500FF0BD0C8059CCEE283E7C04EBA0BAB"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma1p6_g0p25.raw.json.gz",
+      "sha256": "77A649B975577196E76670C5373C494A7D2D7B7F10DBEB8F39A39855899FD339"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma2p0_g-0p25.json",
+      "sha256": "7883DB5FEACE1163854A64FAAAAF5BB3530F790C5492D153F8BD58460400EEF1"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "FE95047E54EDE724E19F0E1B95938B248143BCC7BEBBAC42FAE1CD0A56AF26B2"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma2p0_g0p0.json",
+      "sha256": "56E19347058D8D66EEDB64BD27B34DEDDD5E531A7373518DC5B99C3D5BD35A48"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "30930DE2E87CA163CC515EB4878798EE072AB11BC50C9C579618D25205C7F055"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma2p0_g0p25.json",
+      "sha256": "AB4592FEA538EAD1DF5E0C63F60F502FC8D0156820EE1454A38F38A7AE6BD418"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L40_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "4128B8B50A68D93867A1B3ABF8E5F833AE0DD8FC4C7BEA910638AD7B22069C1F"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L48_gamma2p0_g-0p25.json",
+      "sha256": "3E7F098C8C7BA7D4A4234B9058EB444BE603503EA39730F8496E8FA7E1BA2702"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L48_gamma2p0_g-0p25.raw.json.gz",
+      "sha256": "BF2171E307214BF1216D7FA309A38CC38ECEDE9638C4E823DE7059D163101F79"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L48_gamma2p0_g0p0.json",
+      "sha256": "F0FC33061EA006E7B44841E6500C8FA5941D7C11000F6586EC5F8CDACC5F315E"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L48_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "4C943F0EF330DC0D806379DF83F354A3936DA72CE43E9A8369D74B33C4E22995"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L48_gamma2p0_g0p25.json",
+      "sha256": "8119CF7230B9802BEB040482800F9AA0E68ED0E7025A5CC20921C165F5754ADB"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L48_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "7BD46F34742DB0A0432939723F16E06F19A7F97F6B091E6ACCE51C55CEBFA176"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L56_gamma2p0_g0p0.json",
+      "sha256": "B5784CF8B1D9136104A775D9CBA9C473E7BDE60F1E95BA04B22855B26A496F5F"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L56_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "262F65C778E6A3FC51C6A224C1C4243EA162D215CD4F84AADB96D4A7D89C81D4"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L56_gamma2p0_g0p25.json",
+      "sha256": "9A733A91D8640A2D1C77A751962A71C84F5F4EA03583C6BC8D3B806F8A40AF5D"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L56_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "DEEA13F51F3D2213A0940D782A258380920CA0B6BEA6D4679841A05D2006814E"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L64_gamma2p0_g0p0.json",
+      "sha256": "B0FD39252A6C3FA427AF38F5FC99F97C327133A53DE4C8FF982B7FE6B945DC47"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L64_gamma2p0_g0p0.raw.json.gz",
+      "sha256": "66A74869B63A333D81C6C8FEB17ADC61FDCFA5841D33598ACF7A8C53483C71BA"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L64_gamma2p0_g0p25.json",
+      "sha256": "1A7299457F1F4541DB25D0FDF8EC76E9A07392638661915612D5DAB646FBA84F"
+    },
+    {
+      "path": "data/prl_p2_spatial_mechanism/static/L64_gamma2p0_g0p25.raw.json.gz",
+      "sha256": "F0F6B3929A12F0EBCACA02D67B8E8F9041F7D42FBCD82DFC33E2F7BB80C47B79"
+    }
+  ],
+  "formula": {
+    "study_date": "2026-10-04",
+    "version": 1,
+    "cases": [
+      {
+        "case_id": "L24_gamma1p6_g0p0_T200",
+        "length": 24,
+        "gamma": 1.6,
+        "skin": 0.0,
+        "physical_time": 10.0,
+        "steps": 200,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L24_gamma1p6_g0p0_T500",
+        "length": 24,
+        "gamma": 1.6,
+        "skin": 0.0,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L24_gamma1p6_g0p0_T800",
+        "length": 24,
+        "gamma": 1.6,
+        "skin": 0.0,
+        "physical_time": 40.0,
+        "steps": 800,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L24_gamma1p6_g0p25_T200",
+        "length": 24,
+        "gamma": 1.6,
+        "skin": 0.25,
+        "physical_time": 10.0,
+        "steps": 200,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L24_gamma1p6_g0p25_T500",
+        "length": 24,
+        "gamma": 1.6,
+        "skin": 0.25,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L24_gamma1p6_g0p25_T800",
+        "length": 24,
+        "gamma": 1.6,
+        "skin": 0.25,
+        "physical_time": 40.0,
+        "steps": 800,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma1p6_g0p0_T200",
+        "length": 40,
+        "gamma": 1.6,
+        "skin": 0.0,
+        "physical_time": 10.0,
+        "steps": 200,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma1p6_g0p0_T500",
+        "length": 40,
+        "gamma": 1.6,
+        "skin": 0.0,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma1p6_g0p0_T800",
+        "length": 40,
+        "gamma": 1.6,
+        "skin": 0.0,
+        "physical_time": 40.0,
+        "steps": 800,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma1p6_g0p25_T200",
+        "length": 40,
+        "gamma": 1.6,
+        "skin": 0.25,
+        "physical_time": 10.0,
+        "steps": 200,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma1p6_g0p25_T500",
+        "length": 40,
+        "gamma": 1.6,
+        "skin": 0.25,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma1p6_g0p25_T800",
+        "length": 40,
+        "gamma": 1.6,
+        "skin": 0.25,
+        "physical_time": 40.0,
+        "steps": 800,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "gain_strength"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L24_gamma2p0_g-0p25_T100",
+        "length": 24,
+        "gamma": 2.0,
+        "skin": -0.25,
+        "physical_time": 5.0,
+        "steps": 100,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L24_gamma2p0_g-0p25_T300",
+        "length": 24,
+        "gamma": 2.0,
+        "skin": -0.25,
+        "physical_time": 15.0,
+        "steps": 300,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L24_gamma2p0_g-0p25_T500",
+        "length": 24,
+        "gamma": 2.0,
+        "skin": -0.25,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L24_gamma2p0_g0p0_T100",
+        "length": 24,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 5.0,
+        "steps": 100,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L24_gamma2p0_g0p0_T300",
+        "length": 24,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 15.0,
+        "steps": 300,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L24_gamma2p0_g0p0_T500",
+        "length": 24,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L24_gamma2p0_g0p25_T100",
+        "length": 24,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 5.0,
+        "steps": 100,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L24_gamma2p0_g0p25_T300",
+        "length": 24,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 15.0,
+        "steps": 300,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L24_gamma2p0_g0p25_T500",
+        "length": 24,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p0_T300",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 15.0,
+        "steps": 300,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p0_T310",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 15.5,
+        "steps": 310,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p0_T320",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 16.0,
+        "steps": 320,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p0_T330",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 16.5,
+        "steps": 330,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p0_T340",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 17.0,
+        "steps": 340,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p0_T350",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 17.5,
+        "steps": 350,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p25_T250",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 12.5,
+        "steps": 250,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p25_T260",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 13.0,
+        "steps": 260,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p25_T270",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 13.5,
+        "steps": 270,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p25_T280",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 14.0,
+        "steps": 280,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p25_T290",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 14.5,
+        "steps": 290,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L32_gamma2p0_g0p25_T300",
+        "length": 32,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 15.0,
+        "steps": 300,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g-0p25_T100",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": -0.25,
+        "physical_time": 5.0,
+        "steps": 100,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g-0p25_T300",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": -0.25,
+        "physical_time": 15.0,
+        "steps": 300,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g-0p25_T500",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": -0.25,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p0_T100",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 5.0,
+        "steps": 100,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p0_T300",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 15.0,
+        "steps": 300,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p0_T350",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 17.5,
+        "steps": 350,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p0_T360",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 18.0,
+        "steps": 360,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p0_T370",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 18.5,
+        "steps": 370,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p0_T380",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 19.0,
+        "steps": 380,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p0_T390",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 19.5,
+        "steps": 390,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p0_T400",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 20.0,
+        "steps": 400,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p0_T500",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p25_T100",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 5.0,
+        "steps": 100,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p25_T300",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 15.0,
+        "steps": 300,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p25_T350",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 17.5,
+        "steps": 350,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p25_T360",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 18.0,
+        "steps": 360,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p25_T370",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 18.5,
+        "steps": 370,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p25_T380",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 19.0,
+        "steps": 380,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p25_T390",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 19.5,
+        "steps": 390,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p25_T400",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 20.0,
+        "steps": 400,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L40_gamma2p0_g0p25_T500",
+        "length": 40,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "orientation"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left",
+          "right",
+          "center_block"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T400",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 20.0,
+        "steps": 400,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T410",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 20.5,
+        "steps": 410,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T420",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 21.0,
+        "steps": 420,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T430",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 21.5,
+        "steps": 430,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T440",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 22.0,
+        "steps": 440,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T450",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 22.5,
+        "steps": 450,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T460",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 23.0,
+        "steps": 460,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T470",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 23.5,
+        "steps": 470,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T480",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 24.0,
+        "steps": 480,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T490",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 24.5,
+        "steps": 490,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T500",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T560",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 28.0,
+        "steps": 560,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "window_extension"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p0_T600",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 30.0,
+        "steps": 600,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "window_extension"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T400",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 20.0,
+        "steps": 400,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T410",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 20.5,
+        "steps": 410,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T420",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 21.0,
+        "steps": 420,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T430",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 21.5,
+        "steps": 430,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T440",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 22.0,
+        "steps": 440,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T450",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 22.5,
+        "steps": 450,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T460",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 23.0,
+        "steps": 460,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T470",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 23.5,
+        "steps": 470,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T480",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 24.0,
+        "steps": 480,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T490",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 24.5,
+        "steps": 490,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T500",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "dense_boundary"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T560",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 28.0,
+        "steps": 560,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "window_extension"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L48_gamma2p0_g0p25_T600",
+        "length": 48,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 30.0,
+        "steps": 600,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "window_extension"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L56_gamma2p0_g0p0_T400",
+        "length": 56,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 20.0,
+        "steps": 400,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L56_gamma2p0_g0p0_T500",
+        "length": 56,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L56_gamma2p0_g0p0_T600",
+        "length": 56,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 30.0,
+        "steps": 600,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L56_gamma2p0_g0p0_T700",
+        "length": 56,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 35.0,
+        "steps": 700,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L56_gamma2p0_g0p25_T400",
+        "length": 56,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 20.0,
+        "steps": 400,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L56_gamma2p0_g0p25_T500",
+        "length": 56,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L56_gamma2p0_g0p25_T600",
+        "length": 56,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 30.0,
+        "steps": 600,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L56_gamma2p0_g0p25_T700",
+        "length": 56,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 35.0,
+        "steps": 700,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L64_gamma2p0_g0p0_T400",
+        "length": 64,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 20.0,
+        "steps": 400,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L64_gamma2p0_g0p0_T500",
+        "length": 64,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L64_gamma2p0_g0p0_T600",
+        "length": 64,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 30.0,
+        "steps": 600,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L64_gamma2p0_g0p0_T700",
+        "length": 64,
+        "gamma": 2.0,
+        "skin": 0.0,
+        "physical_time": 35.0,
+        "steps": 700,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L64_gamma2p0_g0p25_T400",
+        "length": 64,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 20.0,
+        "steps": 400,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L64_gamma2p0_g0p25_T500",
+        "length": 64,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 25.0,
+        "steps": 500,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L64_gamma2p0_g0p25_T600",
+        "length": 64,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 30.0,
+        "steps": 600,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      },
+      {
+        "case_id": "L64_gamma2p0_g0p25_T700",
+        "length": 64,
+        "gamma": 2.0,
+        "skin": 0.25,
+        "physical_time": 35.0,
+        "steps": 700,
+        "dt": 0.05,
+        "t1": 0.5,
+        "t2": 1.0,
+        "boundary": "open",
+        "roles": [
+          "unseen_size"
+        ],
+        "initials": [
+          "charge_density_wave",
+          "left"
+        ]
+      }
+    ],
+    "families": [
+      [
+        16,
+        2.0,
+        -0.25
+      ],
+      [
+        16,
+        2.0,
+        0.0
+      ],
+      [
+        16,
+        2.0,
+        0.25
+      ],
+      [
+        24,
+        1.6,
+        0.0
+      ],
+      [
+        24,
+        1.6,
+        0.25
+      ],
+      [
+        24,
+        2.0,
+        -0.25
+      ],
+      [
+        24,
+        2.0,
+        0.0
+      ],
+      [
+        24,
+        2.0,
+        0.25
+      ],
+      [
+        32,
+        2.0,
+        -0.25
+      ],
+      [
+        32,
+        2.0,
+        0.0
+      ],
+      [
+        32,
+        2.0,
+        0.25
+      ],
+      [
+        40,
+        1.6,
+        0.0
+      ],
+      [
+        40,
+        1.6,
+        0.25
+      ],
+      [
+        40,
+        2.0,
+        -0.25
+      ],
+      [
+        40,
+        2.0,
+        0.0
+      ],
+      [
+        40,
+        2.0,
+        0.25
+      ],
+      [
+        48,
+        2.0,
+        -0.25
+      ],
+      [
+        48,
+        2.0,
+        0.0
+      ],
+      [
+        48,
+        2.0,
+        0.25
+      ],
+      [
+        56,
+        2.0,
+        0.0
+      ],
+      [
+        56,
+        2.0,
+        0.25
+      ],
+      [
+        64,
+        2.0,
+        0.0
+      ],
+      [
+        64,
+        2.0,
+        0.25
+      ]
+    ],
+    "planned_input_sha256": "F9B4931BC75B5A0AC2AA16B6D6543F88D0EAB9247630038B8EE58145C44BDD7D",
+    "precision_digits": [
+      120,
+      160,
+      200,
+      240
+    ],
+    "reference_goals": {
+      "projector": 1e-10,
+      "entropy": 1e-10,
+      "relative_scalar": 1e-08
+    },
+    "numerical_goals": {
+      "projector": 1e-06,
+      "entropy": 1e-06,
+      "orthogonality": 1e-10
+    },
+    "selection_tolerances": {
+      "projector": 0.05,
+      "absolute_entropy": 0.05
+    },
+    "memory_tolerances": {
+      "pair_projector": 0.1,
+      "pair_absolute_entropy": 0.1
+    },
+    "initials": {
+      "charge_density_wave": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "left": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "right": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "center_block": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    "initial_policy": "coordinate products fixed across g,t; center starts at L/4; occupied complete unit cells",
+    "signed_graph": "F(t)=exp(-Lambda*t) F exp(-Lambda*t); Z(t)=Xplus+Xminus F(t); orth(Z(t))",
+    "distance_interval": "max(0,d(Qstatic,G)-eW) <= d(Qactual,W) <= min(1,d(Qstatic,G)+eW)",
+    "entropy_interval": "max(0,abs(Sstatic-SG)-m*h2(min(eW,.5))) to abs(Sstatic-SG)+m*h2(min(eW,.5))",
+    "direct_memory_lower": "abs(d(Qstatic_a,G)-d(Qstatic_b,G))",
+    "interpretation": "exact static spectral propagation plus finite-output perturbation bounds; no reduced universal law or interval arithmetic",
+    "conditional_extension": "gamma1.6 is frozen now; execute after main batches pass prediction/precision checks",
+    "development": "all previous data are development; new-size truth and orientation/dense new truth start after lock"
+  },
+  "policy": "no predictor or tolerance changes after new truth; fix implementation bugs with preserved evidence only"
+}

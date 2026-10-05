@@ -1,0 +1,9 @@
+length,initial,gL,candidate_shift,sampled_shift_lower,sampled_shift_upper,resolved_direction,candidate_compatible,scope
+128,left,2,-0.32351820766925243,-0.44999999999998863,-0.29999999999999716,True,True,difference of local sampled brackets; conditional on tracking the same crossing
+128,left,4,-0.6459861025214195,-0.75,-0.5499999999999972,True,True,difference of local sampled brackets; conditional on tracking the same crossing
+128,right,2,0.3194843798875695,0.20000000000000284,0.3500000000000085,True,True,difference of local sampled brackets; conditional on tracking the same crossing
+128,right,4,0.6399784505367165,0.5,0.6500000000000057,True,True,difference of local sampled brackets; conditional on tracking the same crossing
+144,left,2,-0.32642116248607067,-0.3499999999999943,-0.25,True,True,difference of local sampled brackets; conditional on tracking the same crossing
+144,left,4,-0.6518849523737913,-0.6999999999999886,-0.5999999999999943,True,True,difference of local sampled brackets; conditional on tracking the same crossing
+144,right,2,0.32285358980300316,0.29999999999999716,0.3999999999999915,True,True,difference of local sampled brackets; conditional on tracking the same crossing
+144,right,4,0.6466282216832155,0.5999999999999943,0.6999999999999886,True,True,difference of local sampled brackets; conditional on tracking the same crossing

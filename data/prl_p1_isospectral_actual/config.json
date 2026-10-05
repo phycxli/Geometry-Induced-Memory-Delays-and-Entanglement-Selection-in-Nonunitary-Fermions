@@ -1,0 +1,778 @@
+{
+  "study_date": "2026-10-04",
+  "calculation_version": 1,
+  "cases": [
+    {
+      "case_id": "L32_gamma0p5_g0p0_T300",
+      "length": 32,
+      "gamma": 0.5,
+      "skin": 0.0,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "pilot",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma0p5_g0p05_T300",
+      "length": 32,
+      "gamma": 0.5,
+      "skin": 0.05,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "pilot"
+      ]
+    },
+    {
+      "case_id": "L32_gamma0p5_g0p25_T300",
+      "length": 32,
+      "gamma": 0.5,
+      "skin": 0.25,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "pilot",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma1p6_g0p0_T100",
+      "length": 16,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls"
+      ]
+    },
+    {
+      "case_id": "L16_gamma1p6_g0p0_T300",
+      "length": 16,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls"
+      ]
+    },
+    {
+      "case_id": "L16_gamma1p6_g0p25_T100",
+      "length": 16,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls"
+      ]
+    },
+    {
+      "case_id": "L16_gamma1p6_g0p25_T300",
+      "length": 16,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p0_T100",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p0_T300",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p25_T100",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p25_T300",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma1p6_g0p0_T100",
+      "length": 32,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls"
+      ]
+    },
+    {
+      "case_id": "L32_gamma1p6_g0p0_T300",
+      "length": 32,
+      "gamma": 1.6,
+      "skin": 0.0,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls"
+      ]
+    },
+    {
+      "case_id": "L32_gamma1p6_g0p25_T100",
+      "length": 32,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls"
+      ]
+    },
+    {
+      "case_id": "L32_gamma1p6_g0p25_T300",
+      "length": 32,
+      "gamma": 1.6,
+      "skin": 0.25,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T100",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T300",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T100",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T300",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "controls",
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p0_T20",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 20,
+      "dt": 0.05,
+      "physical_time": 1.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p0_T40",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 40,
+      "dt": 0.05,
+      "physical_time": 2.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p0_T60",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 60,
+      "dt": 0.05,
+      "physical_time": 3.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p0_T80",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 80,
+      "dt": 0.05,
+      "physical_time": 4.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p0_T150",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 150,
+      "dt": 0.05,
+      "physical_time": 7.5,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p0_T200",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 200,
+      "dt": 0.05,
+      "physical_time": 10.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma0p5_g0p0_T100",
+      "length": 16,
+      "gamma": 0.5,
+      "skin": 0.0,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma0p5_g0p0_T300",
+      "length": 16,
+      "gamma": 0.5,
+      "skin": 0.0,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p25_T20",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 20,
+      "dt": 0.05,
+      "physical_time": 1.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p25_T40",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 40,
+      "dt": 0.05,
+      "physical_time": 2.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p25_T60",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 60,
+      "dt": 0.05,
+      "physical_time": 3.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p25_T80",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 80,
+      "dt": 0.05,
+      "physical_time": 4.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p25_T150",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 150,
+      "dt": 0.05,
+      "physical_time": 7.5,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma2p0_g0p25_T200",
+      "length": 16,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 200,
+      "dt": 0.05,
+      "physical_time": 10.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma0p5_g0p25_T100",
+      "length": 16,
+      "gamma": 0.5,
+      "skin": 0.25,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L16_gamma0p5_g0p25_T300",
+      "length": 16,
+      "gamma": 0.5,
+      "skin": 0.25,
+      "steps": 300,
+      "dt": 0.05,
+      "physical_time": 15.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T20",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 20,
+      "dt": 0.05,
+      "physical_time": 1.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T40",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 40,
+      "dt": 0.05,
+      "physical_time": 2.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T60",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 60,
+      "dt": 0.05,
+      "physical_time": 3.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T80",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 80,
+      "dt": 0.05,
+      "physical_time": 4.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T150",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 150,
+      "dt": 0.05,
+      "physical_time": 7.5,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p0_T200",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.0,
+      "steps": 200,
+      "dt": 0.05,
+      "physical_time": 10.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma0p5_g0p0_T100",
+      "length": 32,
+      "gamma": 0.5,
+      "skin": 0.0,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T20",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 20,
+      "dt": 0.05,
+      "physical_time": 1.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T40",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 40,
+      "dt": 0.05,
+      "physical_time": 2.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T60",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 60,
+      "dt": 0.05,
+      "physical_time": 3.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T80",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 80,
+      "dt": 0.05,
+      "physical_time": 4.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T150",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 150,
+      "dt": 0.05,
+      "physical_time": 7.5,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma2p0_g0p25_T200",
+      "length": 32,
+      "gamma": 2.0,
+      "skin": 0.25,
+      "steps": 200,
+      "dt": 0.05,
+      "physical_time": 10.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    },
+    {
+      "case_id": "L32_gamma0p5_g0p25_T100",
+      "length": 32,
+      "gamma": 0.5,
+      "skin": 0.25,
+      "steps": 100,
+      "dt": 0.05,
+      "physical_time": 5.0,
+      "boundary": "open",
+      "t1": 0.5,
+      "t2": 1.0,
+      "groups": [
+        "time"
+      ]
+    }
+  ],
+  "initials": [
+    "charge_density_wave",
+    "left"
+  ],
+  "precision_digits": [
+    48,
+    80
+  ],
+  "adaptive_precision_digits": 120,
+  "precision_thresholds": {
+    "reference_projector": 1e-10,
+    "reference_entropy": 1e-10,
+    "reference_relative_scalar": 1e-08,
+    "double_projector": 1e-06,
+    "double_entropy": 1e-06,
+    "orthogonality": 1e-10,
+    "similarity_relative": 1e-12
+  },
+  "physical_tolerances": {
+    "selection_projector": 0.05,
+    "selection_absolute_entropy": 0.05,
+    "memory_pair_projector": 0.1,
+    "memory_pair_absolute_entropy": 0.1
+  },
+  "time_definition": "first sampled time passing both tolerances and staying passed at every later sampled point; right-censored if no event",
+  "scope": "P1 audited actual-state pilot and P2 initial mechanism/time pilot; no thermodynamic phase claims, no HPC production",
+  "why_time_grid": "conditional P2 pilot after controls identify a selection point; fixed grid declared before results"
+}

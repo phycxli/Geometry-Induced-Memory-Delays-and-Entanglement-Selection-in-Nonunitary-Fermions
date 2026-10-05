@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-04",
+  "status": "completed_and_audited",
+  "families": 8,
+  "conditions": 160,
+  "states": 480,
+  "pairs": 480,
+  "development_states": 432,
+  "kernel_checks": 32,
+  "targeted_states": 160,
+  "targeted_rank1_misclassified": 18,
+  "targeted_rank2_misclassified": 1,
+  "fixed_rank2_scope_diagnostics": {
+    "charge_density_wave": {
+      "states": 160,
+      "projector_error_max": 4.7172786025694635e-50,
+      "distance_error_max": 4.716776100897522e-50,
+      "target_passed": 160,
+      "undecided": 0
+    },
+    "targeted_block": {
+      "states": 160,
+      "projector_error_max": 6.639328741379175e-05,
+      "distance_error_max": 6.616237225243182e-05,
+      "target_passed": 14,
+      "undecided": 19
+    },
+    "companion_block": {
+      "states": 160,
+      "projector_error_max": 0.9999999623331414,
+      "distance_error_max": 0.0003442788177334677,
+      "target_passed": 80,
+      "undecided": 20
+    }
+  },
+  "old_rank1_failures": 7,
+  "old_failures_corrected_by_rank2": 7,
+  "development_rank2_misclassified": 0,
+  "new_rank1_misclassified": 18,
+  "new_rank2_misclassified": 1,
+  "rank1_distance_error_max": 0.012177275863349601,
+  "rank2_distance_error_max": 0.0003442788177334677,
+  "actual_selected": 309,
+  "actual_projector_memory": 160,
+  "actual_entropy_memory": 90,
+  "tiers": {
+    "adaptive": {
+      "selected": 309,
+      "unselected": 171,
+      "undecided": 0,
+      "wrong_guarantees": 0,
+      "target_passed": 480,
+      "projector_memory_guarantees": 160,
+      "entropy_memory_guarantees": 90
+    },
+    "fixed_rank2": {
+      "selected": 293,
+      "unselected": 148,
+      "undecided": 39,
+      "wrong_guarantees": 0,
+      "target_passed": 254,
+      "projector_memory_guarantees": 120,
+      "entropy_memory_guarantees": 28
+    }
+  },
+  "rank_max": 12.0,
+  "reference_precision": {
+    "[200, 240]": 160
+  },
+  "fronts_bracketed": 32,
+  "strict_rank1_front_compatibility": 14,
+  "strict_rank2_front_compatibility": 31,
+  "rank2_root_gate_not_falsified": 32,
+  "weak_shift_directions_resolved": 8,
+  "weak_shift_candidates_compatible": 8,
+  "entropy_selected_projector_unselected": 115,
+  "adaptive_projector_error_max": 9.796617782665245e-06,
+  "fixed_rank2_projector_error_max": 0.9999999623331414,
+  "kernel_error_max": 3.7492420347390774e-242,
+  "kernel_speedup_min": 35.58423962429685,
+  "kernel_speedup_max": 45.426647599633085,
+  "scope": "real-gauge gamma2 OBC SSH; no second-model, asymptotic, Born or experimental claim"
+}

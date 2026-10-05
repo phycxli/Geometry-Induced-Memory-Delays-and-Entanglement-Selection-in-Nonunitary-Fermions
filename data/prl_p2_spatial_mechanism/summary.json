@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-04",
+  "conditions": 96,
+  "states": 228,
+  "pairs": 132,
+  "static_families": 23,
+  "new_conditions": 84,
+  "new_states": 204,
+  "reused_conditions": 12,
+  "reused_states": 24,
+  "metrics": [
+    {
+      "role": "all",
+      "states": 228,
+      "pairs": 132,
+      "actual_selected": 165,
+      "guaranteed_selected": 161,
+      "guaranteed_unselected": 63,
+      "wrong_selected": 0,
+      "wrong_unselected": 0,
+      "actual_memory": 59,
+      "guaranteed_memory": 59,
+      "max_projector_prediction_error": 7.154970458963018e-16,
+      "max_entropy_prediction_error": 0.0,
+      "double_failed": 15
+    },
+    {
+      "role": "new_only",
+      "states": 204,
+      "pairs": 120,
+      "actual_selected": 147,
+      "guaranteed_selected": 143,
+      "guaranteed_unselected": 57,
+      "wrong_selected": 0,
+      "wrong_unselected": 0,
+      "actual_memory": 53,
+      "guaranteed_memory": 53,
+      "max_projector_prediction_error": 7.154970458963018e-16,
+      "max_entropy_prediction_error": 0.0,
+      "double_failed": 15
+    },
+    {
+      "role": "dense_boundary",
+      "states": 92,
+      "pairs": 46,
+      "actual_selected": 67,
+      "guaranteed_selected": 67,
+      "guaranteed_unselected": 25,
+      "wrong_selected": 0,
+      "wrong_unselected": 0,
+      "actual_memory": 22,
+      "guaranteed_memory": 22,
+      "max_projector_prediction_error": 6.152915001778487e-16,
+      "max_entropy_prediction_error": 0.0,
+      "double_failed": 3
+    },
+    {
+      "role": "window_extension",
+      "states": 8,
+      "pairs": 4,
+      "actual_selected": 8,
+      "guaranteed_selected": 8,
+      "guaranteed_unselected": 0,
+      "wrong_selected": 0,
+      "wrong_unselected": 0,
+      "actual_memory": 0,
+      "guaranteed_memory": 0,
+      "max_projector_prediction_error": 5.606743307290936e-16,
+      "max_entropy_prediction_error": 0.0,
+      "double_failed": 0
+    },
+    {
+      "role": "orientation",
+      "states": 72,
+      "pairs": 54,
+      "actual_selected": 48,
+      "guaranteed_selected": 46,
+      "guaranteed_unselected": 24,
+      "wrong_selected": 0,
+      "wrong_unselected": 0,
+      "actual_memory": 24,
+      "guaranteed_memory": 24,
+      "max_projector_prediction_error": 5.941941310076631e-16,
+      "max_entropy_prediction_error": 0.0,
+      "double_failed": 6
+    },
+    {
+      "role": "unseen_size",
+      "states": 32,
+      "pairs": 16,
+      "actual_selected": 23,
+      "guaranteed_selected": 23,
+      "guaranteed_unselected": 9,
+      "wrong_selected": 0,
+      "wrong_unselected": 0,
+      "actual_memory": 9,
+      "guaranteed_memory": 9,
+      "max_projector_prediction_error": 7.154970458963018e-16,
+      "max_entropy_prediction_error": 0.0,
+      "double_failed": 6
+    },
+    {
+      "role": "gain_strength",
+      "states": 24,
+      "pairs": 12,
+      "actual_selected": 19,
+      "guaranteed_selected": 17,
+      "guaranteed_unselected": 5,
+      "wrong_selected": 0,
+      "wrong_unselected": 0,
+      "actual_memory": 4,
+      "guaranteed_memory": 4,
+      "max_projector_prediction_error": 5.912414453850196e-16,
+      "max_entropy_prediction_error": 0.0,
+      "double_failed": 0
+    }
+  ],
+  "selection_intervals": [
+    {
+      "length": 32,
+      "skin": 0.0,
+      "initial": "left",
+      "last_fail": 15.0,
+      "first_sustained_sample": 15.5,
+      "observation_end": 25.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 6
+    },
+    {
+      "length": 32,
+      "skin": 0.25,
+      "initial": "left",
+      "last_fail": 14.0,
+      "first_sustained_sample": 14.5,
+      "observation_end": 25.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 4
+    },
+    {
+      "length": 40,
+      "skin": 0.0,
+      "initial": "left",
+      "last_fail": 19.5,
+      "first_sustained_sample": 20.0,
+      "observation_end": 25.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 1
+    },
+    {
+      "length": 40,
+      "skin": 0.25,
+      "initial": "left",
+      "last_fail": 18.0,
+      "first_sustained_sample": 18.5,
+      "observation_end": 25.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 4
+    },
+    {
+      "length": 48,
+      "skin": 0.0,
+      "initial": "left",
+      "last_fail": 23.5,
+      "first_sustained_sample": 24.0,
+      "observation_end": 30.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 4
+    },
+    {
+      "length": 48,
+      "skin": 0.25,
+      "initial": "left",
+      "last_fail": 22.0,
+      "first_sustained_sample": 22.5,
+      "observation_end": 30.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 7
+    },
+    {
+      "length": 56,
+      "skin": 0.0,
+      "initial": "left",
+      "last_fail": 25.0,
+      "first_sustained_sample": 30.0,
+      "observation_end": 35.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 1
+    },
+    {
+      "length": 56,
+      "skin": 0.25,
+      "initial": "left",
+      "last_fail": 25.0,
+      "first_sustained_sample": 30.0,
+      "observation_end": 35.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 1
+    },
+    {
+      "length": 64,
+      "skin": 0.0,
+      "initial": "left",
+      "last_fail": 30.0,
+      "first_sustained_sample": 35.0,
+      "observation_end": 35.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 0
+    },
+    {
+      "length": 64,
+      "skin": 0.25,
+      "initial": "left",
+      "last_fail": 25.0,
+      "first_sustained_sample": 30.0,
+      "observation_end": 35.0,
+      "right_censored": false,
+      "left_censored": false,
+      "subsequent_passed_samples": 1
+    }
+  ],
+  "max_distance_interval_violation": 0,
+  "max_entropy_interval_violation": 0,
+  "max_memory_lower_violation": 6.661338147750939e-16,
+  "max_double_projector_error": 0.9999834450218436,
+  "singular_ratio_over_1percent": 86,
+  "reference_digits_new": [
+    160
+  ],
+  "orientation_initial_counts": {
+    "charge_density_wave": {
+      "selected": 18,
+      "total": 18
+    },
+    "left": {
+      "selected": 9,
+      "total": 18
+    },
+    "right": {
+      "selected": 9,
+      "total": 18
+    },
+    "center_block": {
+      "selected": 12,
+      "total": 18
+    }
+  },
+  "interpretation": "Exact signed static spectral propagation; no sharp overlap exponent or universal scaling established."
+}

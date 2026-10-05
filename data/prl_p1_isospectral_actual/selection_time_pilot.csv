@@ -1,0 +1,9 @@
+length,skin,gamma,initial,first_sustained_sample_time,bracket_lower,bracket_upper,right_censored,left_censored,observation_end,meaning
+16,0.0,2.0,charge_density_wave,1.0,,1.0,False,True,15.0,sampled persistence only; no guarantee between samples or beyond t=15
+16,0.0,2.0,left,7.5,5.0,7.5,False,False,15.0,sampled persistence only; no guarantee between samples or beyond t=15
+16,0.25,2.0,charge_density_wave,1.0,,1.0,False,True,15.0,sampled persistence only; no guarantee between samples or beyond t=15
+16,0.25,2.0,left,7.5,5.0,7.5,False,False,15.0,sampled persistence only; no guarantee between samples or beyond t=15
+32,0.0,2.0,charge_density_wave,1.0,,1.0,False,True,15.0,sampled persistence only; no guarantee between samples or beyond t=15
+32,0.0,2.0,left,,15.0,,True,False,15.0,sampled persistence only; no guarantee between samples or beyond t=15
+32,0.25,2.0,charge_density_wave,1.0,,1.0,False,True,15.0,sampled persistence only; no guarantee between samples or beyond t=15
+32,0.25,2.0,left,15.0,10.0,15.0,False,False,15.0,sampled persistence only; no guarantee between samples or beyond t=15

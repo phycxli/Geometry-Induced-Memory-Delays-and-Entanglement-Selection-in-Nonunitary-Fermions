@@ -1,0 +1,245 @@
+{
+  "completed_utc": "2026-10-04T14:53:08.783799+00:00",
+  "studies": {
+    "prl_p3_new_sizes": {
+      "conditions": 104,
+      "states": 328,
+      "pairs": 336,
+      "families": 8,
+      "actual_selected": 226,
+      "guaranteed_selected": 226,
+      "guaranteed_unselected": 102,
+      "undecided": 0,
+      "wrong_guarantees": 0,
+      "remainder_target_passed": 328,
+      "max_rank": 12.0,
+      "max_actual_projector_error": 9.755728156421526e-06,
+      "actual_projector_memory": 96,
+      "guaranteed_projector_memory": 96,
+      "actual_entropy_memory": 64,
+      "guaranteed_entropy_memory": 64,
+      "entropy_selected_projection_unselected": 61,
+      "reference_digits": [
+        280
+      ],
+      "max_prediction_precision_change": 1.5722824712430757e-107,
+      "completed_utc": "2026-10-04T14:48:25.775195+00:00",
+      "scope": "new finite sizes and sampled crossings; no continuous cutoff or uniform asymptotic proof",
+      "pair_distance_intervals_covered": 336,
+      "pair_entropy_intervals_covered": 336,
+      "audit_digits": [
+        280
+      ]
+    },
+    "prl_p4_passive_complex": {
+      "conditions": 36,
+      "states": 180,
+      "pairs": 216,
+      "families": 9,
+      "actual_selected": 138,
+      "guaranteed_selected": 135,
+      "guaranteed_unselected": 42,
+      "undecided": 3,
+      "wrong_guarantees": 0,
+      "remainder_target_passed": 180,
+      "max_rank": 12.0,
+      "max_actual_projector_error": 8.33621241576474e-06,
+      "actual_projector_memory": 64,
+      "guaranteed_projector_memory": 64,
+      "actual_entropy_memory": 47,
+      "guaranteed_entropy_memory": 47,
+      "entropy_selected_projection_unselected": 3,
+      "reference_digits": [
+        160
+      ],
+      "max_prediction_precision_change": 4.116134227474999e-83,
+      "completed_utc": "2026-10-04T14:48:25.745984+00:00",
+      "scope": "conditional fixed-particle no-click states; no typical Born ensemble or thermodynamic transition",
+      "pair_distance_intervals_covered": 216,
+      "pair_entropy_intervals_covered": 216,
+      "audit_digits": [
+        200
+      ]
+    },
+    "prl_e_feasibility": {
+      "families": 12,
+      "states": 252,
+      "pairs": 252,
+      "selected": 127,
+      "minimum_log_success": -179.01830688743107,
+      "maximum_log_success": -0.3840536448154941,
+      "max_reference_change": 1.3891998588374178e-42,
+      "fock_check": "passed",
+      "scope": "feasibility development, not additional blind mechanism validation or experimental data",
+      "completed_utc": "2026-10-04T13:37:31.422481+00:00"
+    }
+  },
+  "geometry": {
+    "spatial_extrapolations": 8,
+    "spatial_gate_passed": 8,
+    "max_log_error": 0.004458816560259038,
+    "max_inverse_width": 0.000897945741905835,
+    "max_distribution_tv": 0.00020864800505986548,
+    "boundary_retained": true,
+    "asymptotic_exponent_status": "finite-size extrapolation; no sharp asymptotic theorem proved",
+    "completed_utc": "2026-10-04T14:11:53.159954+00:00",
+    "finite_intervals": 16,
+    "finite_intervals_covered": 16,
+    "maximum_finite_interval_relative_width": 0.0001870534425562373
+  },
+  "fronts": {
+    "fronts": 32,
+    "sampled_bracketed": 32,
+    "rank2_strict_compatible": 29,
+    "affine_strict_compatible": 10,
+    "affine_gate_not_falsified": 32,
+    "local_slope_range": [
+      -0.13382496867965554,
+      -0.13136985209540494
+    ],
+    "continuous_first_crossing_established": false,
+    "uniform_slope_proved": false,
+    "completed_utc": "2026-10-04T14:23:22.240454+00:00"
+  },
+  "experiment_common_loss": {
+    "states": 252,
+    "selected": 127,
+    "common_shift_by_model_length": [
+      {
+        "model": "complex",
+        "length": 8,
+        "shift": 2.2107883864122577
+      },
+      {
+        "model": "complex",
+        "length": 12,
+        "shift": 2.2107883864122577
+      },
+      {
+        "model": "complex",
+        "length": 16,
+        "shift": 2.2107883864122577
+      },
+      {
+        "model": "ssh",
+        "length": 8,
+        "shift": 2.150563133151613
+      },
+      {
+        "model": "ssh",
+        "length": 12,
+        "shift": 2.150563133151613
+      },
+      {
+        "model": "ssh",
+        "length": 16,
+        "shift": 2.150563133151613
+      }
+    ],
+    "best_selected": {
+      "family_key": "ssh_L8_g0p0",
+      "model": "ssh",
+      "length": 8,
+      "skin": 0.0,
+      "initial": "charge_density_wave",
+      "physical_time": 0.5,
+      "entropy": 0.19245298870334387,
+      "W_entropy": 0.1563952131007325,
+      "entropy_error": 0.03605777560261136,
+      "distance_to_W": 0.04268353072763397,
+      "log_no_click_success": -0.38464723997326594,
+      "log10_attempts_for_1000": 3.1670501737997054,
+      "log10_max_inefficiency_for_99pct_true": -1.6152893907658195,
+      "loss_shift": 2.0,
+      "minimum_loss_eigenvalue": 0.0,
+      "maximum_jump_support": 1,
+      "particle_number_at_efficiency99": 3.9958540754661365,
+      "purity_defect_at_efficiency99": 0.0026092292568957185,
+      "fraction_true_at_efficiency99": 0.9958592514279745,
+      "actual_selected": true,
+      "log10_tomography_attempts": 10.517472257218499,
+      "precision_projector_change": 1.639234592544779e-64,
+      "precision_scalar_change": 1.7305271205425273e-63,
+      "common_loss_shift": 2.150563133151613,
+      "log_no_click_success_common": -0.9868997725797165,
+      "log10_attempts_for_1000_common": 3.428605125422945,
+      "log10_max_inefficiency_common": -2.0513338166060437,
+      "log10_tomography_attempts_common": 10.779027208841738,
+      "true_fraction_eta.9": 0.8944608447660034,
+      "log_observed_no_click_eta.9": -0.8753656222691047,
+      "true_fraction_eta.99": 0.9887543332495459,
+      "log_observed_no_click_eta.99": -0.9755903952231099,
+      "true_fraction_eta.999": 0.9988681090168635,
+      "log_observed_no_click_eta.999": -0.9857672405241861,
+      "true_fraction_eta.9999": 0.9998867372303368,
+      "log_observed_no_click_eta.9999": -0.9867865033953416,
+      "particle_number_eta99_common": 3.9887083014207594,
+      "purity_defect_eta99_common": 0.005919491554674297
+    },
+    "worst_selected": {
+      "family_key": "ssh_L16_g0p0",
+      "model": "ssh",
+      "length": 16,
+      "skin": 0.0,
+      "initial": "right",
+      "physical_time": 8.0,
+      "entropy": 0.26104759534862654,
+      "W_entropy": 0.2549456902485661,
+      "entropy_error": 0.006101905100060414,
+      "distance_to_W": 0.02775285921942683,
+      "log_no_click_success": -154.8206593760189,
+      "log10_attempts_for_1000": 70.23775805162796,
+      "log10_max_inefficiency_for_99pct_true": -25.113824199219803,
+      "loss_shift": 2.0,
+      "minimum_loss_eigenvalue": 0.0,
+      "maximum_jump_support": 1,
+      "particle_number_at_efficiency99": 2.0950352855083096,
+      "purity_defect_at_efficiency99": 0.257474417855059,
+      "fraction_true_at_efficiency99": 3.4655708062782024e-54,
+      "actual_selected": true,
+      "log10_tomography_attempts": 79.55398159355964,
+      "precision_projector_change": 1.965587263428876e-56,
+      "precision_scalar_change": 2.3179172853290566e-43,
+      "common_loss_shift": 2.150563133151613,
+      "log_no_click_success_common": -174.09274041942533,
+      "log10_attempts_for_1000_common": 78.60751650357163,
+      "log10_max_inefficiency_common": -26.160044005712763,
+      "log10_tomography_attempts_common": 87.92374004550331,
+      "true_fraction_eta.9": 2.0261746868626874e-68,
+      "log_observed_no_click_eta.9": -18.223103720478107,
+      "true_fraction_eta.99": 5.920051687224954e-61,
+      "log_observed_no_click_eta.99": -35.4133949265965,
+      "true_fraction_eta.999": 1.8065498563908916e-54,
+      "log_observed_no_click_eta.999": -50.34456426730588,
+      "true_fraction_eta.9999": 5.6750200437319576e-49,
+      "log_observed_no_click_eta.9999": -63.00214495801346,
+      "particle_number_eta99_common": 0.9785005123220607,
+      "purity_defect_eta99_common": 0.30226573697408154
+    },
+    "selected_log_success_range": [
+      -174.09274041942533,
+      -0.9868997725797165
+    ],
+    "scope": "post-truth feasibility development; common scalar shift preserves physical isospectral comparison; dimensionless, no platform implementation",
+    "completed_utc": "2026-10-04T14:07:28.553723+00:00"
+  },
+  "allocations": 154,
+  "allocation_states": {
+    "COMPLETED": 133,
+    "FAILED": 20,
+    "CANCELLED": 1
+  },
+  "allocated_cpu_hours": 30.322777777777777,
+  "peak_concurrent_allocated_cpus": 112,
+  "nodes": [
+    "comput33",
+    "comput34",
+    "comput36",
+    "comput37",
+    "comput40",
+    "comput48",
+    "comput49",
+    "comput52"
+  ],
+  "scope": "completed selected research branches; failed hypotheses retained; no PRL acceptance or sharp asymptotic theorem"
+}

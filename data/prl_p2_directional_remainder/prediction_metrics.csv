@@ -1,0 +1,4 @@
+role,states,pairs,actual_selected,guaranteed_selected,guaranteed_unselected,undecided,wrong_selected,wrong_unselected,rank_target_passed,ranks,actual_memory,actual_projector_memory,guaranteed_memory,radial_memory,double_failed,stable_failed
+all,57,38,44,44,13,0,0,0,57,"{0: 40, 1: 2, 2: 2, 4: 9, 6: 4}",13,13,13,13,18,0
+window_and_persistence,21,14,18,18,3,0,0,0,21,"{0: 16, 2: 2, 4: 2, 6: 1}",3,3,3,3,5,0
+unseen_size,36,24,26,26,10,0,0,0,36,"{0: 24, 1: 2, 4: 7, 6: 3}",10,10,10,10,13,0

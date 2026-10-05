@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "date": "2026-10-05",
+  "families": [
+    {
+      "key": "L128_g0",
+      "length": 128,
+      "skin": "0",
+      "role": "development",
+      "historic": "data/prl_p3_selection_front/static/L128_gL0.raw.json.gz",
+      "digits": [
+        200,
+        240
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "skin": "0.25",
+      "role": "development",
+      "historic": "data/prl_p3_selection_front/static/L128_g0p25.raw.json.gz",
+      "digits": [
+        200,
+        240
+      ]
+    },
+    {
+      "key": "L160_g0",
+      "length": 160,
+      "skin": "0",
+      "role": "development",
+      "historic": "data/prl_p3_new_sizes/static/L160_gL0.raw.json.gz",
+      "digits": [
+        240,
+        280
+      ]
+    },
+    {
+      "key": "L160_g0p25",
+      "length": 160,
+      "skin": "0.25",
+      "role": "development",
+      "historic": "data/prl_p3_new_sizes/static/L160_g0p25.raw.json.gz",
+      "digits": [
+        240,
+        280
+      ]
+    },
+    {
+      "key": "L192_g0",
+      "length": 192,
+      "skin": "0",
+      "role": "development",
+      "historic": "data/prl_p3_new_sizes/static/L192_gL0.raw.json.gz",
+      "digits": [
+        240,
+        280
+      ]
+    },
+    {
+      "key": "L192_g0p25",
+      "length": 192,
+      "skin": "0.25",
+      "role": "development",
+      "historic": "data/prl_p3_new_sizes/static/L192_g0p25.raw.json.gz",
+      "digits": [
+        240,
+        280
+      ]
+    },
+    {
+      "key": "L224_g0",
+      "length": 224,
+      "skin": "0",
+      "role": "new_size",
+      "historic": null,
+      "digits": [
+        320,
+        360
+      ]
+    },
+    {
+      "key": "L224_g0p25",
+      "length": 224,
+      "skin": "0.25",
+      "role": "new_size",
+      "historic": null,
+      "digits": [
+        320,
+        360
+      ]
+    },
+    {
+      "key": "L256_g0",
+      "length": 256,
+      "skin": "0",
+      "role": "new_size",
+      "historic": null,
+      "digits": [
+        320,
+        360
+      ]
+    },
+    {
+      "key": "L256_g0p25",
+      "length": 256,
+      "skin": "0.25",
+      "role": "new_size",
+      "historic": null,
+      "digits": [
+        320,
+        360
+      ]
+    }
+  ],
+  "gram_sizes": [
+    224,
+    256,
+    320
+  ],
+  "gram_initials": [
+    "left",
+    "right"
+  ],
+  "levels": [
+    "0.9",
+    "0.5",
+    "0.3",
+    "0.1",
+    "0.05",
+    "0.01"
+  ],
+  "maximum_root_rank": 24,
+  "root_time_tolerance": "0.000002",
+  "projector_error_target": "0.00001",
+  "new_time_offsets": [
+    "-0.08",
+    "0.08"
+  ],
+  "candidate_policy": "old sizes are development; affine time and log-overlap extrapolations freeze before new-size statics",
+  "reference_policy": "independent structured exponential from a fresh coupling SVD; two precisions; small direct expm checks",
+  "scope": "SSH gamma2 OBC, |g|<=.25; unique continuous crossings only inside the proven cone; no asymptotic cutoff claim"
+}

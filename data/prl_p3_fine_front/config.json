@@ -1,0 +1,6959 @@
+{
+  "version": 1,
+  "date": "2026-10-04",
+  "families": [
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0"
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2"
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4"
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25"
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0"
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2"
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4"
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25"
+    }
+  ],
+  "cases": [
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_edge_t66p35",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "66.35",
+      "time_fraction": "0.518359375",
+      "dt": 0.05,
+      "steps": 1327,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_edge_t66p45",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "66.45",
+      "time_fraction": "0.519140625",
+      "dt": 0.05,
+      "steps": 1329,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_edge_t66p50",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "66.50",
+      "time_fraction": "0.51953125",
+      "dt": 0.05,
+      "steps": 1330,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_edge_t66p60",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "66.60",
+      "time_fraction": "0.5203125",
+      "dt": 0.05,
+      "steps": 1332,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_edge_t66p95",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "66.95",
+      "time_fraction": "0.523046875",
+      "dt": 0.05,
+      "steps": 1339,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_edge_t67p05",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "67.05",
+      "time_fraction": "0.523828125",
+      "dt": 0.05,
+      "steps": 1341,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_edge_t67p10",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "67.10",
+      "time_fraction": "0.52421875",
+      "dt": 0.05,
+      "steps": 1342,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_edge_t67p20",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "67.20",
+      "time_fraction": "0.525",
+      "dt": 0.05,
+      "steps": 1344,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t38p40",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "38.40",
+      "time_fraction": "0.30",
+      "dt": 0.05,
+      "steps": 768,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24",
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t50p20",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "50.20",
+      "time_fraction": "0.3921875",
+      "dt": 0.05,
+      "steps": 1004,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t50p30",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "50.30",
+      "time_fraction": "0.39296875",
+      "dt": 0.05,
+      "steps": 1006,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t50p35",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "50.35",
+      "time_fraction": "0.393359375",
+      "dt": 0.05,
+      "steps": 1007,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t50p45",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "50.45",
+      "time_fraction": "0.394140625",
+      "dt": 0.05,
+      "steps": 1009,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t51p15",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "51.15",
+      "time_fraction": "0.399609375",
+      "dt": 0.05,
+      "steps": 1023,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t51p25",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "51.25",
+      "time_fraction": "0.400390625",
+      "dt": 0.05,
+      "steps": 1025,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t51p30",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "51.30",
+      "time_fraction": "0.40078125",
+      "dt": 0.05,
+      "steps": 1026,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t51p40",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "51.40",
+      "time_fraction": "0.4015625",
+      "dt": 0.05,
+      "steps": 1028,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL0",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L128_gL0",
+      "case_id": "L128_gL0_translated_t55p04",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "55.04",
+      "time_fraction": "0.43",
+      "dt": 0.05,
+      "steps": 1101,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24",
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_edge_t66p05",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "66.05",
+      "time_fraction": "0.516015625",
+      "dt": 0.05,
+      "steps": 1321,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_edge_t66p15",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "66.15",
+      "time_fraction": "0.516796875",
+      "dt": 0.05,
+      "steps": 1323,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_edge_t66p20",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "66.20",
+      "time_fraction": "0.5171875",
+      "dt": 0.05,
+      "steps": 1324,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_edge_t66p30",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "66.30",
+      "time_fraction": "0.51796875",
+      "dt": 0.05,
+      "steps": 1326,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_edge_t67p30",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "67.30",
+      "time_fraction": "0.52578125",
+      "dt": 0.05,
+      "steps": 1346,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_edge_t67p40",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "67.40",
+      "time_fraction": "0.5265625",
+      "dt": 0.05,
+      "steps": 1348,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_edge_t67p45",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "67.45",
+      "time_fraction": "0.526953125",
+      "dt": 0.05,
+      "steps": 1349,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_edge_t67p55",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "67.55",
+      "time_fraction": "0.527734375",
+      "dt": 0.05,
+      "steps": 1351,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t38p40",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "38.40",
+      "time_fraction": "0.30",
+      "dt": 0.05,
+      "steps": 768,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24",
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t49p90",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "49.90",
+      "time_fraction": "0.38984375",
+      "dt": 0.05,
+      "steps": 998,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t50p00",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "50.00",
+      "time_fraction": "0.390625",
+      "dt": 0.05,
+      "steps": 1000,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t50p05",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "50.05",
+      "time_fraction": "0.391015625",
+      "dt": 0.05,
+      "steps": 1001,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t50p15",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "50.15",
+      "time_fraction": "0.391796875",
+      "dt": 0.05,
+      "steps": 1003,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t51p40",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "51.40",
+      "time_fraction": "0.4015625",
+      "dt": 0.05,
+      "steps": 1028,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t51p50",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "51.50",
+      "time_fraction": "0.40234375",
+      "dt": 0.05,
+      "steps": 1030,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t51p55",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "51.55",
+      "time_fraction": "0.402734375",
+      "dt": 0.05,
+      "steps": 1031,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t51p65",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "51.65",
+      "time_fraction": "0.403515625",
+      "dt": 0.05,
+      "steps": 1033,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL2",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L128_gL2",
+      "case_id": "L128_gL2_translated_t55p04",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.015625,
+      "physical_time": "55.04",
+      "time_fraction": "0.43",
+      "dt": 0.05,
+      "steps": 1101,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24",
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_edge_t65p70",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "65.70",
+      "time_fraction": "0.51328125",
+      "dt": 0.05,
+      "steps": 1314,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_edge_t65p80",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "65.80",
+      "time_fraction": "0.5140625",
+      "dt": 0.05,
+      "steps": 1316,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_edge_t65p85",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "65.85",
+      "time_fraction": "0.514453125",
+      "dt": 0.05,
+      "steps": 1317,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_edge_t65p95",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "65.95",
+      "time_fraction": "0.515234375",
+      "dt": 0.05,
+      "steps": 1319,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_edge_t67p60",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "67.60",
+      "time_fraction": "0.528125",
+      "dt": 0.05,
+      "steps": 1352,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_edge_t67p70",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "67.70",
+      "time_fraction": "0.52890625",
+      "dt": 0.05,
+      "steps": 1354,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_edge_t67p75",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "67.75",
+      "time_fraction": "0.529296875",
+      "dt": 0.05,
+      "steps": 1355,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_edge_t67p85",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "67.85",
+      "time_fraction": "0.530078125",
+      "dt": 0.05,
+      "steps": 1357,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t38p40",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "38.40",
+      "time_fraction": "0.30",
+      "dt": 0.05,
+      "steps": 768,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24",
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t49p65",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "49.65",
+      "time_fraction": "0.387890625",
+      "dt": 0.05,
+      "steps": 993,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t49p75",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "49.75",
+      "time_fraction": "0.388671875",
+      "dt": 0.05,
+      "steps": 995,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t49p80",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "49.80",
+      "time_fraction": "0.3890625",
+      "dt": 0.05,
+      "steps": 996,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t49p90",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "49.90",
+      "time_fraction": "0.38984375",
+      "dt": 0.05,
+      "steps": 998,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t51p70",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "51.70",
+      "time_fraction": "0.40390625",
+      "dt": 0.05,
+      "steps": 1034,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t51p80",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "51.80",
+      "time_fraction": "0.4046875",
+      "dt": 0.05,
+      "steps": 1036,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t51p85",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "51.85",
+      "time_fraction": "0.405078125",
+      "dt": 0.05,
+      "steps": 1037,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t51p95",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "51.95",
+      "time_fraction": "0.405859375",
+      "dt": 0.05,
+      "steps": 1039,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_gL4",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L128_gL4",
+      "case_id": "L128_gL4_translated_t55p04",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.03125,
+      "physical_time": "55.04",
+      "time_fraction": "0.43",
+      "dt": 0.05,
+      "steps": 1101,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24",
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_edge_t61p30",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "61.30",
+      "time_fraction": "0.47890625",
+      "dt": 0.05,
+      "steps": 1226,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_edge_t61p40",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "61.40",
+      "time_fraction": "0.4796875",
+      "dt": 0.05,
+      "steps": 1228,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_edge_t61p45",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "61.45",
+      "time_fraction": "0.480078125",
+      "dt": 0.05,
+      "steps": 1229,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_edge_t61p55",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "61.55",
+      "time_fraction": "0.480859375",
+      "dt": 0.05,
+      "steps": 1231,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_edge_t72p20",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "72.20",
+      "time_fraction": "0.5640625",
+      "dt": 0.05,
+      "steps": 1444,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_edge_t72p30",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "72.30",
+      "time_fraction": "0.56484375",
+      "dt": 0.05,
+      "steps": 1446,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_edge_t72p35",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "72.35",
+      "time_fraction": "0.565234375",
+      "dt": 0.05,
+      "steps": 1447,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_edge_t72p45",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "72.45",
+      "time_fraction": "0.566015625",
+      "dt": 0.05,
+      "steps": 1449,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t38p40",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "38.40",
+      "time_fraction": "0.30",
+      "dt": 0.05,
+      "steps": 768,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24",
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t46p15",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "46.15",
+      "time_fraction": "0.360546875",
+      "dt": 0.05,
+      "steps": 923,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t46p25",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "46.25",
+      "time_fraction": "0.361328125",
+      "dt": 0.05,
+      "steps": 925,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t46p30",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "46.30",
+      "time_fraction": "0.36171875",
+      "dt": 0.05,
+      "steps": 926,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t46p40",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "46.40",
+      "time_fraction": "0.3625",
+      "dt": 0.05,
+      "steps": 928,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t55p04",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "55.04",
+      "time_fraction": "0.43",
+      "dt": 0.05,
+      "steps": 1101,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24",
+        "block_cell8"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t55p65",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "55.65",
+      "time_fraction": "0.434765625",
+      "dt": 0.05,
+      "steps": 1113,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t55p75",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "55.75",
+      "time_fraction": "0.435546875",
+      "dt": 0.05,
+      "steps": 1115,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t55p80",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "55.80",
+      "time_fraction": "0.4359375",
+      "dt": 0.05,
+      "steps": 1116,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L128_g0p25",
+      "length": 128,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L128_g0p25",
+      "case_id": "L128_g0p25_translated_t55p90",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "55.90",
+      "time_fraction": "0.43671875",
+      "dt": 0.05,
+      "steps": 1118,
+      "initials": [
+        "charge_density_wave",
+        "block_cell8",
+        "block_cell24"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell8"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell24"
+        ],
+        [
+          "block_cell8",
+          "block_cell24"
+        ]
+      ],
+      "target_initials": [
+        "block_cell24"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_edge_t74p95",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "74.95",
+      "time_fraction": "0.5204861111111111111111111111",
+      "dt": 0.05,
+      "steps": 1499,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_edge_t75p05",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "75.05",
+      "time_fraction": "0.5211805555555555555555555556",
+      "dt": 0.05,
+      "steps": 1501,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_edge_t75p10",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "75.10",
+      "time_fraction": "0.5215277777777777777777777778",
+      "dt": 0.05,
+      "steps": 1502,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_edge_t75p20",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "75.20",
+      "time_fraction": "0.5222222222222222222222222222",
+      "dt": 0.05,
+      "steps": 1504,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_edge_t75p55",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "75.55",
+      "time_fraction": "0.5246527777777777777777777778",
+      "dt": 0.05,
+      "steps": 1511,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_edge_t75p65",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "75.65",
+      "time_fraction": "0.5253472222222222222222222222",
+      "dt": 0.05,
+      "steps": 1513,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_edge_t75p70",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "75.70",
+      "time_fraction": "0.5256944444444444444444444444",
+      "dt": 0.05,
+      "steps": 1514,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_edge_t75p80",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "75.80",
+      "time_fraction": "0.5263888888888888888888888889",
+      "dt": 0.05,
+      "steps": 1516,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t43p20",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "43.20",
+      "time_fraction": "0.30",
+      "dt": 0.05,
+      "steps": 864,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27",
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t56p70",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "56.70",
+      "time_fraction": "0.39375",
+      "dt": 0.05,
+      "steps": 1134,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t56p80",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "56.80",
+      "time_fraction": "0.3944444444444444444444444444",
+      "dt": 0.05,
+      "steps": 1136,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t56p85",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "56.85",
+      "time_fraction": "0.3947916666666666666666666667",
+      "dt": 0.05,
+      "steps": 1137,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t56p95",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "56.95",
+      "time_fraction": "0.3954861111111111111111111111",
+      "dt": 0.05,
+      "steps": 1139,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t57p65",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "57.65",
+      "time_fraction": "0.4003472222222222222222222222",
+      "dt": 0.05,
+      "steps": 1153,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t57p75",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "57.75",
+      "time_fraction": "0.4010416666666666666666666667",
+      "dt": 0.05,
+      "steps": 1155,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t57p80",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "57.80",
+      "time_fraction": "0.4013888888888888888888888889",
+      "dt": 0.05,
+      "steps": 1156,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t57p90",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "57.90",
+      "time_fraction": "0.4020833333333333333333333333",
+      "dt": 0.05,
+      "steps": 1158,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL0",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L144_gL0",
+      "case_id": "L144_gL0_translated_t61p92",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "61.92",
+      "time_fraction": "0.43",
+      "dt": 0.05,
+      "steps": 1238,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27",
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_edge_t74p65",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "74.65",
+      "time_fraction": "0.5184027777777777777777777778",
+      "dt": 0.05,
+      "steps": 1493,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_edge_t74p75",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "74.75",
+      "time_fraction": "0.5190972222222222222222222222",
+      "dt": 0.05,
+      "steps": 1495,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_edge_t74p80",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "74.80",
+      "time_fraction": "0.5194444444444444444444444444",
+      "dt": 0.05,
+      "steps": 1496,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_edge_t74p90",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "74.90",
+      "time_fraction": "0.5201388888888888888888888889",
+      "dt": 0.05,
+      "steps": 1498,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_edge_t75p90",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "75.90",
+      "time_fraction": "0.5270833333333333333333333333",
+      "dt": 0.05,
+      "steps": 1518,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_edge_t76p00",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "76.00",
+      "time_fraction": "0.5277777777777777777777777778",
+      "dt": 0.05,
+      "steps": 1520,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_edge_t76p05",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "76.05",
+      "time_fraction": "0.528125",
+      "dt": 0.05,
+      "steps": 1521,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_edge_t76p15",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "76.15",
+      "time_fraction": "0.5288194444444444444444444444",
+      "dt": 0.05,
+      "steps": 1523,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t43p20",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "43.20",
+      "time_fraction": "0.30",
+      "dt": 0.05,
+      "steps": 864,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27",
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t56p45",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "56.45",
+      "time_fraction": "0.3920138888888888888888888889",
+      "dt": 0.05,
+      "steps": 1129,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t56p55",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "56.55",
+      "time_fraction": "0.3927083333333333333333333333",
+      "dt": 0.05,
+      "steps": 1131,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t56p60",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "56.60",
+      "time_fraction": "0.3930555555555555555555555556",
+      "dt": 0.05,
+      "steps": 1132,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t56p70",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "56.70",
+      "time_fraction": "0.39375",
+      "dt": 0.05,
+      "steps": 1134,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t57p95",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "57.95",
+      "time_fraction": "0.4024305555555555555555555556",
+      "dt": 0.05,
+      "steps": 1159,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t58p05",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "58.05",
+      "time_fraction": "0.403125",
+      "dt": 0.05,
+      "steps": 1161,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t58p10",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "58.10",
+      "time_fraction": "0.4034722222222222222222222222",
+      "dt": 0.05,
+      "steps": 1162,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t58p20",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "58.20",
+      "time_fraction": "0.4041666666666666666666666667",
+      "dt": 0.05,
+      "steps": 1164,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL2",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "2",
+      "family_key": "L144_gL2",
+      "case_id": "L144_gL2_translated_t61p92",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.013888888888888888,
+      "physical_time": "61.92",
+      "time_fraction": "0.43",
+      "dt": 0.05,
+      "steps": 1238,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27",
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_edge_t74p30",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "74.30",
+      "time_fraction": "0.5159722222222222222222222222",
+      "dt": 0.05,
+      "steps": 1486,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_edge_t74p40",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "74.40",
+      "time_fraction": "0.5166666666666666666666666667",
+      "dt": 0.05,
+      "steps": 1488,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_edge_t74p45",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "74.45",
+      "time_fraction": "0.5170138888888888888888888889",
+      "dt": 0.05,
+      "steps": 1489,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_edge_t74p55",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "74.55",
+      "time_fraction": "0.5177083333333333333333333333",
+      "dt": 0.05,
+      "steps": 1491,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_edge_t76p20",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "76.20",
+      "time_fraction": "0.5291666666666666666666666667",
+      "dt": 0.05,
+      "steps": 1524,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_edge_t76p30",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "76.30",
+      "time_fraction": "0.5298611111111111111111111111",
+      "dt": 0.05,
+      "steps": 1526,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_edge_t76p35",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "76.35",
+      "time_fraction": "0.5302083333333333333333333333",
+      "dt": 0.05,
+      "steps": 1527,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_edge_t76p45",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "76.45",
+      "time_fraction": "0.5309027777777777777777777778",
+      "dt": 0.05,
+      "steps": 1529,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t43p20",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "43.20",
+      "time_fraction": "0.30",
+      "dt": 0.05,
+      "steps": 864,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27",
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t56p15",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "56.15",
+      "time_fraction": "0.3899305555555555555555555556",
+      "dt": 0.05,
+      "steps": 1123,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t56p25",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "56.25",
+      "time_fraction": "0.390625",
+      "dt": 0.05,
+      "steps": 1125,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t56p30",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "56.30",
+      "time_fraction": "0.3909722222222222222222222222",
+      "dt": 0.05,
+      "steps": 1126,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t56p40",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "56.40",
+      "time_fraction": "0.3916666666666666666666666667",
+      "dt": 0.05,
+      "steps": 1128,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t58p20",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "58.20",
+      "time_fraction": "0.4041666666666666666666666667",
+      "dt": 0.05,
+      "steps": 1164,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t58p30",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "58.30",
+      "time_fraction": "0.4048611111111111111111111111",
+      "dt": 0.05,
+      "steps": 1166,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t58p35",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "58.35",
+      "time_fraction": "0.4052083333333333333333333333",
+      "dt": 0.05,
+      "steps": 1167,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t58p45",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "58.45",
+      "time_fraction": "0.4059027777777777777777777778",
+      "dt": 0.05,
+      "steps": 1169,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_gL4",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "4",
+      "family_key": "L144_gL4",
+      "case_id": "L144_gL4_translated_t61p92",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.027777777777777776,
+      "physical_time": "61.92",
+      "time_fraction": "0.43",
+      "dt": 0.05,
+      "steps": 1238,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27",
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_edge_t69p25",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "69.25",
+      "time_fraction": "0.4809027777777777777777777778",
+      "dt": 0.05,
+      "steps": 1385,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_edge_t69p35",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "69.35",
+      "time_fraction": "0.4815972222222222222222222222",
+      "dt": 0.05,
+      "steps": 1387,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_edge_t69p40",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "69.40",
+      "time_fraction": "0.4819444444444444444444444444",
+      "dt": 0.05,
+      "steps": 1388,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_edge_t69p50",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "69.50",
+      "time_fraction": "0.4826388888888888888888888889",
+      "dt": 0.05,
+      "steps": 1390,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "left"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_edge_t81p50",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "81.50",
+      "time_fraction": "0.5659722222222222222222222222",
+      "dt": 0.05,
+      "steps": 1630,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_edge_t81p60",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "81.60",
+      "time_fraction": "0.5666666666666666666666666667",
+      "dt": 0.05,
+      "steps": 1632,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_edge_t81p65",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "81.65",
+      "time_fraction": "0.5670138888888888888888888889",
+      "dt": 0.05,
+      "steps": 1633,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_edge_t81p75",
+      "group": "edge",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "81.75",
+      "time_fraction": "0.5677083333333333333333333333",
+      "dt": 0.05,
+      "steps": 1635,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "target_initials": [
+        "right"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t43p20",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "43.20",
+      "time_fraction": "0.30",
+      "dt": 0.05,
+      "steps": 864,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27",
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t52p10",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "52.10",
+      "time_fraction": "0.3618055555555555555555555556",
+      "dt": 0.05,
+      "steps": 1042,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t52p20",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "52.20",
+      "time_fraction": "0.3625",
+      "dt": 0.05,
+      "steps": 1044,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t52p25",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "52.25",
+      "time_fraction": "0.3628472222222222222222222222",
+      "dt": 0.05,
+      "steps": 1045,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t52p35",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "52.35",
+      "time_fraction": "0.3635416666666666666666666667",
+      "dt": 0.05,
+      "steps": 1047,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t61p92",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "61.92",
+      "time_fraction": "0.43",
+      "dt": 0.05,
+      "steps": 1238,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27",
+        "block_cell9"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t62p75",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "62.75",
+      "time_fraction": "0.4357638888888888888888888889",
+      "dt": 0.05,
+      "steps": 1255,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t62p85",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "62.85",
+      "time_fraction": "0.4364583333333333333333333333",
+      "dt": 0.05,
+      "steps": 1257,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t62p90",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "62.90",
+      "time_fraction": "0.4368055555555555555555555556",
+      "dt": 0.05,
+      "steps": 1258,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    {
+      "key": "L144_g0p25",
+      "length": 144,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L144_g0p25",
+      "case_id": "L144_g0p25_translated_t63p00",
+      "group": "translated",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "63.00",
+      "time_fraction": "0.4375",
+      "dt": 0.05,
+      "steps": 1260,
+      "initials": [
+        "charge_density_wave",
+        "block_cell9",
+        "block_cell27"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "block_cell9"
+        ],
+        [
+          "charge_density_wave",
+          "block_cell27"
+        ],
+        [
+          "block_cell9",
+          "block_cell27"
+        ]
+      ],
+      "target_initials": [
+        "block_cell27"
+      ],
+      "role": "new_time_validation",
+      "digits": [
+        200,
+        240,
+        280,
+        320
+      ]
+    }
+  ],
+  "pilots": [
+    {
+      "key": "L160_gL0",
+      "length": 160,
+      "gamma": 2.0,
+      "skin_mode": "gL",
+      "skin_value": "0",
+      "family_key": "L160_gL0",
+      "case_id": "L160_gL0_pilot",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.0,
+      "physical_time": "84.000",
+      "time_fraction": "0.525",
+      "dt": 0.05,
+      "steps": 1680,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "role": "precision_cost_pilot",
+      "digits": [
+        240,
+        280,
+        320,
+        360
+      ]
+    },
+    {
+      "key": "L192_g0p25",
+      "length": 192,
+      "gamma": 2.0,
+      "skin_mode": "g",
+      "skin_value": "0.25",
+      "family_key": "L192_g0p25",
+      "case_id": "L192_g0p25_pilot",
+      "t1": 0.5,
+      "t2": 1.0,
+      "boundary": "open",
+      "skin": 0.25,
+      "physical_time": "105.60",
+      "time_fraction": "0.55",
+      "dt": 0.05,
+      "steps": 2112,
+      "initials": [
+        "charge_density_wave",
+        "left",
+        "right"
+      ],
+      "pairs": [
+        [
+          "charge_density_wave",
+          "left"
+        ],
+        [
+          "charge_density_wave",
+          "right"
+        ],
+        [
+          "left",
+          "right"
+        ]
+      ],
+      "role": "precision_cost_pilot",
+      "digits": [
+        240,
+        280,
+        320,
+        360
+      ]
+    }
+  ],
+  "objective": "resolve weak-skin projector shifts and translated-block memory before new truth",
+  "ranks": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    8,
+    12,
+    16
+  ],
+  "model_projector_target": 1e-05,
+  "selection_tolerances": {
+    "projector": 0.05,
+    "absolute_entropy": 0.05
+  },
+  "memory_tolerances": {
+    "projector": 0.1,
+    "absolute_entropy": 0.1
+  },
+  "root_abs_error_gate": 0.1,
+  "local_grid_gap": 0.1,
+  "scope": "finite sampled SSH OBC fronts; no continuous first-crossing, asymptotic theorem or second-model claim"
+}

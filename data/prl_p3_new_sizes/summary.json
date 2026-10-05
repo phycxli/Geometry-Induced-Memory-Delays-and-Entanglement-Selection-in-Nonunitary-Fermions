@@ -1,0 +1,30 @@
+{
+  "conditions": 104,
+  "states": 328,
+  "pairs": 336,
+  "families": 8,
+  "actual_selected": 226,
+  "guaranteed_selected": 226,
+  "guaranteed_unselected": 102,
+  "undecided": 0,
+  "wrong_guarantees": 0,
+  "remainder_target_passed": 328,
+  "max_rank": 12.0,
+  "max_actual_projector_error": 9.755728156421526e-06,
+  "actual_projector_memory": 96,
+  "guaranteed_projector_memory": 96,
+  "actual_entropy_memory": 64,
+  "guaranteed_entropy_memory": 64,
+  "entropy_selected_projection_unselected": 61,
+  "reference_digits": [
+    280
+  ],
+  "max_prediction_precision_change": 1.5722824712430757e-107,
+  "completed_utc": "2026-10-04T14:48:25.775195+00:00",
+  "scope": "new finite sizes and sampled crossings; no continuous cutoff or uniform asymptotic proof",
+  "pair_distance_intervals_covered": 336,
+  "pair_entropy_intervals_covered": 336,
+  "audit_digits": [
+    280
+  ]
+}
