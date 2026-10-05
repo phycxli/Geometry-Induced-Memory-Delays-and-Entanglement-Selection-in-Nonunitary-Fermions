@@ -1,0 +1,2 @@
+# Geometry-Induced-Memory-Delays-and-Entanglement-Selection-in-Nonunitary-Fermions
+e show that occupation geometry separates output-space selection from actual-state relaxation. In an open isospectral chain, the output space selects on a size-independent time scale, whereas half-chain occupations retain memory for at least a time proportional to system size. A charge-density wave selects in bounded projection time.
