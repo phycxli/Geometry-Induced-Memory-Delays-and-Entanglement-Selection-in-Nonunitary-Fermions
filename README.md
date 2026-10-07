@@ -1,6 +1,7 @@
 # Geometry-Induced Memory Delays and Entanglement Selection in Nonunitary Fermions
 
-Numerical code and figure data for the study by Chengxi Li, Haozhu, and Wanzi Sun.
+Numerical code and figure data for the study by Chengxi Li, Hao Zhu, Tie-Fu Zhang,
+Wanzi Sun, and Wuming Liu.
 The calculations concern normalized, fixed-particle, no-loss Slater states in an
 open non-Hermitian SSH chain and a complex local extension. Projector distance
 measures occupied-subspace memory; it is distinct from a many-body trace distance.
@@ -23,7 +24,7 @@ python scripts/reproduce_paper.py all
 
 The command verifies every released file against `release_manifest.json`,
 independently recomputes the three short-time preparations using SciPy and
-80-digit mpmath, and redraws the four main figures and five cited supplemental
+80-digit mpmath, and redraws the four main figures and six cited supplemental
 figures. One additional historical geometry plot is also generated.
 Results go to `reproduction_output/`; frozen input tables are preserved.
 `reproduction_output/verification.json` records numerical differences and output
@@ -53,8 +54,15 @@ This is a numerical prediction for a proposed experiment, not experimental data.
 
 ## Scope And Precision
 
-Main figures 2--4 use saved high-precision large-size results. Redrawing them
+Main figures 2--4 include the extended-size, signed-response, and time-trajectory
+checks saved under `data/prl_figure_strengthening/`. Redrawing them
 verifies and visualizes those tables; it does not rerun the large calculations.
+The extension adds 144 low-threshold candidates, 541 trajectory samples, and
+28 independent propagation points bracketing 14 new crossings. Of 64 frozen
+time forecasts at L320/384, 16 exceed the preceding 0.15 tolerance; the maximum
+absolute error is 0.280337 and maximum relative error is 0.126745%.
+The combined 76 low-threshold widths range from 1.2809893 to 1.3125999.
+These observations are separate from the continuous low-threshold theorem.
 The independent short-time reproduction compares projector distance, entropy,
 and log no-loss probability with the saved tables and compares float64 with an
 independent arbitrary-precision calculation. The tolerance is `2e-10`.

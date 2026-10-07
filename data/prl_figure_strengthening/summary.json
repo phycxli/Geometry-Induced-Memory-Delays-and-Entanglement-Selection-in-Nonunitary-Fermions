@@ -1,0 +1,80 @@
+{
+  "status": "complete",
+  "computed_utc": "2026-10-07T04:25:02.411603+00:00",
+  "counts": {
+    "spectral": 5,
+    "static": 9,
+    "curves": 9,
+    "traces": 9,
+    "response": 12,
+    "reference_contexts": 6,
+    "references": 28
+  },
+  "old_threshold_roots": 240,
+  "new_low_threshold_roots": 144,
+  "widths": 76,
+  "trace_points": 541,
+  "signed_response_points": 42,
+  "reflection_comparisons": 18,
+  "independent_propagation_points": 28,
+  "frozen_prediction_tests": 64,
+  "max_frozen_prediction_error": 0.2803371715546632,
+  "max_relative_frozen_prediction_error": 0.0012674516459034114,
+  "predictions_above_earlier_015_tolerance": 16,
+  "worst_frozen_prediction": {
+    "family_key": "L384_g0p25",
+    "kind": "right",
+    "level": "0.3",
+    "coefficients": [
+      0.583140511345118,
+      -3.024544732570632
+    ],
+    "predicted_time": 220.9014116239547,
+    "training_sizes": [
+      128.0,
+      160.0,
+      192.0,
+      224.0,
+      256.0
+    ],
+    "actual_time": 221.18174879550935,
+    "signed_error": 0.2803371715546632
+  },
+  "max_root_projector_remainder": 3.5532583073012333e-06,
+  "max_trace_precision_change": 5.2879859559888e-147,
+  "max_independent_precision_change": 1.00230612986195e-180,
+  "max_independent_reduced_error": 3.560874382165343e-21,
+  "numerical_checks": {
+    "status": "passed",
+    "unique_roots": 144,
+    "trajectory_methods": {
+      "low_rank_12": 308,
+      "dense_graph": 52,
+      "low_rank_24": 7,
+      "relative_signed_norm_bound_rank_12": 116,
+      "relative_signed_norm_bound_rank_32": 8,
+      "relative_signed_norm_bound_rank_24": 50
+    },
+    "max_relative_trajectory_remainder": 1.00000300931975,
+    "max_L384_relative_trajectory_remainder": 1.583014195809684e-07,
+    "relative_remainder_scope": "The L384 tail has an additional relative budget; an absolute remainder divided by an extremely small CDW distance can be large",
+    "independent_bracketed_roots": 14,
+    "persistence_samples": 180,
+    "max_persistence_ratio": 1.0000000000000002,
+    "scope": "Converged numerical comparisons within existing exact-arithmetic bounds; no interval certificate or new fitted forecast gate"
+  },
+  "low_window_range": [
+    1.280989265441903,
+    1.3125998497009448
+  ],
+  "reflection_ratio_range": [
+    33.45221312132654,
+    3.236550471879554e+17
+  ],
+  "science_boundaries": [
+    "No sharp time-coefficient theorem",
+    "Static reflected delta is not exactly whitened alpha",
+    "Low-threshold theorem, no all-threshold cutoff or universal profile",
+    "High-precision convergence, not interval certification"
+  ]
+}

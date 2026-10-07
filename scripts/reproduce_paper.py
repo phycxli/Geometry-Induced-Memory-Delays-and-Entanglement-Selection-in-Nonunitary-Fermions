@@ -172,15 +172,26 @@ def figures(output: Path) -> dict:
     plt.rcParams.update({"font.family": "Arial", "mathtext.fontset": "stix", "font.size": 8,
                          "axes.labelsize": 8, "xtick.labelsize": 7, "ytick.labelsize": 7,
                          "pdf.fonttype": 42, "axes.linewidth": .7, "legend.fontsize": 7})
-    info = {
-        "fig1_occupations": drawing.occupations(),
-        "fig2_geometry_memory": drawing.flagship(read_csv(drawing.INPUTS[0]), read_csv(drawing.INPUTS[1]), False),
-        "fig3_reflection_response": drawing.geometry(read_csv(drawing.INPUTS[5]), read_csv(drawing.INPUTS[4]), False),
-        "fig4_continuous_window": drawing.window(read_csv(drawing.INPUTS[2]), read_csv(drawing.INPUTS[3]), read_csv(drawing.INPUTS[1]), False),
-    }
+    info = {"fig1_occupations": drawing.occupations()}
+    expanded = ROOT / "data/prl_figure_strengthening/summary.json"
+    if expanded.exists() and json.loads(expanded.read_text(encoding="utf-8"))["status"] == "complete":
+        import plot_strengthened_figures as strengthened
+        strengthened.FIG = drawing.FIG
+        info.update({"fig2_geometry_memory": strengthened.flagship(),
+                     "fig3_reflection_response": strengthened.geometry(),
+                     "fig4_continuous_window": strengthened.window()})
+    else:
+        info.update({
+            "fig2_geometry_memory": drawing.flagship(read_csv(drawing.INPUTS[0]), read_csv(drawing.INPUTS[1]), False),
+            "fig3_reflection_response": drawing.geometry(read_csv(drawing.INPUTS[5]), read_csv(drawing.INPUTS[4]), False),
+            "fig4_continuous_window": drawing.window(read_csv(drawing.INPUTS[2]), read_csv(drawing.INPUTS[3]), read_csv(drawing.INPUTS[1]), False),
+        })
     supplement.FIG = output / "supplement_figures"
     supplement.figures()
     analytic_supplement(supplement.FIG)
+    if expanded.exists() and json.loads(expanded.read_text(encoding="utf-8"))["status"] == "complete":
+        drawing.FIG = strengthened.FIG = supplement.FIG
+        strengthened.supplemental()
     files = sorted(p for p in output.rglob("*") if p.suffix in (".pdf", ".png"))
     return dict(status="passed", main_figures=info, outputs=[dict(path=p.relative_to(output).as_posix(),
                       bytes=p.stat().st_size, sha256=digest(p)) for p in files],

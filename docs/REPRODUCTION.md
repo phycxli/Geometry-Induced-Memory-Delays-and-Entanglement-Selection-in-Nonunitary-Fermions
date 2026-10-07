@@ -27,14 +27,26 @@ generally mixed ensemble.
 | Figure | Numerical input or construction |
 |---|---|
 | Main 1 | Deterministic apparatus/occupation schematic; no simulation data |
-| Main 2 | `data/prl_p3_new_sizes/states.csv`, `data/prl_theory_upgrade/widths.csv`; analytic CDW envelope |
-| Main 3 | `data/prl_theory_upgrade/spatial_response_checks.csv`, `weak_skin_response.csv` |
-| Main 4 | `data/prl_theory_upgrade/roots.csv`, `reference_checks.csv`, `widths.csv` |
+| Main 2 | Extended `traces.csv`, `early_output.csv`, `widths.csv`, `prediction_checks.csv`; retained entropy snapshot; analytic output/CDW bounds |
+| Main 3 | Extended `signed_response.csv` and retained `fig3_weak_skin.csv` |
+| Main 4 | Extended `traces.csv`, `independent_checks.csv`, `widths.csv`; analytic contraction envelope |
 | Supplemental 1: rank failure | `data/prl_p3_new_sizes/development/rank_failure_resolution.csv` |
 | Supplemental 2: complex model | `data/prl_p4_passive_complex/states.csv` |
 | Supplemental 3: resources | `data/prl_e_feasibility/common_loss_states.csv` |
 | Supplemental 4: selection/memory | `data/prl_p3_new_sizes/states.csv`, `front_checks.csv`, `memory.csv` |
 | Supplemental 5: envelopes | Analytic constants/envelopes and `data/prl_theory_upgrade/reference_checks.csv` |
+| Supplemental 6: extended controls | Extended signed response, reflection ratios, absolute widths, frozen forecast errors; retained absolute scales and six-threshold diagnostics |
+
+Here "extended" refers to `data/prl_figure_strengthening/`. That directory combines
+new results with labeled earlier cohorts without replacing the historical tables.
+The 64 larger-size forecasts were frozen using the five preceding sizes; their
+errors are reported without fitting a new acceptance tolerance. The static
+reflected scale is not the exactly whitened input overlap or an actual-time shift.
+Sixteen of 64 new forecasts exceed the preceding 0.15 tolerance; the maximum
+absolute error is 0.280337 and maximum relative error is 0.126745%.
+The nine actual-state trajectories contain 541 samples. The L384 tail's
+maximum reconstruction remainder relative to distance is 1.58301e-7;
+an absolute remainder divided by an extremely small CDW distance can be large.
 
 `data/prl_manuscript_revision/fig*.csv` contains the compact per-panel exports.
 `figure_provenance.json` records the original assets and input hashes. Reproduction
@@ -60,6 +72,29 @@ entry point. These entry points are not automatically dispatched by `all`.
 | `run_theory_upgrade_hpc.py` | Continuous SSH selection, structured exponential, low-rank roots | Historical statics at L128/160/192, fresh statics at L224/256, extrapolation/reference records; 320/360 digits for new comparisons |
 | `run_spatial_response_theory.py` | Reflected weak-skin response | Prediction record and Gram quadrature; `2L` and `2L+40` digits at new sizes |
 | `audit_theory_envelopes.py` | Small-matrix checks of analytic inequalities | Uses the released numerical kernels |
+| `run_figure_strengthening.py` | Extended L320/384 dynamics, g=1/8 controls, signed response and reflection comparisons | Cached reciprocal spectra at 240/280--540/580 digits; stages `spectral`, `static`, `curves`, `response`, `reflection`, `reference_context`, `reference` |
+| `run_figure_traces.py`, `run_figure_traces_safe.py` | Full trajectories and 12-unit post-selection tails | Uses spectral/curve outputs; complete-column QR when compact early coordinates are ill conditioned; stages `checks`, `trace` |
+| `run_figure_curves_parallel.py`, `run_figure_trace_chunks.py` | L384 geometry roots and parallel time samples | Four independent geometry tasks per family; four interleaved time chunks per trajectory; hash-checked assembly |
+| `run_figure_traces_fast.py`, `run_figure_traces_adaptive.py` | Full signed-residual norm-product bound and rank adaptation | Small direct-state checks precede large-size benchmarking; larger ranks are required when the product bound is too conservative |
+
+The extended dynamic entry points can regenerate reciprocal spectra and static
+contexts from their released configuration. They also read earlier curve files
+for the L128/192 display traces and L512 raw reflected Gram inverses for some
+static scans. Those raw matrices and historic curve JSON files are retained in
+the full research project. Quick figure reproduction reads the released compact
+tables and does not require those matrices. The production `initialize` command
+also records a manuscript backup in the full project; these files are outside
+this public code release.
+
+For the extended residual bound, every entry of
+`E(t)-A_r(t)B_r(t)` retains its sign and exponential weight. Frobenius
+submultiplicativity bounds the discarded complete columns. The rank-12
+product bound is too conservative for the L384 left block; the retained
+benchmark documents rank adaptation rather than accepting that bound.
+Displayed tail samples require a reconstruction remainder below both `1e-7`
+and `0.001 * distance`. Complete-column QR remains the fallback. Two
+working precisions are compared at each point. These checks establish
+numerical convergence, not interval certification.
 
 For the original full pipeline, static preparation precedes low-rank prediction;
 predictions are fixed before independent direct propagation; analysis is run after

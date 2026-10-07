@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-07",
+  "families": [
+    {
+      "key": "L128_g0p125",
+      "length": 128,
+      "skin": "0.125",
+      "digits": [
+        240,
+        280
+      ],
+      "role": "intermediate_skin"
+    },
+    {
+      "key": "L192_g0p125",
+      "length": 192,
+      "skin": "0.125",
+      "digits": [
+        280,
+        320
+      ],
+      "role": "intermediate_skin"
+    },
+    {
+      "key": "L256_g0p125",
+      "length": 256,
+      "skin": "0.125",
+      "digits": [
+        380,
+        420
+      ],
+      "role": "intermediate_skin"
+    },
+    {
+      "key": "L320_g0",
+      "length": 320,
+      "skin": "0",
+      "digits": [
+        460,
+        500
+      ],
+      "role": "new_size"
+    },
+    {
+      "key": "L320_g0p125",
+      "length": 320,
+      "skin": "0.125",
+      "digits": [
+        460,
+        500
+      ],
+      "role": "new_size"
+    },
+    {
+      "key": "L320_g0p25",
+      "length": 320,
+      "skin": "0.25",
+      "digits": [
+        460,
+        500
+      ],
+      "role": "new_size"
+    },
+    {
+      "key": "L384_g0",
+      "length": 384,
+      "skin": "0",
+      "digits": [
+        540,
+        580
+      ],
+      "role": "new_size"
+    },
+    {
+      "key": "L384_g0p125",
+      "length": 384,
+      "skin": "0.125",
+      "digits": [
+        540,
+        580
+      ],
+      "role": "new_size"
+    },
+    {
+      "key": "L384_g0p25",
+      "length": 384,
+      "skin": "0.25",
+      "digits": [
+        540,
+        580
+      ],
+      "role": "new_size"
+    }
+  ],
+  "lengths": [
+    128,
+    192,
+    256,
+    320,
+    384
+  ],
+  "response_lengths": [
+    64,
+    128,
+    512
+  ],
+  "response_chi": [
+    "-4",
+    "-2",
+    "-1",
+    "0",
+    "1",
+    "2",
+    "4"
+  ],
+  "reflection_lengths": [
+    128,
+    256,
+    512
+  ],
+  "levels": [
+    "0.3",
+    "0.1",
+    "0.05",
+    "0.01"
+  ],
+  "root_tolerance": "0.000002",
+  "projector_budget": "0.00001",
+  "reference_offsets": [
+    "-.08",
+    ".08"
+  ],
+  "scope": "SSH OBC gamma=2 t1=.5; |g|<=.25; low thresholds to G; empirical extrapolation separate from theorem"
+}

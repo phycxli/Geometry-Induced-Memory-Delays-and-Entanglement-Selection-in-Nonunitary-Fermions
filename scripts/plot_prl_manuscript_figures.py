@@ -527,6 +527,13 @@ def main():
     selection.add_argument("--flagship-only", action="store_true", help="Redraw Fig. 2 while preserving other figures and all CSV inputs")
     selection.add_argument("--mechanism-only", action="store_true", help="Redraw Figs. 3 and 4 while preserving Figs. 1 and 2 and all CSV inputs")
     args = parser.parse_args()
+    strengthened = ROOT / "data/prl_figure_strengthening/summary.json"
+    if not args.model_only and strengthened.exists() and json.loads(strengthened.read_text(encoding="utf-8"))["status"] == "complete":
+        import plot_strengthened_figures
+        targets = (["fig2_geometry_memory"] if args.flagship_only else
+                   ["fig3_reflection_response", "fig4_continuous_window"] if args.mechanism_only else None)
+        print(json.dumps(plot_strengthened_figures.render(targets), ensure_ascii=False))
+        return
     OUT.mkdir(parents=True, exist_ok=True)
     FIG.mkdir(parents=True, exist_ok=True)
     plt.rcParams.update({"font.family": "Arial", "mathtext.fontset": "stix", "font.size": 8, "axes.labelsize": 8,
@@ -537,7 +544,7 @@ def main():
         targets = (["fig3_reflection_response", "fig4_continuous_window"] if args.mechanism_only else
                    ["fig1_occupations" if args.model_only else "fig2_geometry_memory"])
         previous = json.loads((OUT / "figure_provenance.json").read_text(encoding="utf-8"))
-        assert previous["source_inputs"] == before
+        assert all(previous["source_inputs"].get(path) == value for path, value in before.items())
         assert all(digest(ROOT / row["path"]) == row["sha256"] for row in previous["outputs"]
                    if Path(row["path"]).stem not in targets)
         figures = previous["figures"]
@@ -555,7 +562,7 @@ def main():
         }
     assert before == {relative: digest(ROOT / relative) for relative in INPUTS}
     receipt = {"status": "generated", "generated_utc": datetime.now(timezone.utc).isoformat(),
-               "source_sha256": digest(Path(__file__)), "source_inputs": before, "figures": figures,
+               "source_sha256": digest(Path(__file__)), "source_inputs": {**previous["source_inputs"], **before} if args.model_only else before, "figures": figures,
                "outputs": [{"path": p.relative_to(ROOT).as_posix(), "bytes": p.stat().st_size, "sha256": digest(p)}
                            for stem in figures for p in (FIG / (stem + ".pdf"), FIG / (stem + ".png"))],
                "new_scientific_computations": False,

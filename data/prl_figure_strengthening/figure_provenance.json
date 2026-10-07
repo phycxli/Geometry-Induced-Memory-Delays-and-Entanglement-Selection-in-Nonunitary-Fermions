@@ -3,14 +3,6 @@
   "generated_utc": "2026-10-07T04:25:14.339904+00:00",
   "source_sha256": "4129B7057E4FEA0F6E9895F3E4B448E850F7B340F9B720815DC3B5460597AAAC",
   "source_inputs": {
-    "data/prl_p3_new_sizes/states.csv": "7CAE2F618A0F43E8E4190B2590372F1415F834073C114C71AF759E8897F533E1",
-    "data/prl_theory_upgrade/widths.csv": "7D74E1F23356163C109F2D36DCB5465BBABBE63F4A4168ACEB85A4023BCD1EAB",
-    "data/prl_theory_upgrade/roots.csv": "7D65FA2824B1E65B7F2F8233D97BA811166C980F369E10DA78A749BC4592FE61",
-    "data/prl_theory_upgrade/reference_checks.csv": "F9C00E572D3E41ECC89C67F1EA8E2172CF938BC7021666D6C290E9BD2B06F67E",
-    "data/prl_theory_upgrade/weak_skin_response.csv": "BFE5CF7DA1C31413C518E91A98BACF3C9FD9BEC74ADB1644BCA320449D7A9198",
-    "data/prl_theory_upgrade/spatial_response_checks.csv": "6050D32097A9C45E09A6D087DECAC478428EB5C463DE8DE3F7BC20B33A66129E",
-    "data/prl_theory_upgrade/summary.json": "7846F26E31AECB32417590CC679BEC955D7B54523CDA9E0F0AA1BA7541A3A320",
-    "scripts/analyze_theory_upgrade.py": "7E5D9EC50182DAB041D83687E4C395C6F423791F909167B880052B9B9EABD71B",
     "data/prl_figure_strengthening/roots.csv": "59975403CABDDEAB500A73066BDBE84E1EB0CA8F7060BE981A3772E0E3BA049C",
     "data/prl_figure_strengthening/widths.csv": "115A3F7FD346532D9EBA4C59433F4138B471CC1CB19F5BE17DF066D4C9CB89BB",
     "data/prl_figure_strengthening/traces.csv": "D5E462B6D04627CD5EC041D3A6BE5886B8098CCB4AD99A38639E87F4447D4D75",
@@ -24,60 +16,10 @@
     "data/prl_manuscript_revision/fig2_same_protocol.csv": "61FE3304431CBCB8CA0678AC283CD74855A34D9941B3023079421BEB747FF40D",
     "data/prl_manuscript_revision/fig3_weak_skin.csv": "BFE5CF7DA1C31413C518E91A98BACF3C9FD9BEC74ADB1644BCA320449D7A9198",
     "data/prl_manuscript_revision/fig3_reflected_geometry.csv": "6050D32097A9C45E09A6D087DECAC478428EB5C463DE8DE3F7BC20B33A66129E",
-    "data/prl_manuscript_revision/fig4_threshold_scans.csv": "7D65FA2824B1E65B7F2F8233D97BA811166C980F369E10DA78A749BC4592FE61"
+    "data/prl_manuscript_revision/fig4_threshold_scans.csv": "7D65FA2824B1E65B7F2F8233D97BA811166C980F369E10DA78A749BC4592FE61",
+    "scripts/analyze_theory_upgrade.py": "7E5D9EC50182DAB041D83687E4C395C6F423791F909167B880052B9B9EABD71B"
   },
   "figures": {
-    "fig1_occupations": {
-      "panels": 2,
-      "schematic_sites": 8,
-      "model_sites": 8,
-      "model_unit_cells": 4,
-      "intracell_bonds": 4,
-      "intercell_bonds": 3,
-      "initial_occupied_sites": {
-        "CDW": [
-          0,
-          2,
-          4,
-          6
-        ],
-        "Left": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "Right": [
-          4,
-          5,
-          6,
-          7
-        ]
-      },
-      "model_labels": [
-        "H_eff=H-ic_*I",
-        "t1=1/2",
-        "e^g",
-        "e^-g",
-        "OBC"
-      ],
-      "apparatus": [
-        "open optical superlattice",
-        "site-selective particle loss",
-        "number-resolved imaging and final N screening",
-        "phase-controlled Raman coupling to a common lossy auxiliary mode"
-      ],
-      "shared_channel_phase": "v_B=i sgn(g) v_A; reservoir bandwidth kappa requires calibration",
-      "physical_gain": false,
-      "experimental_data": false,
-      "rendering": "deterministic shaded atoms and auxiliary mode, vector optics, lenses and detector; white background",
-      "figure_size_inches": [
-        3.4,
-        2.8
-      ],
-      "png_dpi": 600,
-      "scope": "proposed apparatus and initial occupations, not built hardware or a finite-size simulation"
-    },
     "fig2_geometry_memory": {
       "panels": 3,
       "time_trace_points": 193,
@@ -124,19 +66,16 @@
       "post_selection_duration": 12,
       "relative_width_definition": "(t_.01-t_.3)/t_.05",
       "scope": "two-precision actual low-threshold samples and independent propagation, analytic G persistence envelope; no universal-profile assertion"
+    },
+    "figS_strengthened_validation": {
+      "panels": 6,
+      "absolute_widths": 76,
+      "reflection_comparisons": 18,
+      "frozen_predictions": 64,
+      "scope": "complete parameter controls and retained large-angle diagnostics; no interval certification"
     }
   },
   "outputs": [
-    {
-      "path": "figures/prl_manuscript_revision/fig1_occupations.pdf",
-      "sha256": "04DD3F2E094099C96E28F711E52E657849F1AAFAAD84BE75F4E8ED56B778638F",
-      "bytes": 50878
-    },
-    {
-      "path": "figures/prl_manuscript_revision/fig1_occupations.png",
-      "sha256": "0859DF4AA21E4AF94A19B720040615E7BD4261D91F7BC34458D5DBE594C435EE",
-      "bytes": 387825
-    },
     {
       "path": "figures/prl_manuscript_revision/fig2_geometry_memory.pdf",
       "sha256": "E32D3B652552B836EC7E944812AE24A41539C9C433CCE84FB59A47E1D1AAB781",
@@ -166,17 +105,20 @@
       "path": "figures/prl_manuscript_revision/fig4_continuous_window.png",
       "sha256": "F1DE99C5045698F4F8FF78AEC86C337BF4A353AAAA5176020E588958E3BF7A65",
       "bytes": 292831
+    },
+    {
+      "path": "figures/prl_manuscript_revision/figS_strengthened_validation.pdf",
+      "sha256": "B6B9ACE14EC7F51E7769E24A4A097E01E56A75BA556CB2BEC09D7285CDBC59F0",
+      "bytes": 54043
+    },
+    {
+      "path": "figures/prl_manuscript_revision/figS_strengthened_validation.png",
+      "sha256": "978FEF92A4A2CE69C17CE1C7F313D0D76C33C7438CBA83656AB854AB4292FCDB",
+      "bytes": 863828
     }
   ],
-  "new_scientific_computations": true,
+  "background": "white",
   "panel_titles": false,
   "panel_label_position": "below axes",
-  "redrawn_figures": [
-    "fig2_geometry_memory",
-    "fig3_reflection_response",
-    "fig4_continuous_window",
-    "figS_strengthened_validation"
-  ],
-  "scope": "Expanded numerical evidence with original historical CSVs preserved",
-  "strengthening_evidence": "data/prl_figure_strengthening/figure_provenance.json"
+  "new_scientific_computations": true
 }

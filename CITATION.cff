@@ -5,9 +5,14 @@ type: software
 authors:
   - family-names: Li
     given-names: Chengxi
-  - name: Haozhu
+  - family-names: Zhu
+    given-names: Hao
+  - family-names: Zhang
+    given-names: Tie-Fu
   - family-names: Sun
     given-names: Wanzi
+  - family-names: Liu
+    given-names: Wuming
 repository-code: "https://github.com/phycxli/Geometry-Induced-Memory-Delays-and-Entanglement-Selection-in-Nonunitary-Fermions"
 license: MIT
 version: 0.1.0

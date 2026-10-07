@@ -1,0 +1,26 @@
+[
+  {
+    "path": "data/prl_theory_upgrade/roots.csv",
+    "sha256": "7D65FA2824B1E65B7F2F8233D97BA811166C980F369E10DA78A749BC4592FE61"
+  },
+  {
+    "path": "data/prl_theory_upgrade/widths.csv",
+    "sha256": "7D74E1F23356163C109F2D36DCB5465BBABBE63F4A4168ACEB85A4023BCD1EAB"
+  },
+  {
+    "path": "data/prl_manuscript_revision/fig3_weak_skin.csv",
+    "sha256": "BFE5CF7DA1C31413C518E91A98BACF3C9FD9BEC74ADB1644BCA320449D7A9198"
+  },
+  {
+    "path": "scripts/run_theory_upgrade_hpc.py",
+    "sha256": "39A922429367BA86634557BC45A2CCEDE35BD8A70538DF78A56DA11168153AB6"
+  },
+  {
+    "path": "scripts/run_selection_front_hpc.py",
+    "sha256": "DBE41314274772EC91391C4EA4713656D1292E4BCA78E2F1A98437375BE78CF2"
+  },
+  {
+    "path": "scripts/run_fine_front_hpc.py",
+    "sha256": "F36A7405BA7F0BA94CEB448E490626A9CD3FDC0BB38D8E5B12A187AC1B5D36C2"
+  }
+]
