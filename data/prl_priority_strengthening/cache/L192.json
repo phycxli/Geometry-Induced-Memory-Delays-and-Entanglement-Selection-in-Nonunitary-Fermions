@@ -1,0 +1,21 @@
+{
+  "family": {
+    "key": "L192",
+    "length": 192,
+    "gamma": 2.0,
+    "t1": 0.5,
+    "t2": 1.0,
+    "role": "retested_size",
+    "source": "data/prl_figure_strengthening/spectral/L192.raw.json.gz"
+  },
+  "source": "data/prl_figure_strengthening/spectral/L192.raw.json.gz",
+  "source_sha256": "CC845126A494FA1835069B78F607E7A19BBBCD01365AB7ABCBE062D6ECB85178",
+  "precision_digits": [
+    280,
+    320
+  ],
+  "float_cache_absolute_change": 0.0,
+  "seconds": 1.5765967424958944,
+  "completed_utc": "2026-10-07T08:47:04.894008+00:00",
+  "cache_sha256": "A9A904A5109E68C70FE78D55162F8136F282905799F6C2A1D6ACB647EBD101DA"
+}

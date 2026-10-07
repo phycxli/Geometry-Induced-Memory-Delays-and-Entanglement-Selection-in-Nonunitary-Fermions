@@ -532,7 +532,11 @@ def main():
         import plot_strengthened_figures
         targets = (["fig2_geometry_memory"] if args.flagship_only else
                    ["fig3_reflection_response", "fig4_continuous_window"] if args.mechanism_only else None)
-        print(json.dumps(plot_strengthened_figures.render(targets), ensure_ascii=False))
+        details=plot_strengthened_figures.render(targets)
+        if (ROOT/"data/prl_priority_strengthening/time_response.csv").exists() and (targets is None or "fig3_reflection_response" in targets):
+            import plot_priority_strengthening
+            details.update(plot_priority_strengthening.render()["figures"])
+        print(json.dumps(details, ensure_ascii=False))
         return
     OUT.mkdir(parents=True, exist_ok=True)
     FIG.mkdir(parents=True, exist_ok=True)

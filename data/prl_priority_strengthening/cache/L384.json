@@ -1,0 +1,21 @@
+{
+  "family": {
+    "key": "L384",
+    "length": 384,
+    "gamma": 2.0,
+    "t1": 0.5,
+    "t2": 1.0,
+    "role": "retested_size",
+    "source": "data/prl_figure_strengthening/spectral/L384.raw.json.gz"
+  },
+  "source": "data/prl_figure_strengthening/spectral/L384.raw.json.gz",
+  "source_sha256": "8408FA9EB842B6909DDD18CDD38E6897E3E7FD619F30FD7BABDB39BE121FE08F",
+  "precision_digits": [
+    540,
+    580
+  ],
+  "float_cache_absolute_change": 0.0,
+  "seconds": 11.372010195627809,
+  "completed_utc": "2026-10-07T08:47:14.689387+00:00",
+  "cache_sha256": "3401EA18203D633AF913EAC8FD39807EAB6F08A40BCD1138EDA65D336D9B3B10"
+}

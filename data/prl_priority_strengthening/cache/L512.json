@@ -1,0 +1,21 @@
+{
+  "family": {
+    "key": "L512",
+    "length": 512,
+    "gamma": 2.0,
+    "t1": 0.5,
+    "t2": 1.0,
+    "role": "new_dynamical_size",
+    "source": null
+  },
+  "source": "data/prl_priority_strengthening/spectral/L512.raw.json.gz",
+  "source_sha256": "DD60CF9979DE59D18FA611B42E9B661FE196EBE9F43C8B608F38F3F2DB788609",
+  "precision_digits": [
+    700,
+    740
+  ],
+  "float_cache_absolute_change": 0.0,
+  "seconds": 581.8768802378327,
+  "completed_utc": "2026-10-07T08:56:45.194713+00:00",
+  "cache_sha256": "FBF28BC3937141BB4A11F04A59AC2668688C65389951DE64E7FB241E7E602AB2"
+}

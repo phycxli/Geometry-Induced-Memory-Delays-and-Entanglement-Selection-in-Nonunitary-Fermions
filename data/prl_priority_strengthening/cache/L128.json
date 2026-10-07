@@ -1,0 +1,21 @@
+{
+  "family": {
+    "key": "L128",
+    "length": 128,
+    "gamma": 2.0,
+    "t1": 0.5,
+    "t2": 1.0,
+    "role": "retested_size",
+    "source": "data/prl_figure_strengthening/spectral/L128.raw.json.gz"
+  },
+  "source": "data/prl_figure_strengthening/spectral/L128.raw.json.gz",
+  "source_sha256": "D1FDBABB637AD67B67786D91C340838DD5135DBB5D0A88D07FD4EA37DF12E43A",
+  "precision_digits": [
+    240,
+    280
+  ],
+  "float_cache_absolute_change": 0.0,
+  "seconds": 0.6315215714275837,
+  "completed_utc": "2026-10-07T08:47:03.948896+00:00",
+  "cache_sha256": "A56CE0E85B158EC88D8426E20199B5C7B17586EE1ADD5FFA73E4683BE3F8A096"
+}

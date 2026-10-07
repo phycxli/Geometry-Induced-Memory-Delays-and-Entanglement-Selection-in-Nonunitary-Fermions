@@ -7,9 +7,13 @@ import csv
 from datetime import datetime, timezone
 import hashlib
 import json
+import os
 from pathlib import Path
 import platform
 import sys
+
+for variable in ("OMP_NUM_THREADS","OPENBLAS_NUM_THREADS","MKL_NUM_THREADS"):
+    os.environ[variable]="1"
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
@@ -109,6 +113,36 @@ def pilot() -> dict:
                                  scipy=scipy.__version__, mpmath=mp.__version__))
 
 
+def response() -> dict:
+    from dataclasses import asdict
+    import run_priority_strengthening as study
+
+    config=study.config()
+    cases=[]
+    for family in config["families"]:
+        frozen=json.loads((study.OUT/"scans"/(family["key"]+".json")).read_text(encoding="utf-8"))
+        for name in ("left","right"):
+            for chi in config["chis"]:
+                graph=study.graph_for(family,name,chi)
+                for candidate in (r for r in frozen["rows"] if r["initial"]==name and r["chi"]==chi):
+                    observed=asdict(graph.response(candidate["root_time"]))
+                    root_error=abs(observed["distance"]-candidate["level"])
+                    sensitivity_error=abs(observed["susceptibility"]-candidate["response"]["susceptibility"])
+                    if max(root_error,sensitivity_error)>2e-8:
+                        raise ArithmeticError(f"Response reproduction failed: {family['key']}, {name}, {chi}")
+                    error=abs(candidate["root_time"]-candidate["predicted_time"])
+                    if error>config["linear_time_gate"]:
+                        raise ArithmeticError("Frozen time-prediction gate failed")
+                    cases.append(dict(family=family["key"],initial=name,chi=chi,level=candidate["level"],
+                                      root_residual=root_error,susceptibility_difference=sensitivity_error,time_error=error))
+    if len(cases)!=528:
+        raise ValueError("Expected 528 locked nonzero-bias cases")
+    return dict(status="passed",cases=len(cases),max_root_residual=max(r["root_residual"] for r in cases),
+                max_susceptibility_difference=max(r["susceptibility_difference"] for r in cases),
+                max_frozen_time_error=max(r["time_error"] for r in cases),
+                scope="Recomputes all actual principal-pair responses from released precision-checked full-rank caches; large arbitrary-precision preparation is not repeated")
+
+
 def analytic_supplement(directory: Path) -> None:
     import matplotlib.pyplot as plt
     import numpy as np
@@ -173,13 +207,15 @@ def figures(output: Path) -> dict:
                          "axes.labelsize": 8, "xtick.labelsize": 7, "ytick.labelsize": 7,
                          "pdf.fonttype": 42, "axes.linewidth": .7, "legend.fontsize": 7})
     info = {"fig1_occupations": drawing.occupations()}
+    publication_style = {"axes.labelsize": 8.5, "axes.linewidth": .65}
     expanded = ROOT / "data/prl_figure_strengthening/summary.json"
     if expanded.exists() and json.loads(expanded.read_text(encoding="utf-8"))["status"] == "complete":
         import plot_strengthened_figures as strengthened
         strengthened.FIG = drawing.FIG
-        info.update({"fig2_geometry_memory": strengthened.flagship(),
-                     "fig3_reflection_response": strengthened.geometry(),
-                     "fig4_continuous_window": strengthened.window()})
+        with plt.rc_context(publication_style):
+            info.update({"fig2_geometry_memory": strengthened.flagship(),
+                         "fig3_reflection_response": strengthened.geometry(),
+                         "fig4_continuous_window": strengthened.window()})
     else:
         info.update({
             "fig2_geometry_memory": drawing.flagship(read_csv(drawing.INPUTS[0]), read_csv(drawing.INPUTS[1]), False),
@@ -191,7 +227,17 @@ def figures(output: Path) -> dict:
     analytic_supplement(supplement.FIG)
     if expanded.exists() and json.loads(expanded.read_text(encoding="utf-8"))["status"] == "complete":
         drawing.FIG = strengthened.FIG = supplement.FIG
-        strengthened.supplemental()
+        with plt.rc_context(publication_style):
+            strengthened.supplemental()
+    response=ROOT/"data/prl_priority_strengthening/time_response.csv"
+    if response.exists():
+        import plot_priority_strengthening as priority
+        priority.FIG=output/"main_figures"
+        data=read_csv("data/prl_priority_strengthening/time_response.csv")
+        zero=read_csv("data/prl_priority_strengthening/zero_bias_response.csv")
+        with plt.rc_context(publication_style):
+            info.update(fig3_reflection_response=priority.geometry(data,copy_projects=False))
+            priority.supplemental(data,zero,target=supplement.FIG/"time_response_validation",copy_projects=False)
     files = sorted(p for p in output.rglob("*") if p.suffix in (".pdf", ".png"))
     return dict(status="passed", main_figures=info, outputs=[dict(path=p.relative_to(output).as_posix(),
                       bytes=p.stat().st_size, sha256=digest(p)) for p in files],
@@ -200,17 +246,17 @@ def figures(output: Path) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("stage", choices=("verify", "pilot", "figures", "all"))
+    parser.add_argument("stage", choices=("verify", "pilot", "response", "figures", "all"))
     parser.add_argument("--output", type=Path, default=ROOT / "reproduction_output")
     args = parser.parse_args()
     output = args.output.resolve()
     if output == ROOT or output.is_relative_to(ROOT / "data") or output.is_relative_to(ROOT / "figures"):
         parser.error("Use a separate output directory, not the frozen data or figure directories")
     output.mkdir(parents=True, exist_ok=True)
-    stages = ("verify", "pilot", "figures") if args.stage == "all" else (args.stage,)
+    stages = ("verify", "pilot", "response", "figures") if args.stage == "all" else (args.stage,)
     report = {"created_utc": datetime.now(timezone.utc).isoformat()}
     for stage in stages:
-        report[stage] = verify() if stage == "verify" else pilot() if stage == "pilot" else figures(output)
+        report[stage] = verify() if stage == "verify" else pilot() if stage == "pilot" else response() if stage == "response" else figures(output)
         print(json.dumps({"stage": stage, "status": report[stage]["status"]}), flush=True)
     (output / "verification.json").write_text(json.dumps(report, indent=2) + "\n", encoding="utf-8")
 

@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-07",
+  "families": [
+    {
+      "key": "L128",
+      "length": 128,
+      "gamma": 2.0,
+      "t1": 0.5,
+      "t2": 1.0,
+      "role": "retested_size",
+      "source": "data/prl_figure_strengthening/spectral/L128.raw.json.gz"
+    },
+    {
+      "key": "L192",
+      "length": 192,
+      "gamma": 2.0,
+      "t1": 0.5,
+      "t2": 1.0,
+      "role": "retested_size",
+      "source": "data/prl_figure_strengthening/spectral/L192.raw.json.gz"
+    },
+    {
+      "key": "L256",
+      "length": 256,
+      "gamma": 2.0,
+      "t1": 0.5,
+      "t2": 1.0,
+      "role": "retested_size",
+      "source": "data/prl_figure_strengthening/spectral/L256.raw.json.gz"
+    },
+    {
+      "key": "L320",
+      "length": 320,
+      "gamma": 2.0,
+      "t1": 0.5,
+      "t2": 1.0,
+      "role": "retested_size",
+      "source": "data/prl_figure_strengthening/spectral/L320.raw.json.gz"
+    },
+    {
+      "key": "L384",
+      "length": 384,
+      "gamma": 2.0,
+      "t1": 0.5,
+      "t2": 1.0,
+      "role": "retested_size",
+      "source": "data/prl_figure_strengthening/spectral/L384.raw.json.gz"
+    },
+    {
+      "key": "L448",
+      "length": 448,
+      "gamma": 2.0,
+      "t1": 0.5,
+      "t2": 1.0,
+      "role": "new_dynamical_size",
+      "source": null
+    },
+    {
+      "key": "L512",
+      "length": 512,
+      "gamma": 2.0,
+      "t1": 0.5,
+      "t2": 1.0,
+      "role": "new_dynamical_size",
+      "source": null
+    },
+    {
+      "key": "control0",
+      "length": 96,
+      "gamma": 2.2,
+      "t1": 0.55,
+      "t2": 0.9,
+      "role": "new_parameter_control",
+      "source": null
+    },
+    {
+      "key": "control1",
+      "length": 96,
+      "gamma": 2.0,
+      "t1": 0.6,
+      "t2": 1.05,
+      "role": "new_parameter_control",
+      "source": null
+    },
+    {
+      "key": "control2",
+      "length": 96,
+      "gamma": 2.4,
+      "t1": 0.4,
+      "t2": 0.8,
+      "role": "new_parameter_control",
+      "source": null
+    },
+    {
+      "key": "control3",
+      "length": 96,
+      "gamma": 2.1,
+      "t1": 0.45,
+      "t2": 1.0,
+      "role": "new_parameter_control",
+      "source": null
+    }
+  ],
+  "levels": [
+    0.3,
+    0.05,
+    0.01
+  ],
+  "chis": [
+    -4.0,
+    -2.0,
+    -1.0,
+    -0.5,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "names": [
+    "left",
+    "right"
+  ],
+  "root_tolerance": 2e-09,
+  "linear_time_gate": 0.01,
+  "asymptotic_susceptibility_gate": 0.005,
+  "direct_reference_offset": 0.005,
+  "interpretation": "ret tested sizes are diagnostics; new nonzero-bias predictions lock after zero-bias roots and before scans",
+  "conjecture": "edge susceptibility approaches -s/[4 sqrt(gamma^2-(t1+t2)^2)], s=+1 left,-1 right",
+  "caveat": "The conjecture is not implied by the static delta response. Finite-size failures remain reported."
+}

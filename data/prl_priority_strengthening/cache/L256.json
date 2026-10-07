@@ -1,0 +1,21 @@
+{
+  "family": {
+    "key": "L256",
+    "length": 256,
+    "gamma": 2.0,
+    "t1": 0.5,
+    "t2": 1.0,
+    "role": "retested_size",
+    "source": "data/prl_figure_strengthening/spectral/L256.raw.json.gz"
+  },
+  "source": "data/prl_figure_strengthening/spectral/L256.raw.json.gz",
+  "source_sha256": "8D67BC6F24ECBEFD442A7DA4ABBEB3DAF09EF04C35F011B8B275765D9B3C2F36",
+  "precision_digits": [
+    380,
+    420
+  ],
+  "float_cache_absolute_change": 0.0,
+  "seconds": 3.558074364438653,
+  "completed_utc": "2026-10-07T08:47:06.875458+00:00",
+  "cache_sha256": "13B75F902B0DB7256416B592D88450FEA57C84B078C76ABCB84D04BEDCF48697"
+}

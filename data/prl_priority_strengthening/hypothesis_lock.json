@@ -1,0 +1,44 @@
+{
+  "locked_utc": "2026-10-07T08:41:24.629387+00:00",
+  "config_sha256": "DECD69D2B304255753E646EB3CED7E45FEA6520155202C4BEE6C675036CBA8FB",
+  "inputs": [
+    {
+      "path": "main/main.tex",
+      "sha256": "18836BEDE6A85AC7001D85C4CFC90C9AAFE0436AA16180E72CA5D8B818163099"
+    },
+    {
+      "path": "supplement/supplement.tex",
+      "sha256": "A0AA93B33EE7E0BF24F394B418BCB70321844821F72857D6A23641A57B3172FE"
+    },
+    {
+      "path": "main_zh/main.tex",
+      "sha256": "913A17080D885482EC8AB8F2D7602D22E2D790BF91A01B5D4EE1D9743A9C9882"
+    },
+    {
+      "path": "supplment_zh/supplement.tex",
+      "sha256": "CAEA7F95C2D8D85C3B7AC5B64ECB5EA752FC2F8F63A60E387754DFC2E07A5238"
+    },
+    {
+      "path": "data/prl_theory_upgrade/roots.csv",
+      "sha256": "7D65FA2824B1E65B7F2F8233D97BA811166C980F369E10DA78A749BC4592FE61"
+    },
+    {
+      "path": "data/prl_p3_fine_front/geometry_response.csv",
+      "sha256": "F4BD260055D4B372063EFAF14BC6B6745C71322C05412A2E674537C480CB248B"
+    },
+    {
+      "path": "scripts/run_priority_strengthening.py",
+      "sha256": "884054B7BA6AFE696A2DB9791B87E9E4EC725F06F707EEF8DA0B18B75FC1ED01"
+    },
+    {
+      "path": "src/mietf_skin/response.py",
+      "sha256": "3F86BF20CE234C6F40DABCFED8B10D2D1DA0DE34C13CF0B87415636B64DD2B52"
+    }
+  ],
+  "conjecture": "edge susceptibility approaches -s/[4 sqrt(gamma^2-(t1+t2)^2)], s=+1 left,-1 right",
+  "gates": {
+    "linear_time_gate": 0.01,
+    "asymptotic_susceptibility_gate": 0.005
+  },
+  "scope": "finite-difference identities are implementation checks; only new-bias scans are predictor holdouts"
+}

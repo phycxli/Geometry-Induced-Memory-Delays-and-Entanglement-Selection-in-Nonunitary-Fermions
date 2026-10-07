@@ -1,0 +1,43 @@
+{
+  "snapshot_sha256": "4E8CCA146AD5049BC391936C4FF59A7E5621359163C178C0BE3A5202E6E414F0",
+  "files": [
+    {
+      "path": "src/mietf_skin/response.py",
+      "sha256": "3F86BF20CE234C6F40DABCFED8B10D2D1DA0DE34C13CF0B87415636B64DD2B52",
+      "original_hypothesis_hash": "3F86BF20CE234C6F40DABCFED8B10D2D1DA0DE34C13CF0B87415636B64DD2B52"
+    },
+    {
+      "path": "scripts/run_priority_strengthening.py",
+      "sha256": "E9C88112DE28B9BD8C211002AEC7420C8CAC3623F56F9D8A18FD19B310DED8AC",
+      "original_hypothesis_hash": "884054B7BA6AFE696A2DB9791B87E9E4EC725F06F707EEF8DA0B18B75FC1ED01"
+    },
+    {
+      "path": "scripts/manage_priority_strengthening.py",
+      "sha256": "84E4A3A5D24D0A9B20B4E483746559D13FFCFDDC988E717ABCED23238FA310B4",
+      "original_hypothesis_hash": null
+    },
+    {
+      "path": "scripts/analyze_priority_strengthening.py",
+      "sha256": "0CF7E41B2DFC8EACCED758E7DCACCC76144F4234359E15924D9A3143773A3174",
+      "original_hypothesis_hash": null
+    },
+    {
+      "path": "scripts/slurm_priority_strengthening.sh",
+      "sha256": "39F58CDCFACDC7F397ADD7F62A996C70147544A6F9A870AA4659E364ECB1817A",
+      "original_hypothesis_hash": null
+    },
+    {
+      "path": "scripts/plot_priority_strengthening.py",
+      "sha256": "E6416992DEF8B7F064072743721AC28B16B75F5DDF3921BEEE45B3DA5642838D",
+      "original_hypothesis_hash": null
+    },
+    {
+      "path": "scripts/verify_priority_strengthening.py",
+      "sha256": "0AAD36412231485BE89CB947B338843CF5266287974781D124ADD32510648116",
+      "original_hypothesis_hash": null
+    }
+  ],
+  "original_hypothesis_lock_preserved": true,
+  "config_and_gates_verified": true,
+  "implementation_repairs": "Replaced unstable float64 small-size reference by a 100-digit direct exponential; removed a dead expression; included raw high-precision matrices in incremental retrieval; replaced expensive large-reference mp SVD by complete-column norm bounds, rechecked against mp SVD in 36 small cases. Scientific hypotheses and gates unchanged."
+}

@@ -24,7 +24,8 @@ python scripts/reproduce_paper.py all
 
 The command verifies every released file against `release_manifest.json`,
 independently recomputes the three short-time preparations using SciPy and
-80-digit mpmath, and redraws the four main figures and six cited supplemental
+80-digit mpmath, recomputes 528 principal-pair response conditions from full-rank
+caches, and redraws the four main figures and seven cited supplemental
 figures. One additional historical geometry plot is also generated.
 Results go to `reproduction_output/`; frozen input tables are preserved.
 `reproduction_output/verification.json` records numerical differences and output
@@ -34,6 +35,7 @@ exit status when a check fails.
 ```bash
 python scripts/reproduce_paper.py verify
 python scripts/reproduce_paper.py pilot
+python scripts/reproduce_paper.py response
 python scripts/reproduce_paper.py figures
 ```
 
@@ -53,6 +55,19 @@ This is a numerical prediction for a proposed experiment, not experimental data.
 | `docs/` | Numerical conventions, figure-data mapping, and large-calculation dependencies |
 
 ## Scope And Precision
+
+The actual-time study in `data/prl_priority_strengthening/` extends weak-bias
+dynamics to L448/512 and adds four hopping/loss controls. Its 528 nonzero-bias
+time predictions were fixed from same-family zero-bias responses before the
+nonzero-bias calculations. All meet the 0.01 absolute time gate; the maximum
+error is 0.00429280. This is a bias prediction, with zero-bias centers supplied
+as calculated inputs. All 66 finite-size susceptibilities remain outside the
+0.005 tolerance of the unproved static-response/band-edge candidate. Observed
+directional signs and increasing agreement do not prove an asymptotic coefficient.
+Main Fig. 3 now compares static input response and actual-time prediction.
+The new supplemental figure reports geometric factors, rates, and both errors.
+The parameter-box interval certificate concerns analytic constants; the
+numerical crossing times have precision checks, not interval certificates.
 
 Main figures 2--4 include the extended-size, signed-response, and time-trajectory
 checks saved under `data/prl_figure_strengthening/`. Redrawing them

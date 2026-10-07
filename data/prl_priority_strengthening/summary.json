@@ -1,0 +1,287 @@
+{
+  "status": "passed",
+  "analyzed_utc": "2026-10-07T10:08:46.704700+00:00",
+  "families": [
+    {
+      "family": "L128",
+      "role": "retested_size",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.0021390124816633715,
+      "max_static_gap_error": 0.12079213408470935,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.16217968132795255,
+        -0.16200176655696977,
+        -0.1618463030611473
+      ],
+      "zero_susceptibility_right": [
+        0.15964641390680204,
+        0.15946826548409407,
+        0.1593125937701638
+      ]
+    },
+    {
+      "family": "L192",
+      "role": "retested_size",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.001529223935108348,
+      "max_static_gap_error": 0.09797019609756319,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.1667529950571782,
+        -0.16665340042089138,
+        -0.16656633360829798
+      ],
+      "zero_susceptibility_right": [
+        0.16505616813901702,
+        0.16495646952811452,
+        0.16486931134902455
+      ]
+    },
+    {
+      "family": "L256",
+      "role": "retested_size",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.001194194961044559,
+      "max_static_gap_error": 0.08442723938495078,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.1695720646669258,
+        -0.1695063204769461,
+        -0.1694488224300596
+      ],
+      "zero_susceptibility_right": [
+        0.1682958636901501,
+        0.16823006271592136,
+        0.16817251494386057
+      ]
+    },
+    {
+      "family": "L320",
+      "role": "retested_size",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.0009814610327225637,
+      "max_static_gap_error": 0.07522672966032928,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.17153217244643035,
+        -0.17148461454430777,
+        -0.17144300879356103
+      ],
+      "zero_susceptibility_right": [
+        0.17050923499896767,
+        0.17046164204966638,
+        0.17042000564281787
+      ]
+    },
+    {
+      "family": "L384",
+      "role": "retested_size",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.0008340427430937325,
+      "max_static_gap_error": 0.06846247164276065,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.17299660772196193,
+        -0.17296013926240275,
+        -0.17292822752911294
+      ],
+      "zero_susceptibility_right": [
+        0.17214292967902034,
+        0.17210643776115783,
+        0.1720745055162551
+      ]
+    },
+    {
+      "family": "L448",
+      "role": "new_dynamical_size",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.0007256982245564814,
+      "max_static_gap_error": 0.06322379791706112,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.1741444478846014,
+        -0.17411532858393194,
+        -0.17408984306957356
+      ],
+      "zero_susceptibility_right": [
+        0.17341189544555635,
+        0.17338275951138427,
+        0.1733572594542233
+      ]
+    },
+    {
+      "family": "L512",
+      "role": "new_dynamical_size",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.0006426242671864202,
+      "max_static_gap_error": 0.059014082043404414,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.1750755452828927,
+        -0.17505159273352472,
+        -0.1750306261570216
+      ],
+      "zero_susceptibility_right": [
+        0.17443397190819115,
+        0.17441000704503082,
+        0.17438902970221198
+      ]
+    },
+    {
+      "family": "control0",
+      "role": "new_parameter_control",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.0016331397203757092,
+      "max_static_gap_error": 0.09654096946687929,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.13046117269943164,
+        -0.13030409160010603,
+        -0.13016680330099475
+      ],
+      "zero_susceptibility_right": [
+        0.12765726153559082,
+        0.12749955409056699,
+        0.1273617126747283
+      ]
+    },
+    {
+      "family": "control1",
+      "role": "new_parameter_control",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.00429279738912669,
+      "max_static_gap_error": 0.19133190760091878,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.17848133894723955,
+        -0.17802881535461285,
+        -0.17763341800944252
+      ],
+      "zero_susceptibility_right": [
+        0.1752644708536325,
+        0.17481145704690632,
+        0.1744156105542021
+      ]
+    },
+    {
+      "family": "control2",
+      "role": "new_parameter_control",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.0007115723048158884,
+      "max_static_gap_error": 0.05823682052169943,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.10875397946006762,
+        -0.10868479728214968,
+        -0.10862429130404232
+      ],
+      "zero_susceptibility_right": [
+        0.10602004375287279,
+        0.10595031826918547,
+        0.1058893342487619
+      ]
+    },
+    {
+      "family": "control3",
+      "role": "new_parameter_control",
+      "roots": 48,
+      "linear_passes": 48,
+      "max_linear_error": 0.001847279095130716,
+      "max_static_gap_error": 0.10920148714306066,
+      "conjecture_finite_size_passes": 0,
+      "zero_susceptibility_left": [
+        -0.14137613139827881,
+        -0.1411960946566731,
+        -0.1410387496669486
+      ],
+      "zero_susceptibility_right": [
+        0.13806495889360476,
+        0.13788462167693938,
+        0.1377269999641924
+      ]
+    }
+  ],
+  "roots": 528,
+  "new_bias_predictions": 528,
+  "zero_bias_roots": 66,
+  "linear_gate": 0.01,
+  "linear_passes": 528,
+  "linear_failures": 0,
+  "max_linear_error": 0.00429279738912669,
+  "max_static_gap_error": 0.19133190760091878,
+  "finite_size_conjecture_gate": 0.005,
+  "finite_size_conjecture_passes": 0,
+  "finite_size_conjecture_tests": 66,
+  "observed_directional_sign_passes": 528,
+  "smallest_principal_gap": 0.009999155443996679,
+  "max_invariance_residual": 2.3816830599622186e-15,
+  "max_chi_derivative_error": 8.212833191301172e-12,
+  "max_time_derivative_error": 5.99908905885016e-09,
+  "max_susceptibility_bound_fraction": 0.9091784888789582,
+  "width_checks": 176,
+  "width_min": 0.8202690822780738,
+  "width_max": 1.497522428583629,
+  "references": [
+    {
+      "family": "control1",
+      "initial": "left",
+      "chi": 4.0,
+      "points": 4,
+      "max_float_error": 4.594946602864019e-16,
+      "max_norm_bound_width": 0.0,
+      "two_precision_distance_change": "7.70758518987605125159250740172003718592197569641799941930304072128158642922568213927690289493850675398548909999999999999999999999999999999809733419198697980102895363112180775294658803428310173884192169314858895692771951002419613075053311747995845350884945709983418481599e-135"
+    },
+    {
+      "family": "L128",
+      "initial": "left",
+      "chi": -4.0,
+      "points": 4,
+      "max_float_error": 5.579600641644757e-16,
+      "max_norm_bound_width": 0.0,
+      "two_precision_distance_change": "2.3540474914545868305042926047821678733123230225085028837360286275962394855379394148246764378071888973669488110087668344699799577611684211480000000000000000000000000000000211689970415414208223789162415830148258020670558725015799677033494182227130223762792522421432810064585178068653995803572233013713516723682e-143"
+    },
+    {
+      "family": "L384",
+      "initial": "right",
+      "chi": 4.0,
+      "points": 4,
+      "max_float_error": 4.977543826890402e-16,
+      "max_norm_bound_width": 0.0,
+      "two_precision_distance_change": "4.523043430370496262552106920766197982241154008567739495657745559595074198780579627315366950091950647218366532210576130196828756674150537858637792292815284176867351080591194426575579858960472526227554192368903775244845645401532503785488178601997287975314903466154923877887476898999842407985123086982072512453929546087470344005526304179447410851069000000000000000000000000000000010638028320097140434842386237056581448986796863404110102320181746647513723235748000382847361942929557653514183736996972777385815747912130064826983799163945945008938277917506206511026924683524587217445260536020787164114210582134127307e-236"
+    },
+    {
+      "family": "L448",
+      "initial": "left",
+      "chi": -4.0,
+      "points": 4,
+      "max_float_error": 8.224052184965927e-14,
+      "max_norm_bound_width": 8.32905966893708e-14,
+      "two_precision_distance_change": "1.32998898055701444492109536649864904506528803251231917957978296284771756011875202887284828209222266326907712922038978496851046433497568469241808225917070053910020844053010931307455927536116125756158821753716160282731568437996668767389055638314278429493593008903297914313571567084737439189037787084913798778028187039131979221703486439461870345933690587373005662314297113848051194896150519888090667559880000000000000000000000000000000197354882646511044684091616678371653814637376032515600070235775632794983507811598122491120961794278678326976649063019531662205904069380009058880898496841259547256509894209180705225070972827760763210663186167791675238504309341134758379729083451864602331183201e-261"
+    },
+    {
+      "family": "L512",
+      "initial": "right",
+      "chi": 4.0,
+      "points": 4,
+      "max_float_error": 5.2328276989989624e-14,
+      "max_norm_bound_width": 4.953409298930707e-14,
+      "two_precision_distance_change": "9.2209742512277088547044019231699813549854536374370946482508892640468192264890834337309819066606401678621567134545542949041269431262493575321826144529386328787610894774013792205128043967134534557836330649737538924555479944790031174705707418379651245588245515493639207376063476483834828448943844546004446262633657839657410534555389206212642863007420556781174820850488098822913644561879060206763310974283385433222561050703701425787413718375186036221372291453556084885582885343000000000000000000000000000000007901938684841194769820106372187583889718457895154070570622260897034774718651079891946908453978400161711047794583794118460593517298537845066140751015063457640831842893987177020816247445515319164807438512580698188872198884336345599320181040494407784301319638818852644e-269"
+    }
+  ],
+  "prediction_scope": "Same-family nonzero-bias holdout after zero-bias measurement; not blind prediction of a new-size zero-bias center",
+  "scientific_status": "Exact finite-size response and uniform bounds; observed signs and finite-size trends do not prove an asymptotic time coefficient",
+  "preserved_failures": [
+    "data/prl_priority_strengthening/failures/kernel_0_1791362500035840300.json"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "family": {
+    "key": "L320",
+    "length": 320,
+    "gamma": 2.0,
+    "t1": 0.5,
+    "t2": 1.0,
+    "role": "retested_size",
+    "source": "data/prl_figure_strengthening/spectral/L320.raw.json.gz"
+  },
+  "source": "data/prl_figure_strengthening/spectral/L320.raw.json.gz",
+  "source_sha256": "E12F8BFE8C2C0F8B33AACCAF1FD4B212258F708AE42067D53F6F5900FCF536FC",
+  "precision_digits": [
+    460,
+    500
+  ],
+  "float_cache_absolute_change": 0.0,
+  "seconds": 6.514068705961108,
+  "completed_utc": "2026-10-07T08:47:09.831460+00:00",
+  "cache_sha256": "9F415CF33EDBFAB077ABC2246E088324840F9F92CB4282B62F84264D89F3101B"
+}

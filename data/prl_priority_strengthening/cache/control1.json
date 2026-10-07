@@ -1,0 +1,21 @@
+{
+  "family": {
+    "key": "control1",
+    "length": 96,
+    "gamma": 2.0,
+    "t1": 0.6,
+    "t2": 1.05,
+    "role": "new_parameter_control",
+    "source": null
+  },
+  "source": "data/prl_priority_strengthening/spectral/control1.raw.json.gz",
+  "source_sha256": "EDDB7F5A2ECAD4CE856784698211F47C3EAF3CC8E6202F75132C4CB61672C324",
+  "precision_digits": [
+    200,
+    240
+  ],
+  "float_cache_absolute_change": 0.0,
+  "seconds": 3.187178349122405,
+  "completed_utc": "2026-10-07T08:47:07.113929+00:00",
+  "cache_sha256": "823E34ECF3543BA167FC6C39D8D27AC7E9A73483E3425C1AB180091F5948B3E9"
+}

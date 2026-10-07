@@ -1,0 +1,51 @@
+{
+  "status": "generated",
+  "generated_utc": "2026-10-07T09:38:21.043716+00:00",
+  "source_inputs": {
+    "data/prl_figure_strengthening/signed_response.csv": "7C38FF7051524A48700EA23A35A97E3D1836A2993074033EDCEF2D67AADFAA64",
+    "data/prl_priority_strengthening/time_response.csv": "A8079909BDC9BF8B02675EC44BD8430D857762BEB6D902B363F79E623D3A34EA",
+    "data/prl_priority_strengthening/zero_bias_response.csv": "A7B310A7005B1139C206375A7AD8AB1EAAF42A1F9DD1D2EC905F70A1AE25F081",
+    "scripts/plot_priority_strengthening.py": "E6416992DEF8B7F064072743721AC28B16B75F5DDF3921BEEE45B3DA5642838D"
+  },
+  "figures": {
+    "fig3_reflection_response": {
+      "panels": 2,
+      "static_lengths": [
+        64,
+        512
+      ],
+      "dynamical_lengths": [
+        128,
+        512
+      ],
+      "threshold": 0.05,
+      "prediction": "Lines locked from the zero-bias principal-pair response before nonzero-bias propagation",
+      "finite_size_scope": "Measured sign and prediction accuracy; no asymptotic actual-time coefficient inferred"
+    }
+  },
+  "outputs": [
+    {
+      "path": "figures/prl_manuscript_revision/fig3_reflection_response.pdf",
+      "sha256": "D9F9DDC1DB099614D8D3B5C13F35F1689F43BA2CB9C244647C285A484A857DA9",
+      "bytes": 33200
+    },
+    {
+      "path": "figures/prl_manuscript_revision/fig3_reflection_response.png",
+      "sha256": "F0D91318FDDF495577A10B5AB9BDB36B61CF2BFF3C7524F4DCD3AF65EAD1D329",
+      "bytes": 221169
+    },
+    {
+      "path": "data/prl_priority_strengthening/figures/time_response_validation.pdf",
+      "sha256": "2758810018728EAC09D1D32C72A44E4295C167FA2DDB26C6D2D6D15A2B063AD5",
+      "bytes": 48149
+    },
+    {
+      "path": "data/prl_priority_strengthening/figures/time_response_validation.png",
+      "sha256": "5120965DECDDBF4FB97854C7E510102EB2AEE7CACD844B9BE98EC04D1761F2DF",
+      "bytes": 309145
+    }
+  ],
+  "background": "white",
+  "panel_titles": false,
+  "panel_label_position": "below axes"
+}

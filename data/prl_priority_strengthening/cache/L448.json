@@ -1,0 +1,21 @@
+{
+  "family": {
+    "key": "L448",
+    "length": 448,
+    "gamma": 2.0,
+    "t1": 0.5,
+    "t2": 1.0,
+    "role": "new_dynamical_size",
+    "source": null
+  },
+  "source": "data/prl_priority_strengthening/spectral/L448.raw.json.gz",
+  "source_sha256": "5B5E7F5811D9D9F4D4D233B2C6D25069F15D53B4A367B478B03A8A0402FEA350",
+  "precision_digits": [
+    620,
+    660
+  ],
+  "float_cache_absolute_change": 0.0,
+  "seconds": 382.306662671268,
+  "completed_utc": "2026-10-07T08:53:25.624429+00:00",
+  "cache_sha256": "91E99B9543F5F05A2F7EFFA0E6708DDD198BA228E81C2F5DCFE69B74F18A182C"
+}

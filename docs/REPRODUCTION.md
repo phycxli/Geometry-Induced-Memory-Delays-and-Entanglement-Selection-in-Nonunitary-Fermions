@@ -28,7 +28,7 @@ generally mixed ensemble.
 |---|---|
 | Main 1 | Deterministic apparatus/occupation schematic; no simulation data |
 | Main 2 | Extended `traces.csv`, `early_output.csv`, `widths.csv`, `prediction_checks.csv`; retained entropy snapshot; analytic output/CDW bounds |
-| Main 3 | Extended `signed_response.csv` and retained `fig3_weak_skin.csv` |
+| Main 3 | Static panel: extended `signed_response.csv`; actual-time panel: `data/prl_priority_strengthening/time_response.csv` and zero-bias prediction locks |
 | Main 4 | Extended `traces.csv`, `independent_checks.csv`, `widths.csv`; analytic contraction envelope |
 | Supplemental 1: rank failure | `data/prl_p3_new_sizes/development/rank_failure_resolution.csv` |
 | Supplemental 2: complex model | `data/prl_p4_passive_complex/states.csv` |
@@ -36,6 +36,11 @@ generally mixed ensemble.
 | Supplemental 4: selection/memory | `data/prl_p3_new_sizes/states.csv`, `front_checks.csv`, `memory.csv` |
 | Supplemental 5: envelopes | Analytic constants/envelopes and `data/prl_theory_upgrade/reference_checks.csv` |
 | Supplemental 6: extended controls | Extended signed response, reflection ratios, absolute widths, frozen forecast errors; retained absolute scales and six-threshold diagnostics |
+| Supplemental 7: actual-time response | `data/prl_priority_strengthening/zero_bias_response.csv` and `time_response.csv`: susceptibility, geometric factor, decay rate, and all 528 errors |
+
+The supplemental labels above describe output types. In the current manuscript
+their order is envelopes (S1), actual-time response (S2), rank failure (S3),
+extended controls (S4), selection/memory (S5), complex model (S6), and resources (S7).
 
 Here "extended" refers to `data/prl_figure_strengthening/`. That directory combines
 new results with labeled earlier cohorts without replacing the historical tables.
@@ -105,6 +110,33 @@ new provenance record; do not remove guards and describe a rerun of already seen
 results as new validation. The compact saved prediction records and parameters
 are released for inspection. The original baseline ZIP and large raw matrix
 archives remain outside this Git repository.
+
+## Actual-Time Response Study
+
+The released `prl_priority_strengthening` configuration contains eleven families,
+66 zero-bias crossings, 528 frozen nonzero-bias predictions, two-precision cache
+metadata, complete-rank `.npz` caches, and compact direct-reference records.
+`python scripts/reproduce_paper.py response` actively recomputes all 528 distances
+and susceptibilities from these caches, checks saved thresholds and responses at
+`2e-8`, and checks the original `0.01` prediction gate. It does not regenerate
+arbitrary-precision static matrices or count already seen data as new validation.
+
+The production entry point is `scripts/run_priority_strengthening.py`. Stages
+are `prepare`, `baseline`, `scan`, and `reference`, in that order. New-size and
+parameter-control `prepare` tasks (indices 5--10) regenerate their raw matrices
+from the released physical parameters. Retested indices 0--4 use historical raw
+spectral inputs kept in the full project. Preserve the existing locks and outputs
+when investigating a new hypothesis; a rerun needs a distinct provenance record.
+
+The open-end coupling recurrence retains the SSH edge singular mode. Complete
+signed logarithms of the initial graph avoid propagating exponentially large
+coefficients directly in float64. Large direct references independently propagate
+all occupied columns and use arbitrary-precision QR. For their norm measurement,
+a float64 SVD supplies a trial direction; its normalization, propagated image,
+and complete Frobenius remainder are evaluated at high precision. Exact-arithmetic
+lower and upper norm inequalities then check the original reference tolerance.
+This accelerates the observable calculation without discarding evolved columns.
+The spectral input is shared between the two propagation paths.
 
 ## HPC Performance
 
