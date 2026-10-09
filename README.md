@@ -39,9 +39,31 @@ python scripts/reproduce_paper.py response
 python scripts/reproduce_paper.py figures
 ```
 
-The pilot uses `L=8`, `N=4`, `g=0.15`, and `t=0.5`. Expected no-loss probabilities
+The earlier pilot uses `L=8`, `N=4`, `g=0.15`, and `t=0.5`. Expected no-loss probabilities
 are approximately `0.359`, `6.70e-4`, and `1.65e-4` for CDW, left, and right.
 This is a numerical prediction for a proposed experiment, not experimental data.
+
+## Fixed-Site Memory Protocol
+
+The strengthened short-time proposal uses `L=4`, `N=2`, `g=0.15`, and `t=0.5`.
+The readout is the occupation of site `A1` for CDW and right-block preparations.
+Its predicted contrast is `-0.986849`, with no-loss probabilities `0.632715`
+and `0.0121865`. The readout and control gates were frozen before 768 tolerance
+checks, including an explicit auxiliary mode. Run:
+
+```bash
+python scripts/reproduce_operational_memory.py
+```
+
+This recomputes the control samples, held-out times, finite-auxiliary
+comparisons, and time curves into `reproduction_output/operational_memory/`,
+checks them against released tables, and repeats arbitrary-precision and
+fixed-number Fock-space references. It preserves all released inputs.
+Full parameters and sample budgets are in `data/prl_operational_memory/`.
+The 1000-accepted-runs budget gives a statistical contrast error of `0.093617`
+at 95% confidence. Calibration and false atom-number acceptance remain hardware
+requirements. The samples do not certify the entire continuous tolerance box;
+there are no experimental observations or external proof-review results here.
 
 ## Repository Layout
 

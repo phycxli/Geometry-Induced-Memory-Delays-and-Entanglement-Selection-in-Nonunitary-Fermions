@@ -1,0 +1,85 @@
+{
+  "precision": [
+    {
+      "length": 4,
+      "initial": "cdw",
+      "scalar_precision_change": 4.9422285635524886e-61,
+      "float_scalar_error": 3.3306690738754696e-16
+    },
+    {
+      "length": 4,
+      "initial": "left",
+      "scalar_precision_change": 2.9013367718716783e-61,
+      "float_scalar_error": 0.0
+    },
+    {
+      "length": 4,
+      "initial": "right",
+      "scalar_precision_change": 3.7127418187347137e-62,
+      "float_scalar_error": 1.0408340855860843e-17
+    },
+    {
+      "length": 8,
+      "initial": "cdw",
+      "scalar_precision_change": 2.806457366660099e-61,
+      "float_scalar_error": 2.220446049250313e-16
+    },
+    {
+      "length": 8,
+      "initial": "left",
+      "scalar_precision_change": 2.346377034242786e-61,
+      "float_scalar_error": 2.220446049250313e-16
+    },
+    {
+      "length": 8,
+      "initial": "right",
+      "scalar_precision_change": 3.743248024396024e-64,
+      "float_scalar_error": 1.8973538018496328e-19
+    }
+  ],
+  "fock": [
+    {
+      "length": 4,
+      "initial": "cdw",
+      "number_sector_dimension": 6,
+      "projector_error": 4.580725828782727e-16,
+      "success_error": 2.220446049250313e-16
+    },
+    {
+      "length": 4,
+      "initial": "left",
+      "number_sector_dimension": 6,
+      "projector_error": 1.132022768781511e-15,
+      "success_error": 2.0816681711721685e-17
+    },
+    {
+      "length": 4,
+      "initial": "right",
+      "number_sector_dimension": 6,
+      "projector_error": 4.458697546029778e-16,
+      "success_error": 1.214306433183765e-17
+    },
+    {
+      "length": 8,
+      "initial": "cdw",
+      "number_sector_dimension": 70,
+      "projector_error": 3.436327036039052e-16,
+      "success_error": 5.551115123125783e-16
+    },
+    {
+      "length": 8,
+      "initial": "left",
+      "number_sector_dimension": 70,
+      "projector_error": 9.416273570942423e-16,
+      "success_error": 5.421010862427522e-19
+    },
+    {
+      "length": 8,
+      "initial": "right",
+      "number_sector_dimension": 70,
+      "projector_error": 5.729379205149542e-16,
+      "success_error": 7.589415207398531e-19
+    }
+  ],
+  "scope": "Separate arbitrary-precision one-particle calculation and exact fixed-number Fock-space evolution; internal verification, not external proof review."
+}

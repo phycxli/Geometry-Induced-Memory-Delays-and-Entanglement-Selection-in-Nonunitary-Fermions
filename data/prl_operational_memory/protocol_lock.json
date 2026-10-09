@@ -1,0 +1,50 @@
+{
+  "locked_utc": "2026-10-09T20:57:13.412975+00:00",
+  "source_sha256": "000c4d52968e13e1faf55b689ef4b8169bac001f5c146667caad27b5957cd449",
+  "development_sha256": "56b6a63680ec60d27a10ff0b1b579c367c4b41f585a83f7b9ed4ffb27e2fc901",
+  "nominal": {
+    "length": 4,
+    "particles": 2,
+    "skin": 0.15,
+    "time": 0.5,
+    "site_zero_based": 0,
+    "readout": "A1 site occupation; same fixed readout for both preparations"
+  },
+  "controls": {
+    "time_offset": 0.02,
+    "skin_offset": 0.01,
+    "intra_relative": 0.02,
+    "inter_relative": 0.02,
+    "loss_a_relative": 0.02,
+    "loss_b_relative": 0.02,
+    "phase_error": 0.03
+  },
+  "gate": {
+    "signal_min": 0.9,
+    "cdw_to_W_max": 0.06,
+    "right_to_W_min": 0.9,
+    "singular_ratio_max": 0.3,
+    "success_min": 0.007
+  },
+  "validation": {
+    "corners": 128,
+    "random": 256,
+    "random_seed": 20261010,
+    "auxiliary_rate": 100.0,
+    "heldout_times": [
+      0.45,
+      0.475,
+      0.525,
+      0.55,
+      0.6
+    ]
+  },
+  "statistics": {
+    "accepted_per_preparation": 1000,
+    "conditional_failure_probability": 0.05,
+    "false_accepted_fraction_max": 0.01,
+    "binary_readout_bias_max": 0.02,
+    "orbital_projector_distance_max": 0.01
+  },
+  "scope": "One local readout, two separate preparations; effective-model development followed by frozen control validation; no experimental data."
+}

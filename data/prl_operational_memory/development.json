@@ -1,0 +1,29 @@
+{
+  "completed_utc": "2026-10-09T20:57:07.306393+00:00",
+  "source_sha256": "000c4d52968e13e1faf55b689ef4b8169bac001f5c146667caad27b5957cd449",
+  "rows": 48,
+  "selected_candidate": {
+    "length": 4,
+    "time": 0.5,
+    "skin": 0.15,
+    "site": 0,
+    "auxiliary": 0,
+    "signal": 0.9868486961653361,
+    "witness": -0.9868486961653361,
+    "singular_ratio": 0.14710297257677388,
+    "direct_memory": 0.9999901396423921,
+    "cdw_occupation": 0.9879158519656239,
+    "cdw_success": 0.6327149169604487,
+    "cdw_distance_to_W": 0.040160001892408884,
+    "cdw_distance_to_nominal_G": 0.05194990059456524,
+    "left_occupation": 0.9935143333958049,
+    "left_success": 0.04941562698914872,
+    "left_distance_to_W": 0.5239694370321988,
+    "left_distance_to_nominal_G": 0.5893631609290445,
+    "right_occupation": 0.001067155800287773,
+    "right_success": 0.012186534242884605,
+    "right_distance_to_W": 0.9999834573738061,
+    "right_distance_to_nominal_G": 0.9999998088459844
+  },
+  "scope": "Development only: chosen after looking at small-system signal/cost tradeoffs; not blind validation."
+}

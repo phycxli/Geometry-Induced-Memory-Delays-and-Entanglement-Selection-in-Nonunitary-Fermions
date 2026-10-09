@@ -23,8 +23,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5315,
-      "sha256": "CFA110275450C6F2DDE8BD5B089427BF837B13CB96B115DB315FB7043ADE598A"
+      "bytes": 6463,
+      "sha256": "D1D57FC1DF659101A23CD60D89405D8672FDA9F904FC09943CC873DADF2DC148"
     },
     {
       "path": "configs/short_time_pilot.json",
@@ -220,6 +220,66 @@
       "path": "data/prl_manuscript_revision/figure_provenance.json",
       "bytes": 7930,
       "sha256": "C821EFB3FABB521EF06682480584C59767907778A149BC3166419C9B88EE1BEF"
+    },
+    {
+      "path": "data/prl_operational_memory/control_validation.csv",
+      "bytes": 365232,
+      "sha256": "21611126A1AEF319C81C2AFF040CDE26F94B4431853FE53E79E13EDA84D0FEC0"
+    },
+    {
+      "path": "data/prl_operational_memory/development.csv",
+      "bytes": 16249,
+      "sha256": "56B6A63680EC60D27A10FF0B1B579C367C4B41F585A83F7B9ED4FFB27E2FC901"
+    },
+    {
+      "path": "data/prl_operational_memory/development.json",
+      "bytes": 1130,
+      "sha256": "80C1696753D37780DFEBF05AE22F44E4906F555EADBAE4E802526A95D0F937CB"
+    },
+    {
+      "path": "data/prl_operational_memory/figure_provenance.json",
+      "bytes": 500,
+      "sha256": "F8E883EE6729E445ED57505165618A8DDE29365E8C205BEB646A6E00BC6A97D3"
+    },
+    {
+      "path": "data/prl_operational_memory/finite_auxiliary.csv",
+      "bytes": 3647,
+      "sha256": "1B058818B4A206A3710A2D53371C6373E32A86845B2D5B6E3FDBD3987B7B9532"
+    },
+    {
+      "path": "data/prl_operational_memory/heldout_times.csv",
+      "bytes": 3614,
+      "sha256": "B1BDDF7AB4D9F2586D8EF4A8AF39DAFAD5F30F22A0298ABB47EE9F5188C1876D"
+    },
+    {
+      "path": "data/prl_operational_memory/independent_checks.json",
+      "bytes": 2374,
+      "sha256": "BC6070C95D9AF4125B31D464CCF8B1800B32A90286F2D2E7E47C17F56888DF23"
+    },
+    {
+      "path": "data/prl_operational_memory/measurement_inference.json",
+      "bytes": 2085,
+      "sha256": "818C3D4DC6A3B654ED3F3CCF63F0E359A2AE2E1C528C7C13FEF3D44BC4D902C1"
+    },
+    {
+      "path": "data/prl_operational_memory/precision_references.json",
+      "bytes": 89881,
+      "sha256": "E7BBA5C590E331C6E808DBE233ED17561A5BBE0FA8E561365F6CF552551AFC82"
+    },
+    {
+      "path": "data/prl_operational_memory/protocol_lock.json",
+      "bytes": 1423,
+      "sha256": "5D4AA37D49F3E7570CEA127A61F0BED6023839FEDC21C760B22D99240D6F5F9A"
+    },
+    {
+      "path": "data/prl_operational_memory/summary.json",
+      "bytes": 4215,
+      "sha256": "FB8BA6DD995137AD2F79AEBC6D8AE87C2440F0FC3605DADA3FD058BEA912B2ED"
+    },
+    {
+      "path": "data/prl_operational_memory/time_curves.csv",
+      "bytes": 55812,
+      "sha256": "F1D7D0F29121701C8363920B8E43A2696BBEF4164D95F1E8089ADCE676618AE4"
     },
     {
       "path": "data/prl_p0_precision/actual_state_checks.csv",
@@ -1512,6 +1572,16 @@
       "sha256": "978FEF92A4A2CE69C17CE1C7F313D0D76C33C7438CBA83656AB854AB4292FCDB"
     },
     {
+      "path": "figures/prl_operational_memory/fixed_site_memory.pdf",
+      "bytes": 24145,
+      "sha256": "1DDBE32D7CBB97A92F3F90A883BB20FCE3DF7A10A9011367CB5A27958136A7D7"
+    },
+    {
+      "path": "figures/prl_operational_memory/fixed_site_memory.png",
+      "bytes": 131938,
+      "sha256": "B2DC426333D953A2F23E2B4116E76F5433F6D9093F891EAE060C9251E852B715"
+    },
+    {
       "path": "figures/prl_theory_upgrade/analytic_envelopes.pdf",
       "bytes": 27406,
       "sha256": "D9A26515A36B1A89F8F459935D9CFE2360267AB4A0DD95F3B8882409DE9977EF"
@@ -1647,6 +1717,11 @@
       "sha256": "F2BB75879B374D0306ABDF109EA90B725107A8EF364F8C0809C7D90EAF17BCEF"
     },
     {
+      "path": "scripts/audit_operational_memory.py",
+      "bytes": 15801,
+      "sha256": "538B332065995B952F474B9D76F269B053A343771786881824EF9EA512018FB2"
+    },
+    {
       "path": "scripts/audit_theory_envelopes.py",
       "bytes": 4624,
       "sha256": "47B06F1EBD8B4D0807905F4447F55055ADF002320DB6B1B406EADCDE012CA225"
@@ -1670,6 +1745,11 @@
       "path": "scripts/plot_strengthened_figures.py",
       "bytes": 22426,
       "sha256": "4129B7057E4FEA0F6E9895F3E4B448E850F7B340F9B720815DC3B5460597AAAC"
+    },
+    {
+      "path": "scripts/reproduce_operational_memory.py",
+      "bytes": 3137,
+      "sha256": "178B2AF6A80CD3B2644EEF4E1D8C24422EA0FBC5985D68992F2E37CD2D8CFDCF"
     },
     {
       "path": "scripts/reproduce_paper.py",
@@ -1740,6 +1820,11 @@
       "path": "scripts/run_new_sizes_hpc.py",
       "bytes": 17307,
       "sha256": "ADA678DB83229793ADBAF518103005C21742FFC075172597EE4BC4A813AA80D0"
+    },
+    {
+      "path": "scripts/run_operational_memory.py",
+      "bytes": 20236,
+      "sha256": "000C4D52968E13E1FAF55B689EF4B8169BAC001F5C146667CAAD27B5957CD449"
     },
     {
       "path": "scripts/run_passive_complex_hpc.py",
@@ -1853,5 +1938,7 @@
     }
   ],
   "scope": "Scientific code, parameters, compact numerical tables and reference figures; original MIT license retained",
-  "excluded": "Large raw matrices, baseline archives, scheduler logs, internal notes and manuscript projects"
+  "excluded": "Large raw matrices, baseline archives, scheduler logs, internal notes and manuscript projects",
+  "updated_utc": "2026-10-09T21:21:44.332089+00:00",
+  "fixed_site_protocol": "L4 N2 g0.15 t0.5, A1 readout, 768 frozen controls; numerical proposal, no experimental data"
 }

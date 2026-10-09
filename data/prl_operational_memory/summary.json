@@ -1,0 +1,110 @@
+{
+  "started_utc": "2026-10-09T20:57:20.847768+00:00",
+  "completed_utc": "2026-10-09T20:57:21.251273+00:00",
+  "protocol_lock_sha256": "5d4aa37d49f3e7570cea127a61f0bed6023839fedc21c760b22d99240d6f5f9a",
+  "source_sha256": "000c4d52968e13e1faf55b689ef4b8169bac001f5c146667caad27b5957cd449",
+  "status": "passed",
+  "nominal": {
+    "length": 4,
+    "time": 0.5,
+    "skin": 0.15,
+    "site": 0,
+    "auxiliary": 0,
+    "signal": 0.9868486961653361,
+    "witness": -0.9868486961653361,
+    "singular_ratio": 0.14710297257677388,
+    "direct_memory": 0.9999901396423921,
+    "cdw_occupation": 0.9879158519656239,
+    "cdw_success": 0.6327149169604487,
+    "cdw_distance_to_W": 0.040160001892408884,
+    "cdw_distance_to_nominal_G": 0.05194990059456524,
+    "left_occupation": 0.9935143333958049,
+    "left_success": 0.04941562698914872,
+    "left_distance_to_W": 0.5239694370321988,
+    "left_distance_to_nominal_G": 0.5893631609290445,
+    "right_occupation": 0.001067155800287773,
+    "right_success": 0.012186534242884605,
+    "right_distance_to_W": 0.9999834573738061,
+    "right_distance_to_nominal_G": 0.9999998088459844
+  },
+  "four_particle_comparison": {
+    "length": 8,
+    "time": 0.5,
+    "skin": 0.15,
+    "site": 0,
+    "auxiliary": 0,
+    "signal": 0.9879157357174086,
+    "witness": -0.9879157357174086,
+    "singular_ratio": 0.1518707862756149,
+    "direct_memory": 0.9999999999973639,
+    "cdw_occupation": 0.9879158033671176,
+    "cdw_success": 0.3590106150773501,
+    "cdw_distance_to_W": 0.0488336458217215,
+    "cdw_distance_to_nominal_G": 0.0708659257859235,
+    "left_occupation": 0.9999988346191726,
+    "left_success": 0.000670224914011223,
+    "left_distance_to_W": 0.9999999938824389,
+    "left_distance_to_nominal_G": 0.999999814632077,
+    "right_occupation": 6.76497089669669e-08,
+    "right_success": 0.00016515987263419744,
+    "right_distance_to_W": 0.9999999999999524,
+    "right_distance_to_nominal_G": 0.9999999848067238
+  },
+  "validations": 768,
+  "failed_cases": 0,
+  "minimum_control_signal": 0.9852331371921264,
+  "maximum_cdw_distance_to_W": 0.04566615111165005,
+  "minimum_right_distance_to_W": 0.9999699461981312,
+  "maximum_singular_ratio": 0.1647921831408051,
+  "minimum_right_success": 0.009196653730506288,
+  "accepted_per_preparation": 1000,
+  "conditional_95pct_difference_error": 0.09361652241643972,
+  "systematic_budget": 0.08,
+  "worst_grid_signal_after_systematics_and_statistics": 0.8116166147756867,
+  "minimum_block_distance_from_W_inferred_from_witness": 0.7659504636640366,
+  "attempts": {
+    "nominal": {
+      "expected_attempts": {
+        "cdw": 1580.4906336079168,
+        "right": 82057.78444219065
+      },
+      "trials_sufficient_for_both_counts_with_95pct_probability": {
+        "cdw": 1641,
+        "right": 87189
+      },
+      "false_accept_probability_per_rejected_run_max": {
+        "cdw": 0.017400814959286096,
+        "right": 0.00012461492959030986
+      }
+    },
+    "control_grid_worst_case": {
+      "expected_attempts": {
+        "cdw": 1654.4938083867564,
+        "right": 108735.20187923273
+      },
+      "trials_sufficient_for_both_counts_with_95pct_probability": {
+        "cdw": 1720,
+        "right": 115545
+      },
+      "false_accept_probability_per_rejected_run_max": {
+        "cdw": 0.015433316513578332,
+        "right": 9.375774978667576e-05
+      }
+    }
+  },
+  "exact_fock_checks": 6,
+  "high_precision_checks": 6,
+  "runtime": {
+    "python": "3.13.13",
+    "numpy": "2.2.6",
+    "scipy": "1.16.2",
+    "mpmath": "1.3.0"
+  },
+  "limitations": [
+    "Finite parameter grid and seeded random cases do not certify the entire continuous control box.",
+    "Statistical confidence is conditional on collecting the prescribed accepted samples and calibrated systematic bounds.",
+    "Successful atom-number postselection needs low false acceptance; this is a calibration requirement, not demonstrated performance.",
+    "Small-system short-time memory does not establish large-size experimental feasibility or entanglement tomography.",
+    "No hardware data and no external independent proof review."
+  ]
+}

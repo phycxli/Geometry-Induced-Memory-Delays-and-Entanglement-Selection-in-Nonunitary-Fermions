@@ -1,0 +1,8 @@
+{
+  "renderer": "scripts/audit_operational_memory.py",
+  "renderer_sha256": "538b332065995b952f474b9d76f269b053a343771786881824ef9ea512018fb2",
+  "computation_source_sha256": "000c4d52968e13e1faf55b689ef4b8169bac001f5c146667caad27b5957cd449",
+  "curves_sha256": "f1d7d0f29121701c8363920b8e43a2696bbef4164d95f1e8089adce676618ae4",
+  "pdf_sha256": "1ddbe32d7cbb97a92f3f90a883bb20fce3df7a10a9011367cb5a27958136a7d7",
+  "budget_interval": "Intersected with the physical contrast range [-1,1]."
+}

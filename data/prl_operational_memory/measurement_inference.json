@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-10-09T21:08:51.364116+00:00",
+  "protocol_lock_sha256": "5d4aa37d49f3e7570cea127a61f0bed6023839fedc21c760b22d99240d6f5f9a",
+  "sampling_statement": "Given n accepted Bernoulli samples from each preparation, with probability >=.95 each sample mean differs from its measured expectation by at most r/2, and their difference by at most r.",
+  "actual_data_inference": "distance(block,W) >= max(0, abs(observed_contrast)-systematic_budget-statistical_radius-cdw_distance_bound).",
+  "planned_observed_contrast_lower": 0.8116166147756867,
+  "proposed_future_positive_memory_reporting_threshold": 0.75,
+  "distance_lower_at_reporting_threshold": 0.5307173264719103,
+  "distance_lower_at_nominal_predicted_contrast": 0.7675660226372464,
+  "before_data_95pct_lower_on_resulting_distance_bound": 0.5923339412475969,
+  "statistical_radius": 0.09361652241643972,
+  "systematic_budget": 0.08,
+  "interval_scope": "The planning margin .8116 is a lower bound on the observed contrast on the sampling event, not a .8116 pre-data confidence bound on the physical projector distance. Actual reporting uses the observed contrast.",
+  "grid_scope": "Control validation samples a continuous box; no uniform interval certificate is claimed.",
+  "systematic_derivation": {
+    "false_accept": "Each bounded occupation mean changes by at most f for contamination fraction f.",
+    "binary_readout": "Each calibrated mean bias has magnitude at most b_read.",
+    "orbital_error": "For rank-one projectors at distance rho, any 0<=P<=I expectation changes by at most rho."
+  },
+  "false_acceptance_derivation": "For true acceptance p and unit true-accept readout, rejected-run false acceptance beta must satisfy beta <= f*p/((1-f)*(1-p)). With true-accept readout efficiency a, replace p by a*p in the numerator.",
+  "accepted_sample_scope": "Sample counts and attempted-run budgets refer to true accepted runs with perfect classification. Additional classification inefficiency and loading defects increase attempts; contamination bounds must be calibrated."
+}
