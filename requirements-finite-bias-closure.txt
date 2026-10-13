@@ -1,0 +1,6 @@
+numpy
+scipy
+mpmath
+gmpy2
+python-flint
+matplotlib

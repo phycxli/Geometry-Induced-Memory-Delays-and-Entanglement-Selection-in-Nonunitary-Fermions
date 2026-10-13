@@ -6,6 +6,26 @@ The calculations concern normalized, fixed-particle, no-loss Slater states in an
 open non-Hermitian SSH chain and a complex local extension. Projector distance
 measures occupied-subspace memory; it is distinct from a many-body trace distance.
 
+## Fixed-Bias Selection-Time Upgrade
+
+The current manuscript is titled *Isospectral Control of Many-Body Selection
+Times*. The new compact release contains the 100 new original-model conditions,
+32 larger-size finite-kernel predictions, analytical coefficient evaluators,
+Fig. 3/4 plotting code, and portable Slurm commands. See
+[FINITE_BIAS_CLOSURE_REPRODUCIBILITY.md](FINITE_BIAS_CLOSURE_REPRODUCIBILITY.md)
+for the complete parameter ranges and commands.
+
+```bash
+python -m pip install -r requirements-finite-bias-closure.txt
+python scripts/reproduce_finite_bias_closure.py check
+python scripts/reproduce_finite_bias_closure.py plot --output-dir reproduction_output/closure_figures
+```
+
+The small check reevaluates analytical coefficients and saved record relations;
+it does not rerun large matrices or finite-kernel roots. The full calculations
+use the separate scratch-directory HPC workflow in the linked guide. Existing
+sections below describe earlier releases, including their finite-size failures.
+
 ## Quick Reproduction
 
 Use Python 3.11 or later. From a fresh checkout:

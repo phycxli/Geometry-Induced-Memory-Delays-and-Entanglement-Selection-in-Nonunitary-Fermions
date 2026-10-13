@@ -1,0 +1,220 @@
+{
+  "weak": {
+    "lengths": [
+      1152,
+      1280
+    ],
+    "precisions": [
+      [
+        1580,
+        1620
+      ],
+      [
+        1750,
+        1790
+      ]
+    ],
+    "chi_values": [
+      -4,
+      0,
+      4
+    ],
+    "levels": [
+      0.3,
+      0.05,
+      0.01
+    ],
+    "theory": {
+      "status": "analytic_prefactors_from_strong_kernel_proof",
+      "decimal_digits": 100,
+      "parameters": {
+        "gamma": "2.0",
+        "t1": "0.5",
+        "t2": "1.0",
+        "a": "5.5",
+        "kappa": "2.0",
+        "mu0": "1.322875655532295295250807876819630212855129591541225090184167229600534411615141813880196443237271805"
+      },
+      "strong_kernel_sufficient_condition": {
+        "pass": true,
+        "analytic_bottom_weight_pass": true,
+        "ellipse_u_max": "0.2840909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090909091",
+        "complex_Q_bound": "0.09271687058355248318130211975506479103950505545902639682463561536136890227993662132848203115848178246",
+        "weighted_truncation_exponent_bound": "0.2202628028177602142289267845399599313298493073283334638078064720588159293553817121249474861397691136",
+        "exponential_error_margin": "0.472884377742185095188305336918216636745650827031921790312873537434577692614313003480915840856649574",
+        "meaning": "Explicit sufficient condition for the elementary strong-kernel proof; failure does not disprove asymptotics."
+      },
+      "time_filter_condition_pass": true,
+      "kernel_prefactors": {
+        "left": {
+          "2": "5.042450986236575014626020868654990424997409865537243743181059414125550327682760628901041894409397181",
+          "minus_2": "3.308034531431280046587601118713413445230579124003511240371429941991724875796779230160431520491759357",
+          "right_point": "3.213275931680414223873131216348818534438551654063117663949870155215525595320622631926222727052100863"
+        },
+        "right": {
+          "2": "222.7049431459560748393833919741155367115437016703999120791884693101509757625387851206435900699454736",
+          "minus_2": "205.044771665668908503982115435834902502168212188595652229865201960221515475379778168581358480789376",
+          "right_point": "205.6496596275465103278803978463243862040673058600395304927916899337936381005198484432782545313344553"
+        }
+      },
+      "gram_left_prefactor_L_power_3_over_2": "4.814989017055099513859682310889840473111907465904718168404249772508170377523502212779626633730151258",
+      "gram_right_prefactor_L_power_0": "4.541302306647370535608607038625342881595120229684684653411440470043597773573702036789267727409598589",
+      "input_overlap_left_to_gram_ratio_limit": "0.9841229182759271106474081749727999513541152131614488533234467207641853864921223791899109221073341897",
+      "input_overlap_right_to_gram_ratio_limit": "1",
+      "input_overlap_left_prefactor_L_power_3_over_2": "4.738541042930802307634989570013317983733330576639554448925151314121907640650473837504799210334916116",
+      "input_overlap_right_prefactor_L_power_0": "4.541302306647370535608607038625342881595120229684684653411440470043597773573702036789267727409598589",
+      "time_linear_coefficient": "0.5410397071646486469859726985974650741060050865524439537745512898670865151624263099422215910658563724",
+      "time_log_coefficient": "-0.5669467095138408408217748043512700912236269678033821815075002412573718906922036345200841899588307737",
+      "G_derivative_2": "-0.1280751029906901702092848844190549088150345577092794252644045918406759008808899207334693851944896785",
+      "G_derivative_minus_2": "-0.07237555931313896958133862749624805079228817382472527593817907490651684835034136639055123606263301411",
+      "gaussian_beta": "0.07022811815010398064682873529767461415234883824967774592330109381975945399527098653331993568668683439",
+      "left_boundary_gaussian_factor": "2.822328014180764150907663052800328239759529849771379875494173913276220679885431457989762764421617201",
+      "center_constants": [
+        {
+          "initial": "left",
+          "epsilon": "0.3",
+          "constant_time_center": "-0.7232555205358367784216708310224663500948514546823491385043156983762526379380700699291571228119198468"
+        },
+        {
+          "initial": "right",
+          "epsilon": "0.3",
+          "constant_time_center": "-0.1220157457333678894746733766020641351788687065001570273034494979468349845225521338920590168547210338"
+        },
+        {
+          "initial": "left",
+          "epsilon": "0.05",
+          "constant_time_center": "-0.0286841010038996662349674517186444353114479862538125024188043566058271570856135130620800426364833876"
+        },
+        {
+          "initial": "right",
+          "epsilon": "0.05",
+          "constant_time_center": "0.5725556737985692227120300027017577796045347619283796087820618438235904963299044229750180633207154254"
+        },
+        {
+          "initial": "left",
+          "epsilon": "0.01",
+          "constant_time_center": "0.5800803993885835568629164697821727576425017326174944368732033577475417928775149566613956720443140435"
+        },
+        {
+          "initial": "right",
+          "epsilon": "0.01",
+          "constant_time_center": "1.181320174191052445809913924202574972558484480799686548074069558176959446293032892698493778001512856"
+        }
+      ],
+      "scope": "Prefactor theorem requires the explicit strong-kernel sufficient condition. Time constants also require G_a(2)>2 and fixed low thresholds.",
+      "evidence": "Analytic derivation and reproducible quadrature; no finite-size fit and no interval certification."
+    },
+    "correction_coefficient": "0.3196734354771544181458653006371357995142623450013522604559588918749233731863893099028979133401870628",
+    "prediction": "t0_analytic - s*chi/(4*mu0) + s*A*chi/sqrt(L)",
+    "gates": {
+      "cache_maximum_absolute_change": 2e-10,
+      "invariance_residual": 1e-10,
+      "root_residual": 2e-08,
+      "time_finite_difference_error": 3e-06,
+      "chi_finite_difference_error": 3e-06,
+      "principal_gap_minimum": 1e-06,
+      "absolute_center_error": 0.015,
+      "bias_shift_error": 0.03,
+      "refined_bias_shift_error": 0.003,
+      "refined_susceptibility_error": 0.0005
+    },
+    "no_fit": true
+  },
+  "fixed": {
+    "lengths": [
+      896,
+      1024,
+      1152,
+      1280
+    ],
+    "preparation_precisions": [
+      [
+        1260,
+        1300
+      ],
+      [
+        1430,
+        1470
+      ],
+      [
+        1580,
+        1620
+      ],
+      [
+        1750,
+        1790
+      ]
+    ],
+    "static_export_digits": 240,
+    "working_precisions": [
+      120,
+      160
+    ],
+    "quadrature_nodes": [
+      128,
+      192
+    ],
+    "kernel_ranks": [
+      40,
+      48
+    ],
+    "skins": [
+      "-.1",
+      "-.05",
+      ".05",
+      ".1"
+    ],
+    "levels": [
+      ".05",
+      ".01"
+    ],
+    "sides": [
+      "left",
+      "right"
+    ],
+    "gates": {
+      "time_precision_pair": 1e-08,
+      "time_kernel_against_exact_model": 1e-07,
+      "graph_selfadjoint_and_solve_residual": 1e-30,
+      "distance_root_residual": 1e-24,
+      "complete_norm_relative_gap": 1e-28,
+      "gauged_linear_kernel_series_tail": 1e-14
+    },
+    "extrapolation": {
+      "lengths": [
+        2048,
+        4096
+      ],
+      "working_precisions": [
+        240,
+        280
+      ],
+      "quadrature_nodes": [
+        128,
+        192
+      ],
+      "kernel_ranks": [
+        128,
+        144
+      ],
+      "skins": [
+        "-.1",
+        "-.05",
+        ".05",
+        ".1"
+      ],
+      "levels": [
+        ".05",
+        ".01"
+      ],
+      "scope": "Analytic finite-kernel predictions and convergence diagnostics; no full-model truth at these lengths unless separately prepared."
+    },
+    "no_fit": true,
+    "interval_certified": false
+  },
+  "parameter_source_sha256": {
+    "weak": "30d2bcacf22ef063bdd74de036295beec8e0974551d634bb41a450f276df13ef",
+    "fixed": "22e0858d3fdf2ed94e37231c62e220f093552f8e9210b0a48304a38c503d426c"
+  },
+  "scope": "Public reruns create new provenance locks and output files; original scientific parameters and gates are unchanged"
+}

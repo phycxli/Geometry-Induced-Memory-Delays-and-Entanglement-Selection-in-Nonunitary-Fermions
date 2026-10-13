@@ -1,0 +1,300 @@
+{
+  "status": "public_release_staged",
+  "files": [
+    {
+      "path": "data/prl_finite_bias_closure_20261013/comparisons/figure_fixed_records.csv",
+      "bytes": 59032,
+      "sha256": "7c5aa146bbc2e8e3afcc42cf15d62c71a9d4d1c066a32b9626c3ffbffe96a375"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/comparisons/figure_fixed_windows.csv",
+      "bytes": 6378,
+      "sha256": "80deb27e9f4a722349938e30cb074424942284b95a36d2d122ffdfc392c5e677"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/comparisons/figure_weak_records.csv",
+      "bytes": 19545,
+      "sha256": "b3dc8f2d871345aca92e5f395dd4a1fec104ac01300ffc2eca918d66109e4cae"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/public/computation_parameters.json",
+      "bytes": 8370,
+      "sha256": "18d602047d30724001fa45456cd745f51080be274a954c9eb0a1024a45e3e18a"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/public/release_scope.json",
+      "bytes": 1241,
+      "sha256": "1c57d170959556e8c0c32d5adf0f0ac5223e1f7d97918288db9ef5733a5e94ea"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/public/theory_reference.json",
+      "bytes": 18397,
+      "sha256": "3b5f0efac6327064e69cc13e523d73a2cc481cac3dd09340f5642d1b9def5545"
+    },
+    {
+      "path": "FINITE_BIAS_CLOSURE_REPRODUCIBILITY.md",
+      "bytes": 6885,
+      "sha256": "0eac42815ca5f116f8f723c51999a9032db2fb790b14d5303bd9b2e8663188c4"
+    },
+    {
+      "path": "requirements-finite-bias-closure.txt",
+      "bytes": 55,
+      "sha256": "4947f259b397c22084ac6a1069cfbd98a9247305503b8a1df8ae9798d3841320"
+    },
+    {
+      "path": "scripts/audit_numerical_precision.py",
+      "bytes": 48102,
+      "sha256": "f2bb75879b374d0306abdf109ea90b725107a8ef364f8c0809c7d90eaf17bcef"
+    },
+    {
+      "path": "scripts/check_endpoint_metric_mp.py",
+      "bytes": 6534,
+      "sha256": "083c98bea7f1ddd3db624344c03f1908108d614f987820136d5aba9ddc0d250d"
+    },
+    {
+      "path": "scripts/explore_asymptotic_time.py",
+      "bytes": 19707,
+      "sha256": "a40d8c27f4929e31e1141d01872e2a42f3ae8fea67dfc6f7ca333a39cc807af4"
+    },
+    {
+      "path": "scripts/finite_bias_closure_accelerated.py",
+      "bytes": 4639,
+      "sha256": "a81f177c40559ed01ec36548b14b60de8598f32a74665790f9fafbe5eeca7433"
+    },
+    {
+      "path": "scripts/finite_bias_closure_functions_mp.py",
+      "bytes": 3226,
+      "sha256": "a85bc7159bf87a577eeaef297d0f49fcfb6305e2b312d5d772d2769fcb5d1b8f"
+    },
+    {
+      "path": "scripts/finite_bias_closure_kernel.py",
+      "bytes": 15749,
+      "sha256": "404c1f6947c1589a4c650fb621eae90f33d8f0c4481614de060e0b4df979dc50"
+    },
+    {
+      "path": "scripts/finite_bias_closure_mp.py",
+      "bytes": 25676,
+      "sha256": "b04d5d4e37b9259f7aef28b52f6b8a737428ffb9abc1b469994be0225fbd6694"
+    },
+    {
+      "path": "scripts/finite_bias_closure_split.py",
+      "bytes": 22037,
+      "sha256": "a1d97d570496714dab840038fb39b158e6d37dcc1964f7c65b8c2a5bf5c3f6a3"
+    },
+    {
+      "path": "scripts/finite_bias_closure_weak_native.py",
+      "bytes": 3922,
+      "sha256": "59a4eb596c582146219f5a9cb2ac636e5559cea3873b0b8205c3266bbe6ac5dc"
+    },
+    {
+      "path": "scripts/plot_prl_closure_upgrade.py",
+      "bytes": 14474,
+      "sha256": "715f26940ffe50be6fa4b63322be3fae477e2a5cc46620e69322d4a3d2c7c26e"
+    },
+    {
+      "path": "scripts/plot_prl_main_figures.py",
+      "bytes": 14663,
+      "sha256": "2178fdde979625396643d34acab2bc3180b07ed6da2c7ebb2f8bcc3b33adc19b"
+    },
+    {
+      "path": "scripts/reproduce_finite_bias_closure.py",
+      "bytes": 32315,
+      "sha256": "d78e0d18e2a56cc7614a7462dc8f80c6cd6a720cbffa4744ff27c26d4529e33a"
+    },
+    {
+      "path": "scripts/research_increment_center.py",
+      "bytes": 32527,
+      "sha256": "073a5b87409a9d54d661e47d4befa37682d25713353dc7d70753e3ac53d5d4b3"
+    },
+    {
+      "path": "scripts/run_directional_selection_prediction.py",
+      "bytes": 34586,
+      "sha256": "94420657d213c2804d6a785ff9b0bd3166d677dd3f1b32f4921961912d1a3077"
+    },
+    {
+      "path": "scripts/run_fine_front_hpc.py",
+      "bytes": 25243,
+      "sha256": "f36a7405ba7f0ba94ceb448e490626a9cd3fdc0bb38d8e5b12a187ac1b5d36c2"
+    },
+    {
+      "path": "scripts/run_finite_bias_closure.py",
+      "bytes": 12009,
+      "sha256": "4d904a16713d3b5898303be7c8388992cc461b8e9740f09cd3b666b8f4288786"
+    },
+    {
+      "path": "scripts/run_finite_bias_closure_fixed.py",
+      "bytes": 8692,
+      "sha256": "ea423ea5e2b7c2f45d1f7cabb08cb98c4c436f19436a8e5b6d6de4d776f7f033"
+    },
+    {
+      "path": "scripts/run_finite_time_selection_prediction.py",
+      "bytes": 33212,
+      "sha256": "2f166116635cf8868f93b5f0d0d2a2994faa329ff961ec6cef06719d39d3c10d"
+    },
+    {
+      "path": "scripts/run_isospectral_actual_entanglement.py",
+      "bytes": 35747,
+      "sha256": "10d9fe19bd9c2d5c8b98f50b1a162d1d3fc1540a3062a601b67daea1a47be0a6"
+    },
+    {
+      "path": "scripts/run_priority_strengthening.py",
+      "bytes": 22552,
+      "sha256": "e9c88112de28b9bd8c211002aec7420c8cac3623f56f9d8a18fd19b310ded8ac"
+    },
+    {
+      "path": "scripts/run_reduced_selection_prediction.py",
+      "bytes": 32668,
+      "sha256": "898ea58af6dd229129f7ed6119c999440cebdf13a14f1b60abc3e60318ab9fa7"
+    },
+    {
+      "path": "scripts/run_research_increment.py",
+      "bytes": 12187,
+      "sha256": "d2d8ee9f961c0a579956104dc82cd98991719ab5c290733946a904d35de3a374"
+    },
+    {
+      "path": "scripts/run_selection_front_hpc.py",
+      "bytes": 40847,
+      "sha256": "dbe41314274772ec91391c4ea4713656d1292e4bca78e2f1a98437375be78cf2"
+    },
+    {
+      "path": "scripts/run_singular_lt_scaling_scan.py",
+      "bytes": 5775,
+      "sha256": "32c4f5bb58515042a3418ca5a1fc80bf1a4b5e86640efcdb3b99ab485c9323c3"
+    },
+    {
+      "path": "scripts/run_spatial_selection_mechanism.py",
+      "bytes": 32876,
+      "sha256": "000544813855ed6f8d650bbef97bb712225855527f4a0b2994de8344f2a9705c"
+    },
+    {
+      "path": "scripts/run_subspace_bound_scan.py",
+      "bytes": 4967,
+      "sha256": "ddcd00cddecdab61042bbf4edb1817487cfb309b30c9fe13974cf3797d071341"
+    },
+    {
+      "path": "scripts/run_theory_upgrade_hpc.py",
+      "bytes": 27238,
+      "sha256": "39a922429367ba86634557bc45a2ccede35bd8a70538df78a56da11168153ab6"
+    },
+    {
+      "path": "scripts/slurm_finite_bias_closure_fixed.sh",
+      "bytes": 599,
+      "sha256": "186906af838342e251f14041998ea5698a3d8b94e955949878c13b026ff2d549"
+    },
+    {
+      "path": "scripts/slurm_finite_bias_closure_split.sh",
+      "bytes": 599,
+      "sha256": "186906af838342e251f14041998ea5698a3d8b94e955949878c13b026ff2d549"
+    },
+    {
+      "path": "src/mietf_skin/__init__.py",
+      "bytes": 699,
+      "sha256": "6cba706102cc6135d81cf713c3ac50c271de0983d4e475aa8d654f08ab251377"
+    },
+    {
+      "path": "src/mietf_skin/bounds.py",
+      "bytes": 7977,
+      "sha256": "72576d24af99e9b3a38d0e4c56af566d56e69ceca4e71c38b3a9a83495122a51"
+    },
+    {
+      "path": "src/mietf_skin/controlled.py",
+      "bytes": 10808,
+      "sha256": "f34befbdaf7c0356cfc3bd2cb6890fe7c4d11b0546ab8723d4d9245d1bc7a4e6"
+    },
+    {
+      "path": "src/mietf_skin/diagnostics.py",
+      "bytes": 5461,
+      "sha256": "86e37f985c2c4c566aee6c755ba6db069c9c680dc98573c7e6029c704da3a452"
+    },
+    {
+      "path": "src/mietf_skin/gaussian.py",
+      "bytes": 4332,
+      "sha256": "7baabe49af5baab03f01505e0c174d3902f9bb1d29826ce37d15b0cd356d30f0"
+    },
+    {
+      "path": "src/mietf_skin/hatano.py",
+      "bytes": 6078,
+      "sha256": "ce8ad1743c0f33041ccf2f5e97e9e0ebd3d404b105e1197db816d2664e67de94"
+    },
+    {
+      "path": "src/mietf_skin/isospectral.py",
+      "bytes": 12481,
+      "sha256": "1f1663e1a23b1510e488de7aea3aa8477ab81a49aab6514c2bc739ab26dcbdda"
+    },
+    {
+      "path": "src/mietf_skin/lyapunov.py",
+      "bytes": 1873,
+      "sha256": "418868f6d7e767ecbd7fcbb22a963a2e170382645baf1ab4194ba71471c7217c"
+    },
+    {
+      "path": "src/mietf_skin/models.py",
+      "bytes": 1677,
+      "sha256": "7673082a40784694af84019f89b2096a29c09ad88ecc9d206d7d99364ee963ab"
+    },
+    {
+      "path": "src/mietf_skin/response.py",
+      "bytes": 4779,
+      "sha256": "3f86bf20ce234c6f40dabcfed8b10d2d1da0de34c13cf0b87415636b64dd2b52"
+    },
+    {
+      "path": "src/mietf_skin/simulate.py",
+      "bytes": 1931,
+      "sha256": "b63996a973a94fd35c36b2f4bda3fa3e25494e7337846bc146cc72c4ac37e612"
+    },
+    {
+      "path": "src/mietf_skin/ssh.py",
+      "bytes": 5259,
+      "sha256": "28606dccea4ff32009f86ec497a936afc8f0612f3bb0354a4f159ad10bfbbdb9"
+    }
+  ],
+  "original_source_sha256": {
+    "scripts/audit_numerical_precision.py": "f2bb75879b374d0306abdf109ea90b725107a8ef364f8c0809c7d90eaf17bcef",
+    "scripts/explore_asymptotic_time.py": "a40d8c27f4929e31e1141d01872e2a42f3ae8fea67dfc6f7ca333a39cc807af4",
+    "scripts/finite_bias_closure_accelerated.py": "a81f177c40559ed01ec36548b14b60de8598f32a74665790f9fafbe5eeca7433",
+    "scripts/finite_bias_closure_functions_mp.py": "a85bc7159bf87a577eeaef297d0f49fcfb6305e2b312d5d772d2769fcb5d1b8f",
+    "scripts/finite_bias_closure_kernel.py": "404c1f6947c1589a4c650fb621eae90f33d8f0c4481614de060e0b4df979dc50",
+    "scripts/finite_bias_closure_mp.py": "b04d5d4e37b9259f7aef28b52f6b8a737428ffb9abc1b469994be0225fbd6694",
+    "scripts/finite_bias_closure_split.py": "a1d97d570496714dab840038fb39b158e6d37dcc1964f7c65b8c2a5bf5c3f6a3",
+    "scripts/finite_bias_closure_weak_native.py": "59a4eb596c582146219f5a9cb2ac636e5559cea3873b0b8205c3266bbe6ac5dc",
+    "scripts/plot_prl_closure_upgrade.py": "715f26940ffe50be6fa4b63322be3fae477e2a5cc46620e69322d4a3d2c7c26e",
+    "scripts/plot_prl_main_figures.py": "2178fdde979625396643d34acab2bc3180b07ed6da2c7ebb2f8bcc3b33adc19b",
+    "scripts/research_increment_center.py": "073a5b87409a9d54d661e47d4befa37682d25713353dc7d70753e3ac53d5d4b3",
+    "scripts/run_directional_selection_prediction.py": "94420657d213c2804d6a785ff9b0bd3166d677dd3f1b32f4921961912d1a3077",
+    "scripts/run_fine_front_hpc.py": "f36a7405ba7f0ba94ceb448e490626a9cd3fdc0bb38d8e5b12a187ac1b5d36c2",
+    "scripts/run_finite_bias_closure.py": "4d904a16713d3b5898303be7c8388992cc461b8e9740f09cd3b666b8f4288786",
+    "scripts/run_finite_bias_closure_fixed.py": "ea423ea5e2b7c2f45d1f7cabb08cb98c4c436f19436a8e5b6d6de4d776f7f033",
+    "scripts/run_finite_time_selection_prediction.py": "2f166116635cf8868f93b5f0d0d2a2994faa329ff961ec6cef06719d39d3c10d",
+    "scripts/run_isospectral_actual_entanglement.py": "10d9fe19bd9c2d5c8b98f50b1a162d1d3fc1540a3062a601b67daea1a47be0a6",
+    "scripts/run_priority_strengthening.py": "e9c88112de28b9bd8c211002aec7420c8cac3623f56f9d8a18fd19b310ded8ac",
+    "scripts/run_reduced_selection_prediction.py": "898ea58af6dd229129f7ed6119c999440cebdf13a14f1b60abc3e60318ab9fa7",
+    "scripts/run_research_increment.py": "d2d8ee9f961c0a579956104dc82cd98991719ab5c290733946a904d35de3a374",
+    "scripts/run_selection_front_hpc.py": "dbe41314274772ec91391c4ea4713656d1292e4bca78e2f1a98437375be78cf2",
+    "scripts/run_singular_lt_scaling_scan.py": "32c4f5bb58515042a3418ca5a1fc80bf1a4b5e86640efcdb3b99ab485c9323c3",
+    "scripts/run_spatial_selection_mechanism.py": "000544813855ed6f8d650bbef97bb712225855527f4a0b2994de8344f2a9705c",
+    "scripts/run_subspace_bound_scan.py": "ddcd00cddecdab61042bbf4edb1817487cfb309b30c9fe13974cf3797d071341",
+    "scripts/run_theory_upgrade_hpc.py": "39a922429367ba86634557bc45a2ccede35bd8a70538df78a56da11168153ab6",
+    "src/mietf_skin/__init__.py": "6cba706102cc6135d81cf713c3ac50c271de0983d4e475aa8d654f08ab251377",
+    "src/mietf_skin/bounds.py": "72576d24af99e9b3a38d0e4c56af566d56e69ceca4e71c38b3a9a83495122a51",
+    "src/mietf_skin/controlled.py": "f34befbdaf7c0356cfc3bd2cb6890fe7c4d11b0546ab8723d4d9245d1bc7a4e6",
+    "src/mietf_skin/diagnostics.py": "86e37f985c2c4c566aee6c755ba6db069c9c680dc98573c7e6029c704da3a452",
+    "src/mietf_skin/gaussian.py": "7baabe49af5baab03f01505e0c174d3902f9bb1d29826ce37d15b0cd356d30f0",
+    "src/mietf_skin/hatano.py": "ce8ad1743c0f33041ccf2f5e97e9e0ebd3d404b105e1197db816d2664e67de94",
+    "src/mietf_skin/isospectral.py": "1f1663e1a23b1510e488de7aea3aa8477ab81a49aab6514c2bc739ab26dcbdda",
+    "src/mietf_skin/lyapunov.py": "418868f6d7e767ecbd7fcbb22a963a2e170382645baf1ab4194ba71471c7217c",
+    "src/mietf_skin/models.py": "7673082a40784694af84019f89b2096a29c09ad88ecc9d206d7d99364ee963ab",
+    "src/mietf_skin/response.py": "3f86bf20ce234c6f40dabcfed8b10d2d1da0de34c13cf0b87415636b64dd2b52",
+    "src/mietf_skin/simulate.py": "b63996a973a94fd35c36b2f4bda3fa3e25494e7337846bc146cc72c4ac37e612",
+    "src/mietf_skin/ssh.py": "28606dccea4ff32009f86ec497a936afc8f0612f3bb0354a4f159ad10bfbbdb9",
+    "scripts/reproduce_finite_bias_closure.py": "d78e0d18e2a56cc7614a7462dc8f80c6cd6a720cbffa4744ff27c26d4529e33a",
+    "data/prl_finite_bias_closure_20261013/comparisons/figure_weak_records.csv": "b3dc8f2d871345aca92e5f395dd4a1fec104ac01300ffc2eca918d66109e4cae",
+    "data/prl_finite_bias_closure_20261013/comparisons/figure_fixed_records.csv": "7c5aa146bbc2e8e3afcc42cf15d62c71a9d4d1c066a32b9626c3ffbffe96a375",
+    "data/prl_finite_bias_closure_20261013/comparisons/figure_fixed_windows.csv": "80deb27e9f4a722349938e30cb074424942284b95a36d2d122ffdfc392c5e677",
+    "research_doc/01_当前研究/有限尺寸与固定偏置闭合_20261013/推导与复核/finite_size/metric_check/check_endpoint_metric_mp.py": "083c98bea7f1ddd3db624344c03f1908108d614f987820136d5aba9ddc0d250d",
+    "research_doc/01_当前研究/有限尺寸与固定偏置闭合_20261013/推导与复核/fixed_bias/fixed_bias_predictions_reviewed.json": "ed4ad44a031b44cc306957e5afd79e823a621556eed79e8b0977bc2819ee14a2"
+  },
+  "total_bytes": 756626,
+  "original_computation_code_byte_identical": true,
+  "portable_slurm_wrappers_are_new": true,
+  "historical_failure_data_not_modified": true,
+  "git_operations_performed": false
+}

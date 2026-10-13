@@ -17,14 +17,19 @@
       "sha256": "9454272E99B9CB4DB6A46BE4D5157C4C8C7B91D7BF5B5C55DA78B09B41AC1554"
     },
     {
+      "path": "FINITE_BIAS_CLOSURE_REPRODUCIBILITY.md",
+      "bytes": 6885,
+      "sha256": "0EAC42815CA5F116F8F723C51999A9032DB2FB790B14D5303BD9B2E8663188C4"
+    },
+    {
       "path": "LICENSE",
       "bytes": 1064,
       "sha256": "0F7EEFB4B307518280F2CB5CAF5C31B814DE63BE46B35BC50139DB829C416344"
     },
     {
       "path": "README.md",
-      "bytes": 6463,
-      "sha256": "D1D57FC1DF659101A23CD60D89405D8672FDA9F904FC09943CC873DADF2DC148"
+      "bytes": 7471,
+      "sha256": "EFB3B743D146991366BD4ADFBAB8B1957D02C312CF1396B979D82BCB69C75151"
     },
     {
       "path": "configs/short_time_pilot.json",
@@ -145,6 +150,36 @@
       "path": "data/prl_figure_strengthening/widths.csv",
       "bytes": 11249,
       "sha256": "115A3F7FD346532D9EBA4C59433F4138B471CC1CB19F5BE17DF066D4C9CB89BB"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/comparisons/figure_fixed_records.csv",
+      "bytes": 59032,
+      "sha256": "7C5AA146BBC2E8E3AFCC42CF15D62C71A9D4D1C066A32B9626C3FFBFFE96A375"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/comparisons/figure_fixed_windows.csv",
+      "bytes": 6378,
+      "sha256": "80DEB27E9F4A722349938E30CB074424942284B95A36D2D122FFDFC392C5E677"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/comparisons/figure_weak_records.csv",
+      "bytes": 19545,
+      "sha256": "B3DC8F2D871345ACA92E5F395DD4A1FEC104AC01300FFC2ECA918D66109E4CAE"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/public/computation_parameters.json",
+      "bytes": 8370,
+      "sha256": "18D602047D30724001FA45456CD745F51080BE274A954C9EB0A1024A45E3E18A"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/public/release_scope.json",
+      "bytes": 1241,
+      "sha256": "1C57D170959556E8C0C32D5ADF0F0AC5223E1F7D97918288DB9EF5733A5E94EA"
+    },
+    {
+      "path": "data/prl_finite_bias_closure_20261013/public/theory_reference.json",
+      "bytes": 18397,
+      "sha256": "3B5F0EFAC6327064E69CC13E523D73A2CC481CAC3DD09340F5642D1B9DEF5545"
     },
     {
       "path": "data/prl_manuscript_revision/fig1_same_protocol.csv",
@@ -1652,9 +1687,19 @@
       "sha256": "2A53BB3E34EA4A96A091FAA650808E55863EE9E69AF18CF78962DB66FE630EED"
     },
     {
+      "path": "public_release_manifest.json",
+      "bytes": 14196,
+      "sha256": "01D45DE5AE57239A72B50AB9950A39D098A4AC099263AD897DE4071C396FACC2"
+    },
+    {
       "path": "pyproject.toml",
       "bytes": 557,
       "sha256": "465426958582D9AE4059758D10AE5070D4F01B5CF91850354C6301A76B4137B3"
+    },
+    {
+      "path": "requirements-finite-bias-closure.txt",
+      "bytes": 55,
+      "sha256": "4947F259B397C22084AC6A1069CFBD98A9247305503B8A1DF8AE9798D3841320"
     },
     {
       "path": "scripts/analyze_completion_research.py",
@@ -1727,9 +1772,54 @@
       "sha256": "47B06F1EBD8B4D0807905F4447F55055ADF002320DB6B1B406EADCDE012CA225"
     },
     {
+      "path": "scripts/check_endpoint_metric_mp.py",
+      "bytes": 6534,
+      "sha256": "083C98BEA7F1DDD3DB624344C03F1908108D614F987820136D5ABA9DDC0D250D"
+    },
+    {
+      "path": "scripts/explore_asymptotic_time.py",
+      "bytes": 19707,
+      "sha256": "A40D8C27F4929E31E1141D01872E2A42F3AE8FEA67DFC6F7CA333A39CC807AF4"
+    },
+    {
+      "path": "scripts/finite_bias_closure_accelerated.py",
+      "bytes": 4639,
+      "sha256": "A81F177C40559ED01EC36548B14B60DE8598F32A74665790F9FAFBE5EECA7433"
+    },
+    {
+      "path": "scripts/finite_bias_closure_functions_mp.py",
+      "bytes": 3226,
+      "sha256": "A85BC7159BF87A577EEAEF297D0F49FCFB6305E2B312D5D772D2769FCB5D1B8F"
+    },
+    {
+      "path": "scripts/finite_bias_closure_kernel.py",
+      "bytes": 15749,
+      "sha256": "404C1F6947C1589A4C650FB621EAE90F33D8F0C4481614DE060E0B4DF979DC50"
+    },
+    {
+      "path": "scripts/finite_bias_closure_mp.py",
+      "bytes": 25676,
+      "sha256": "B04D5D4E37B9259F7AEF28B52F6B8A737428FFB9ABC1B469994BE0225FBD6694"
+    },
+    {
+      "path": "scripts/finite_bias_closure_split.py",
+      "bytes": 22037,
+      "sha256": "A1D97D570496714DAB840038FB39B158E6D37DCC1964F7C65B8C2A5BF5C3F6A3"
+    },
+    {
+      "path": "scripts/finite_bias_closure_weak_native.py",
+      "bytes": 3922,
+      "sha256": "59A4EB596C582146219F5A9CB2AC636E5559CEA3873B0B8205C3266BBE6AC5DC"
+    },
+    {
       "path": "scripts/plot_priority_strengthening.py",
       "bytes": 10126,
       "sha256": "E6416992DEF8B7F064072743721AC28B16B75F5DDF3921BEEE45B3DA5642838D"
+    },
+    {
+      "path": "scripts/plot_prl_closure_upgrade.py",
+      "bytes": 14474,
+      "sha256": "715F26940FFE50BE6FA4B63322BE3FAE477E2A5CC46620E69322D4A3D2C7C26E"
     },
     {
       "path": "scripts/plot_prl_main_figures.py",
@@ -1747,6 +1837,11 @@
       "sha256": "4129B7057E4FEA0F6E9895F3E4B448E850F7B340F9B720815DC3B5460597AAAC"
     },
     {
+      "path": "scripts/reproduce_finite_bias_closure.py",
+      "bytes": 32315,
+      "sha256": "D78E0D18E2A56CC7614A7462DC8F80C6CD6A720CBFFA4744FF27C26D4529E33A"
+    },
+    {
       "path": "scripts/reproduce_operational_memory.py",
       "bytes": 3137,
       "sha256": "178B2AF6A80CD3B2644EEF4E1D8C24422EA0FBC5985D68992F2E37CD2D8CFDCF"
@@ -1755,6 +1850,11 @@
       "path": "scripts/reproduce_paper.py",
       "bytes": 13956,
       "sha256": "476023BC152DF8FEF14047F0AA9E5535E56A6431CF901616127B3409FA5E79D3"
+    },
+    {
+      "path": "scripts/research_increment_center.py",
+      "bytes": 32527,
+      "sha256": "073A5B87409A9D54D661E47D4BEFA37682D25713353DC7D70753E3AC53D5D4B3"
     },
     {
       "path": "scripts/run_directional_selection_prediction.py",
@@ -1807,6 +1907,16 @@
       "sha256": "F36A7405BA7F0BA94CEB448E490626A9CD3FDC0BB38D8E5B12A187AC1B5D36C2"
     },
     {
+      "path": "scripts/run_finite_bias_closure.py",
+      "bytes": 12009,
+      "sha256": "4D904A16713D3B5898303BE7C8388992CC461B8E9740F09CD3B666B8F4288786"
+    },
+    {
+      "path": "scripts/run_finite_bias_closure_fixed.py",
+      "bytes": 8692,
+      "sha256": "EA423EA5E2B7C2F45D1F7CABB08CB98C4C436F19436A8E5B6D6DE4D776F7F033"
+    },
+    {
       "path": "scripts/run_finite_time_selection_prediction.py",
       "bytes": 33212,
       "sha256": "2F166116635CF8868F93B5F0D0D2A2994FAA329FF961EC6CEF06719D39D3C10D"
@@ -1847,6 +1957,11 @@
       "sha256": "898EA58AF6DD229129F7ED6119C999440CEBDF13A14F1B60ABC3E60318AB9FA7"
     },
     {
+      "path": "scripts/run_research_increment.py",
+      "bytes": 12187,
+      "sha256": "D2D8EE9F961C0A579956104DC82CD98991719AB5C290733946A904D35DE3A374"
+    },
+    {
       "path": "scripts/run_selection_front_hpc.py",
       "bytes": 40847,
       "sha256": "DBE41314274772EC91391C4EA4713656D1292E4BCA78E2F1A98437375BE78CF2"
@@ -1875,6 +1990,16 @@
       "path": "scripts/run_theory_upgrade_hpc.py",
       "bytes": 27238,
       "sha256": "39A922429367BA86634557BC45A2CCEDE35BD8A70538DF78A56DA11168153AB6"
+    },
+    {
+      "path": "scripts/slurm_finite_bias_closure_fixed.sh",
+      "bytes": 599,
+      "sha256": "186906AF838342E251F14041998EA5698A3D8B94E955949878C13B026FF2D549"
+    },
+    {
+      "path": "scripts/slurm_finite_bias_closure_split.sh",
+      "bytes": 599,
+      "sha256": "186906AF838342E251F14041998EA5698A3D8B94E955949878C13B026FF2D549"
     },
     {
       "path": "src/mietf_skin/__init__.py",
@@ -1940,5 +2065,6 @@
   "scope": "Scientific code, parameters, compact numerical tables and reference figures; original MIT license retained",
   "excluded": "Large raw matrices, baseline archives, scheduler logs, internal notes and manuscript projects",
   "updated_utc": "2026-10-09T21:21:44.332089+00:00",
-  "fixed_site_protocol": "L4 N2 g0.15 t0.5, A1 readout, 768 frozen controls; numerical proposal, no experimental data"
+  "fixed_site_protocol": "L4 N2 g0.15 t0.5, A1 readout, 768 frozen controls; numerical proposal, no experimental data",
+  "closure_upgrade_utc": "2026-10-13T04:07:26.208994+00:00"
 }

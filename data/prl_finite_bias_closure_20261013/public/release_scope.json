@@ -1,0 +1,26 @@
+{
+  "target": "G_invar",
+  "direct_Pout_numerical_roots": 0,
+  "weak_table_conditions": 72,
+  "weak_retrospective_conditions": 36,
+  "weak_new_holdout_conditions": 36,
+  "fixed_original_model_conditions": 64,
+  "fixed_precision_records": 128,
+  "large_size_prediction_conditions": 32,
+  "large_size_precision_records": 64,
+  "large_sizes": [
+    2048,
+    4096
+  ],
+  "large_size_original_model_truth": false,
+  "numerical_temporal_rates": "centered finite-kernel differences; no independent original-model derivative",
+  "fixed_g_scope": "fixed 0<|g|<=0.1, same-sided compact sets separated from zero; g=0 separate",
+  "fixed_threshold_scope": "[epsilon_min,0.05], epsilon_min>0",
+  "weak_scope": "chi=gL in a fixed compact set, thresholds [epsilon_min,0.3]",
+  "sqrt_scope": "g=xi/sqrt(L), xi in a fixed compact set, thresholds [epsilon_min,0.05]",
+  "fidelity_scope": "Analytic corollary for pure conditional Slater states at fixed nonzero bias; no new determinant numerical test",
+  "old_failure_records_overwritten": false,
+  "complete_interval_certification": false,
+  "hpc_private_logs_cache_credentials_and_internal_editorial_records_included": false,
+  "scalar_check_is_not_full_HPC_recomputation": true
+}
