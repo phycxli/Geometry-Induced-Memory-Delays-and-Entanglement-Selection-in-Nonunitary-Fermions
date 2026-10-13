@@ -1,0 +1,787 @@
+{
+  "figure3": {
+    "files": [
+      {
+        "path": "figures/prl_physics_narrative/fig3_reflection_response.pdf",
+        "sha256": "ac5bdba676a17777063cf28c179f9e0878a9f1eb96857f0f35ce61b5d46dad5d",
+        "bytes": 18863
+      },
+      {
+        "path": "figures/prl_physics_narrative/fig3_reflection_response.svg",
+        "sha256": "0e592158eef65b81cd50d3c0eb3cf5316891a9950e2fc11237350128023a58af",
+        "bytes": 47490
+      },
+      {
+        "path": "figures/prl_physics_narrative/fig3_reflection_response.png",
+        "sha256": "e0520f9a8171ef4ba9a96fb672f0e9ab9664bac7ee2dcc1a7898d78c456f4f89",
+        "bytes": 154762
+      }
+    ],
+    "width_inches": 3.4,
+    "height_inches": 4.2,
+    "minimum_label_pt": 8,
+    "white_background": true,
+    "no_panel_titles": true,
+    "no_gradients_shadows_glows": true,
+    "panel_letters_below_each_panel": true,
+    "labels_within_canvas": true,
+    "no_fit": true,
+    "data_points": [
+      {
+        "initial": "left",
+        "length": 1280,
+        "g": -0.1,
+        "epsilon": 0.05,
+        "time": 711.7351469459021,
+        "plotted_value": 0.556043083551486,
+        "target": "G_invar",
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 1280,
+        "g": -0.05,
+        "epsilon": 0.05,
+        "time": 700.0402648188739,
+        "plotted_value": 0.5469064568897453,
+        "target": "G_invar",
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 1280,
+        "g": 0.05,
+        "epsilon": 0.05,
+        "time": 676.9990117598443,
+        "plotted_value": 0.5289054779373783,
+        "target": "G_invar",
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 1280,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "time": 665.7213547693203,
+        "plotted_value": 0.5200948084135315,
+        "target": "G_invar",
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 4096,
+        "g": -0.1,
+        "epsilon": 0.05,
+        "time": 2287.385935795906,
+        "plotted_value": 0.5584438319814223,
+        "target": "G_invar",
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "left",
+        "length": 4096,
+        "g": -0.05,
+        "epsilon": 0.05,
+        "time": 2249.2349225704834,
+        "plotted_value": 0.5491296197681844,
+        "target": "G_invar",
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "left",
+        "length": 4096,
+        "g": 0.05,
+        "epsilon": 0.05,
+        "time": 2173.945169503008,
+        "plotted_value": 0.5307483323981953,
+        "target": "G_invar",
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "left",
+        "length": 4096,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "time": 2137.210648309327,
+        "plotted_value": 0.5217799434348943,
+        "target": "G_invar",
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "right",
+        "length": 1280,
+        "g": -0.1,
+        "epsilon": 0.05,
+        "time": 666.3556624112506,
+        "plotted_value": 0.5205903612587895,
+        "target": "G_invar",
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 1280,
+        "g": -0.05,
+        "epsilon": 0.05,
+        "time": 677.6170429687423,
+        "plotted_value": 0.5293883148193299,
+        "target": "G_invar",
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 1280,
+        "g": 0.05,
+        "epsilon": 0.05,
+        "time": 700.6253018842217,
+        "plotted_value": 0.5473635170970482,
+        "target": "G_invar",
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 1280,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "time": 712.3035881386738,
+        "plotted_value": 0.5564871782333389,
+        "target": "G_invar",
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 4096,
+        "g": -0.1,
+        "epsilon": 0.05,
+        "time": 2137.844821864441,
+        "plotted_value": 0.5219347709629983,
+        "target": "G_invar",
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "right",
+        "length": 4096,
+        "g": -0.05,
+        "epsilon": 0.05,
+        "time": 2174.5630252163887,
+        "plotted_value": 0.5308991760782199,
+        "target": "G_invar",
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "right",
+        "length": 4096,
+        "g": 0.05,
+        "epsilon": 0.05,
+        "time": 2249.8196600479087,
+        "plotted_value": 0.549272377941384,
+        "target": "G_invar",
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "right",
+        "length": 4096,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "time": 2287.954038145897,
+        "plotted_value": 0.5585825288442131,
+        "target": "G_invar",
+        "evidence": "finite_kernel_prediction"
+      }
+    ],
+    "line_interpretation": "Connections between four discrete frozen biases guide the eye.",
+    "overlap_schematic_not_particle_density": true,
+    "h_definition": "s*g, s=+1 left, -1 right",
+    "numerical_derivative_test_claimed": false
+  },
+  "figure4": {
+    "files": [
+      {
+        "path": "figures/prl_physics_narrative/fig4_continuous_window.pdf",
+        "sha256": "c32da9e2d2ab408b2ced5f9de37a6bbef48cd60d415c70886282434792b6c01a",
+        "bytes": 15323
+      },
+      {
+        "path": "figures/prl_physics_narrative/fig4_continuous_window.svg",
+        "sha256": "2646f0acae492fdff9b3367ec20b59ec890f8b5c794f76f849d8d39af4a1a8d5",
+        "bytes": 40739
+      },
+      {
+        "path": "figures/prl_physics_narrative/fig4_continuous_window.png",
+        "sha256": "aa0e7e0182bad8065078873f1613895b94c24e5237328c4e0dc4af6e16415772",
+        "bytes": 112029
+      }
+    ],
+    "width_inches": 3.4,
+    "height_inches": 4.2,
+    "minimum_label_pt": 8,
+    "white_background": true,
+    "no_panel_titles": true,
+    "no_gradients_shadows_glows": true,
+    "panel_letters_below_each_panel": true,
+    "labels_within_canvas": true,
+    "no_fit": true,
+    "wait_data": [
+      {
+        "initial": "left",
+        "length": 896,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 465.12658392232254,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 1024,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 531.9863693143986,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 1152,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 598.8517272551633,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 1280,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 665.7213547693203,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 2048,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 1066.991800104164,
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "left",
+        "length": 4096,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 2137.210648309327,
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "right",
+        "length": 896,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 497.6116616151403,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 1024,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 569.1636720239685,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 1152,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 640.7285068261841,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 1280,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 712.3035881386738,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 2048,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 1141.891206503087,
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "right",
+        "length": 4096,
+        "g": 0.1,
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 2287.954038145897,
+        "evidence": "finite_kernel_prediction"
+      }
+    ],
+    "window_data": [
+      {
+        "initial": "left",
+        "length": 896,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6090657461307507,
+        "asymptotic_window": 0.6096367600581242,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 1024,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6091520824001262,
+        "asymptotic_window": 0.6096367600581242,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 1152,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6092172432521784,
+        "asymptotic_window": 0.6096367600581242,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 1280,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6092679598585137,
+        "asymptotic_window": 0.6096367600581242,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "left",
+        "length": 2048,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6094278421371555,
+        "asymptotic_window": 0.6096367600581242,
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "left",
+        "length": 4096,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6095435119939168,
+        "asymptotic_window": 0.6096367600581242,
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "right",
+        "length": 896,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.607212677277207,
+        "asymptotic_window": 0.6087645003924832,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 1024,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.60738821328261,
+        "asymptotic_window": 0.6087645003924832,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 1152,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6075266196561607,
+        "asymptotic_window": 0.6087645003924832,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 1280,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6076387234282717,
+        "asymptotic_window": 0.6087645003924832,
+        "evidence": "original_model"
+      },
+      {
+        "initial": "right",
+        "length": 2048,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6080288964889894,
+        "asymptotic_window": 0.6087645003924832,
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "initial": "right",
+        "length": 4096,
+        "g": 0.1,
+        "lower_threshold": 0.01,
+        "upper_threshold": 0.05,
+        "target": "G_invar",
+        "window": 0.6083754672531555,
+        "asymptotic_window": 0.6087645003924832,
+        "evidence": "finite_kernel_prediction"
+      }
+    ],
+    "fixed_bias": 0.1,
+    "line_interpretation": "Sample connections; horizontal dashed lines are analytic window limits.",
+    "fidelity_numeric_test_claimed": false
+  },
+  "supplementary": {
+    "files": [
+      {
+        "path": "figures/prl_physics_narrative/fig_s_narrative_checks.pdf",
+        "sha256": "8ddc3df32f7883ceb55313e2f148bf70d94c5bf62c044d286786886c35962670",
+        "bytes": 21566
+      },
+      {
+        "path": "figures/prl_physics_narrative/fig_s_narrative_checks.svg",
+        "sha256": "0e102ba2849a34c46d780c83141e7535c54ff39adf72875581a759ce73c228b2",
+        "bytes": 50870
+      },
+      {
+        "path": "figures/prl_physics_narrative/fig_s_narrative_checks.png",
+        "sha256": "552522d4857eabb808f6983e258795b372135f1a5967627dfacfb498c452dc50",
+        "bytes": 104978
+      }
+    ],
+    "width_inches": 7.1,
+    "height_inches": 2.8,
+    "minimum_label_pt": 8,
+    "white_background": true,
+    "no_panel_titles": true,
+    "no_gradients_shadows_glows": true,
+    "panel_letters_below_each_panel": true,
+    "labels_within_canvas": true,
+    "no_fit": true,
+    "center_data": [
+      {
+        "length": 896,
+        "g": -0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 497.04302273864283,
+        "plotted_value": -8.112594230025335,
+        "predicted": -7.708139897214594,
+        "evidence": "original_model"
+      },
+      {
+        "length": 1024,
+        "g": -0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 568.5951147505107,
+        "plotted_value": -8.232557362491574,
+        "predicted": -7.859550264545142,
+        "evidence": "original_model"
+      },
+      {
+        "length": 1152,
+        "g": -0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 640.1600137416972,
+        "plotted_value": -8.339713515639145,
+        "predicted": -7.993103673549019,
+        "evidence": "original_model"
+      },
+      {
+        "length": 1280,
+        "g": -0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 711.7351469459021,
+        "plotted_value": -8.43663545576831,
+        "predicted": -8.11257126887879,
+        "evidence": "original_model"
+      },
+      {
+        "length": 2048,
+        "g": -0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 1141.3229452301237,
+        "plotted_value": -8.881168037551246,
+        "predicted": -8.645505290999656,
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "length": 4096,
+        "g": -0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 2287.385935795906,
+        "plotted_value": -9.571059781114313,
+        "predicted": -9.43146031745417,
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "length": 896,
+        "g": 0.0,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 480.894570272856,
+        "plotted_value": -3.8483232456652887,
+        "predicted": -3.854069948607297,
+        "evidence": "original_model"
+      },
+      {
+        "length": 1024,
+        "g": 0.0,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 550.0713411820602,
+        "plotted_value": -3.9246348535361095,
+        "predicted": -3.929775132272571,
+        "evidence": "original_model"
+      },
+      {
+        "length": 1152,
+        "g": 0.0,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 619.2571636186805,
+        "plotted_value": -3.9918949339908396,
+        "predicted": -3.9965518367745094,
+        "evidence": "original_model"
+      },
+      {
+        "length": 1280,
+        "g": 0.0,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 688.4501173226416,
+        "plotted_value": -4.0520237471047595,
+        "predicted": -4.056285634439395,
+        "evidence": "original_model"
+      },
+      {
+        "length": 896,
+        "g": 0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 465.12658392232254,
+        "plotted_value": -1.155240476977827,
+        "predicted": -1.2865307328704332,
+        "evidence": "original_model"
+      },
+      {
+        "length": 1024,
+        "g": 0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 531.9863693143986,
+        "plotted_value": -1.1942437668462738,
+        "predicted": -1.3118019517952924,
+        "evidence": "original_model"
+      },
+      {
+        "length": 1152,
+        "g": 0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 598.8517272551633,
+        "plotted_value": -1.227674508026201,
+        "predicted": -1.3340927466503767,
+        "evidence": "original_model"
+      },
+      {
+        "length": 1280,
+        "g": 0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 665.7213547693203,
+        "plotted_value": -1.2568356758136936,
+        "predicted": -1.3540325421163906,
+        "evidence": "original_model"
+      },
+      {
+        "length": 2048,
+        "g": 0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 1066.991800104164,
+        "plotted_value": -1.379122432637235,
+        "predicted": -1.4429821469748216,
+        "evidence": "finite_kernel_prediction"
+      },
+      {
+        "length": 4096,
+        "g": 0.1,
+        "initial": "left",
+        "epsilon": 0.05,
+        "target": "G_invar",
+        "time": 2137.210648309327,
+        "plotted_value": -1.5408931385867284,
+        "predicted": -1.5741623421543507,
+        "evidence": "finite_kernel_prediction"
+      }
+    ],
+    "response_summary": [
+      {
+        "initial": "left",
+        "length": 896,
+        "cases": 9,
+        "mean": 0.31694368248353577,
+        "minimum": 0.3109940037311842,
+        "maximum": 0.3229424696174079,
+        "range_is_deterministic": true,
+        "x_offset": -8,
+        "evidence": "original_model",
+        "target": "G_invar"
+      },
+      {
+        "initial": "left",
+        "length": 1024,
+        "cases": 9,
+        "mean": 0.31724185280244566,
+        "minimum": 0.31164511433034026,
+        "maximum": 0.322880716688954,
+        "range_is_deterministic": true,
+        "x_offset": -8,
+        "evidence": "original_model",
+        "target": "G_invar"
+      },
+      {
+        "initial": "left",
+        "length": 1152,
+        "cases": 9,
+        "mean": 0.31747788675190963,
+        "minimum": 0.3121769243778215,
+        "maximum": 0.32281568181663706,
+        "range_is_deterministic": true,
+        "x_offset": -8,
+        "evidence": "original_model",
+        "target": "G_invar"
+      },
+      {
+        "initial": "left",
+        "length": 1280,
+        "cases": 9,
+        "mean": 0.3176696561507266,
+        "minimum": 0.31262132178343316,
+        "maximum": 0.32275068000431506,
+        "range_is_deterministic": true,
+        "x_offset": -8,
+        "evidence": "original_model",
+        "target": "G_invar"
+      },
+      {
+        "initial": "right",
+        "length": 896,
+        "cases": 9,
+        "mean": 0.32795412356485554,
+        "minimum": 0.3220106260425118,
+        "maximum": 0.3339466265701097,
+        "range_is_deterministic": true,
+        "x_offset": 8,
+        "evidence": "original_model",
+        "target": "G_invar"
+      },
+      {
+        "initial": "right",
+        "length": 1024,
+        "cases": 9,
+        "mean": 0.32754818287975634,
+        "minimum": 0.32195647413198003,
+        "maximum": 0.3331819400604399,
+        "range_is_deterministic": true,
+        "x_offset": 8,
+        "evidence": "original_model",
+        "target": "G_invar"
+      },
+      {
+        "initial": "right",
+        "length": 1152,
+        "cases": 9,
+        "mean": 0.3272003031961518,
+        "minimum": 0.32190353521806,
+        "maximum": 0.33253384419865023,
+        "range_is_deterministic": true,
+        "x_offset": 8,
+        "evidence": "original_model",
+        "target": "G_invar"
+      },
+      {
+        "initial": "right",
+        "length": 1280,
+        "cases": 9,
+        "mean": 0.32689760777192806,
+        "minimum": 0.32185283946887044,
+        "maximum": 0.33197501801471563,
+        "range_is_deterministic": true,
+        "x_offset": 8,
+        "evidence": "original_model",
+        "target": "G_invar"
+      }
+    ],
+    "analytic_A": 0.3196734354771544,
+    "range_is_not_statistical_uncertainty": true
+  },
+  "input_sha256": {
+    "data/prl_finite_bias_closure_20261013/comparisons/figure_fixed_records.csv": "7c5aa146bbc2e8e3afcc42cf15d62c71a9d4d1c066a32b9626c3ffbffe96a375",
+    "data/prl_finite_bias_closure_20261013/comparisons/figure_fixed_windows.csv": "80deb27e9f4a722349938e30cb074424942284b95a36d2d122ffdfc392c5e677",
+    "data/prl_finite_bias_closure_20261013/comparisons/figure_weak_records.csv": "b3dc8f2d871345aca92e5f395dd4a1fec104ac01300ffc2eca918d66109e4cae",
+    "data/prl_finite_bias_closure_20261013/public/theory_reference.json": "3b5f0efac6327064e69cc13e523d73a2cc481cac3dd09340f5642d1b9def5545"
+  },
+  "source_sha256": "2f523061eb4a7c2dbf079db9f71e0a1e5f60b17873357e0174fca2d5a9c988eb",
+  "no_new_computations_or_fidelity_tests": true,
+  "no_fit": true,
+  "line_interpretation": "All nonhorizontal connections join saved discrete samples."
+}

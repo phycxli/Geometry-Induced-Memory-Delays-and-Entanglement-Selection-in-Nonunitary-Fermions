@@ -37,12 +37,27 @@ When public_release_manifest.json is present, the check first verifies every
 listed file's byte size and SHA256. It returns status=pass with 100 unique new original-model conditions,
 32 large-size prediction conditions, and scalar/record comparison maxima.
 It does not apply a new scientific acceptance gate or certify total intervals.
-The plot writes Fig. 3 and Fig. 4 as PDF/SVG/PNG plus a figure manifest to the
+The plot writes the original Fig. 3 and Fig. 4 coefficient layouts as PDF/SVG/PNG plus a figure manifest to the
 named output directory. It uses --no-install and leaves manuscript figures
 and all source tables unchanged. Filled points are original-model roots;
 open points at L2048/4096 are finite-kernel predictions. Packet curves are
 schematic, not sampled particle densities. The weak-response ranges span
 deterministic parameter conditions, not statistical confidence intervals.
+
+The current physical-narrative main figures use a separate plotting entry point:
+
+```bash
+python scripts/plot_physics_narrative_figures.py --no-install --output-dir figures/prl_physics_narrative
+```
+
+It redraws Main 3 (reflected overlap geometry and opposite left/right timing
+response), Main 4 (size-growing wait and finite window at g=0.1), and a
+supplemental two-panel coefficient check. It reads the same three compact CSV
+files and the public theory reference, writes three PDF/PNG/SVG sets and
+`figure_narrative_manifest.json`, and checks that the inputs remain unchanged.
+It performs no new scientific calculations. The original coefficient-layout
+assets and entry point remain available; the new figures have a distinct
+directory. See `docs/REPRODUCTION.md` for the full panel mapping.
 
 ## 3. Interpretation boundaries
 

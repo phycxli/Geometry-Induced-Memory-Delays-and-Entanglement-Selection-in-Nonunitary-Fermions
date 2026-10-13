@@ -33,8 +33,8 @@
     },
     {
       "path": "FINITE_BIAS_CLOSURE_REPRODUCIBILITY.md",
-      "bytes": 6885,
-      "sha256": "0eac42815ca5f116f8f723c51999a9032db2fb790b14d5303bd9b2e8663188c4"
+      "bytes": 7711,
+      "sha256": "6566e7fa4a935201052e938ae58d16f9b236a72d0c1cf3f138fdc49a12644fb3"
     },
     {
       "path": "requirements-finite-bias-closure.txt",
@@ -245,6 +245,71 @@
       "path": "src/mietf_skin/ssh.py",
       "bytes": 5259,
       "sha256": "28606dccea4ff32009f86ec497a936afc8f0612f3bb0354a4f159ad10bfbbdb9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9521,
+      "sha256": "e7cfa5e30c42f20e50b1e98338b2c6473f45134c76fb17ad13de6aff6d4e252e"
+    },
+    {
+      "path": "docs/REPRODUCTION.md",
+      "bytes": 14648,
+      "sha256": "49929636a83a8eb5c777b4b6e079998ebc8e8e08cdabcf8024d58f59b25ec8b3"
+    },
+    {
+      "path": "scripts/plot_physics_narrative_figures.py",
+      "bytes": 14289,
+      "sha256": "2f523061eb4a7c2dbf079db9f71e0a1e5f60b17873357e0174fca2d5a9c988eb"
+    },
+    {
+      "path": "figures/prl_physics_narrative/figure_narrative_manifest.json",
+      "bytes": 23056,
+      "sha256": "54e47093b8f29959ef5b5f8ecb6f1f210b503743ca1a8d15af81a6e96420d479"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig3_reflection_response.pdf",
+      "bytes": 18863,
+      "sha256": "ac5bdba676a17777063cf28c179f9e0878a9f1eb96857f0f35ce61b5d46dad5d"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig3_reflection_response.png",
+      "bytes": 154762,
+      "sha256": "e0520f9a8171ef4ba9a96fb672f0e9ab9664bac7ee2dcc1a7898d78c456f4f89"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig3_reflection_response.svg",
+      "bytes": 47490,
+      "sha256": "0e592158eef65b81cd50d3c0eb3cf5316891a9950e2fc11237350128023a58af"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig4_continuous_window.pdf",
+      "bytes": 15323,
+      "sha256": "c32da9e2d2ab408b2ced5f9de37a6bbef48cd60d415c70886282434792b6c01a"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig4_continuous_window.png",
+      "bytes": 112029,
+      "sha256": "aa0e7e0182bad8065078873f1613895b94c24e5237328c4e0dc4af6e16415772"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig4_continuous_window.svg",
+      "bytes": 40739,
+      "sha256": "2646f0acae492fdff9b3367ec20b59ec890f8b5c794f76f849d8d39af4a1a8d5"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig_s_narrative_checks.pdf",
+      "bytes": 21566,
+      "sha256": "8ddc3df32f7883ceb55313e2f148bf70d94c5bf62c044d286786886c35962670"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig_s_narrative_checks.png",
+      "bytes": 104978,
+      "sha256": "552522d4857eabb808f6983e258795b372135f1a5967627dfacfb498c452dc50"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig_s_narrative_checks.svg",
+      "bytes": 50870,
+      "sha256": "0e102ba2849a34c46d780c83141e7535c54ff39adf72875581a759ce73c228b2"
     }
   ],
   "original_source_sha256": {
@@ -292,9 +357,18 @@
     "research_doc/01_当前研究/有限尺寸与固定偏置闭合_20261013/推导与复核/finite_size/metric_check/check_endpoint_metric_mp.py": "083c98bea7f1ddd3db624344c03f1908108d614f987820136d5aba9ddc0d250d",
     "research_doc/01_当前研究/有限尺寸与固定偏置闭合_20261013/推导与复核/fixed_bias/fixed_bias_predictions_reviewed.json": "ed4ad44a031b44cc306957e5afd79e823a621556eed79e8b0977bc2819ee14a2"
   },
-  "total_bytes": 756626,
+  "total_bytes": 1385586,
   "original_computation_code_byte_identical": true,
   "portable_slurm_wrappers_are_new": true,
   "historical_failure_data_not_modified": true,
-  "git_operations_performed": false
+  "git_operations_performed": false,
+  "physics_narrative_update": {
+    "created_utc": "2026-10-13T16:04:19.378645+00:00",
+    "plot_script_sha256": "2f523061eb4a7c2dbf079db9f71e0a1e5f60b17873357e0174fca2d5a9c988eb",
+    "current_figure_directory": "figures/prl_physics_narrative",
+    "historical_figure_directory": "figures/prl_manuscript_revision",
+    "scientific_inputs_unchanged": true,
+    "new_scientific_calculations": false,
+    "manuscripts_and_internal_review_records_included": false
+  }
 }

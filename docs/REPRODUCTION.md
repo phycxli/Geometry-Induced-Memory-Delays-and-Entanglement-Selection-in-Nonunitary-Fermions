@@ -22,7 +22,45 @@ numbers isolates no-loss runs if loss is the only process that changes particle 
 Conditioning on no observed clicks with inefficient detection gives a different,
 generally mixed ensemble.
 
-## Figure Inputs
+## Current Figure Inputs
+
+The physical narrative uses the existing public records; this figure update
+does not add scientific conditions or overwrite historical inputs.
+
+| Current figure | Inputs and interpretation |
+|---|---|
+| Main 1 | Existing deterministic apparatus/occupation schematic in `figures/prl_manuscript_revision/`; no simulation data |
+| Main 2 | Existing preparation-memory figure in `figures/prl_manuscript_revision/`; original-model traces, entropy snapshot and delay comparisons |
+| Main 3(a) | Deterministic schematic of the active overlap weight, not particle density; heights are illustrative |
+| Main 3(b) | `figure_fixed_records.csv`: left/right `t_0.05/L`, four saved biases, L1280 original-model roots and L4096 finite-kernel predictions |
+| Main 4(a) | `figure_fixed_records.csv`: left/right `t_0.05` versus L at g=0.1 |
+| Main 4(b) | `figure_fixed_windows.csv`: the same preparations, g=0.1 and sizes, `t_0.01-t_0.05`, with analytic window limits |
+| Supplemental coefficient checks(a) | `figure_fixed_records.csv`, zero-bias rows of `figure_weak_records.csv`, and public `theory_reference.json`: `t-TL-c` versus log L, no fitted offset |
+| Supplemental coefficient checks(b) | `figure_weak_records.csv`: scaled weak-bias response; vertical ranges span nine parameter conditions, not confidence intervals |
+
+All three CSV inputs are under
+`data/prl_finite_bias_closure_20261013/comparisons/`; the theory reference is
+under its `public/` subdirectory. Run:
+
+```bash
+python scripts/plot_physics_narrative_figures.py --no-install --output-dir figures/prl_physics_narrative
+```
+
+This writes three PDF/PNG/SVG sets and `figure_narrative_manifest.json`.
+The manifest records every plotted point, whether it is an original-model root
+or kernel prediction, and the four input hashes. The script checks that the
+inputs remain unchanged and that labels fit the canvas. It does not perform
+new large-matrix calculations, determine a new acceptance gate, or test the
+complete many-body fidelity numerically. Numerical roots target G; transfer to
+W is analytic. Connecting lines join saved samples and are not continuous
+bias scans or fitted coefficients. At each fixed L, changing g preserves the
+Hamiltonian eigenvalues; different chain lengths have different spectra.
+
+The old coefficient-panel layouts remain in `figures/prl_manuscript_revision/`
+and can still be regenerated with `reproduce_finite_bias_closure.py plot`.
+They are earlier Fig. 3/4 assets, distinct from the current files above.
+
+## Historical Figure Inputs
 
 | Figure | Numerical input or construction |
 |---|---|
@@ -38,8 +76,8 @@ generally mixed ensemble.
 | Supplemental 6: extended controls | Extended signed response, reflection ratios, absolute widths, frozen forecast errors; retained absolute scales and six-threshold diagnostics |
 | Supplemental 7: actual-time response | `data/prl_priority_strengthening/zero_bias_response.csv` and `time_response.csv`: susceptibility, geometric factor, decay rate, and all 528 errors |
 
-The supplemental labels above describe output types. In the current manuscript
-their order is envelopes (S1), actual-time response (S2), rank failure (S3),
+The supplemental labels above describe historical output types. In that earlier
+manuscript their order was envelopes (S1), actual-time response (S2), rank failure (S3),
 extended controls (S4), selection/memory (S5), complex model (S6), and resources (S7).
 
 Here "extended" refers to `data/prl_figure_strengthening/`. That directory combines

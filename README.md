@@ -11,7 +11,7 @@ measures occupied-subspace memory; it is distinct from a many-body trace distanc
 The current manuscript is titled *Isospectral Control of Many-Body Selection
 Times*. The new compact release contains the 100 new original-model conditions,
 32 larger-size finite-kernel predictions, analytical coefficient evaluators,
-Fig. 3/4 plotting code, and portable Slurm commands. See
+coefficient plotting code, and portable Slurm commands. See
 [FINITE_BIAS_CLOSURE_REPRODUCIBILITY.md](FINITE_BIAS_CLOSURE_REPRODUCIBILITY.md)
 for the complete parameter ranges and commands.
 
@@ -25,6 +25,38 @@ The small check reevaluates analytical coefficients and saved record relations;
 it does not rerun large matrices or finite-kernel roots. The full calculations
 use the separate scratch-directory HPC workflow in the linked guide. Existing
 sections below describe earlier releases, including their finite-size failures.
+
+## Current Physical-Narrative Figures
+
+The current main figures emphasize the physical timing control. The same
+released fixed-bias and weak-bias records now produce the following panels:
+
+| Current figure | Content | Public output |
+|---|---|---|
+| Main 3 | Reflected overlap-weight schematic and left/right selection time per site versus four discrete biases, at L1280 and L4096 | `figures/prl_physics_narrative/fig3_reflection_response.*` |
+| Main 4 | Left/right waiting time and low-threshold window width versus size at fixed g=0.1 | `figures/prl_physics_narrative/fig4_continuous_window.*` |
+| Supplemental coefficient checks | Unfitted logarithmic time terms and the scaled weak-bias response correction | `figures/prl_physics_narrative/fig_s_narrative_checks.*` |
+
+```bash
+python scripts/plot_physics_narrative_figures.py --no-install --output-dir figures/prl_physics_narrative
+```
+
+The command writes three PDF/PNG/SVG sets and
+`figure_narrative_manifest.json`, including the plotted records and input
+SHA256 values. It uses the public `theory_reference.json` and does not compute
+new times or modify source tables. Filled markers are original-model roots;
+open markers at L2048/4096 are finite-kernel predictions. Lines connecting bias
+samples are guides, not fits or a continuous numerical derivative scan. The
+window's horizontal dashed lines are analytic limits. Roots target the growing
+invariant space G; transfer to the output-singular target W is analytic. These
+plots do not supply an independent numerical full-Slater-fidelity test.
+
+`reproduce_finite_bias_closure.py plot` and its original assets in
+`figures/prl_manuscript_revision/` retain the earlier Fig. 3/4 coefficient-panel
+layout. The new output directory preserves this history. Main figures 1 and 2
+continue to use the apparatus and preparation-memory assets in
+`figures/prl_manuscript_revision/`. The complete current and historical mapping
+is in [Reproduction](docs/REPRODUCTION.md).
 
 ## Quick Reproduction
 
@@ -45,7 +77,7 @@ python scripts/reproduce_paper.py all
 The command verifies every released file against `release_manifest.json`,
 independently recomputes the three short-time preparations using SciPy and
 80-digit mpmath, recomputes 528 principal-pair response conditions from full-rank
-caches, and redraws the four main figures and seven cited supplemental
+caches, and redraws the four earlier main figures and seven cited supplemental
 figures. One additional historical geometry plot is also generated.
 Results go to `reproduction_output/`; frozen input tables are preserved.
 `reproduction_output/verification.json` records numerical differences and output
@@ -106,12 +138,13 @@ error is 0.00429280. This is a bias prediction, with zero-bias centers supplied
 as calculated inputs. All 66 finite-size susceptibilities remain outside the
 0.005 tolerance of the unproved static-response/band-edge candidate. Observed
 directional signs and increasing agreement do not prove an asymptotic coefficient.
-Main Fig. 3 now compares static input response and actual-time prediction.
-The new supplemental figure reports geometric factors, rates, and both errors.
+In that earlier release, Main Fig. 3 compared static input response and
+actual-time prediction. Its supplemental figure reports geometric factors,
+rates, and both errors. The current figure mapping is given above.
 The parameter-box interval certificate concerns analytic constants; the
 numerical crossing times have precision checks, not interval certificates.
 
-Main figures 2--4 include the extended-size, signed-response, and time-trajectory
+The earlier main figures 2--4 include the extended-size, signed-response, and time-trajectory
 checks saved under `data/prl_figure_strengthening/`. Redrawing them
 verifies and visualizes those tables; it does not rerun the large calculations.
 The extension adds 144 low-threshold candidates, 541 trajectory samples, and

@@ -18,8 +18,8 @@
     },
     {
       "path": "FINITE_BIAS_CLOSURE_REPRODUCIBILITY.md",
-      "bytes": 6885,
-      "sha256": "0EAC42815CA5F116F8F723C51999A9032DB2FB790B14D5303BD9B2E8663188C4"
+      "bytes": 7711,
+      "sha256": "6566E7FA4A935201052E938AE58D16F9B236A72D0C1CF3F138FDC49A12644FB3"
     },
     {
       "path": "LICENSE",
@@ -28,8 +28,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7471,
-      "sha256": "EFB3B743D146991366BD4ADFBAB8B1957D02C312CF1396B979D82BCB69C75151"
+      "bytes": 9521,
+      "sha256": "E7CFA5E30C42F20E50B1E98338B2C6473F45134C76FB17AD13DE6AFF6D4E252E"
     },
     {
       "path": "configs/short_time_pilot.json",
@@ -1523,8 +1523,8 @@
     },
     {
       "path": "docs/REPRODUCTION.md",
-      "bytes": 12108,
-      "sha256": "4F7BDE7425257546BC424D4945C00348D82978648D8AB3CC842EAB9B3EC36872"
+      "bytes": 14648,
+      "sha256": "49929636A83A8EB5C777B4B6E079998EBC8E8E08CDABCF8024D58F59B25EC8B3"
     },
     {
       "path": "figures/prl_manuscript_revision/fig1_geometry_memory.pdf",
@@ -1688,8 +1688,8 @@
     },
     {
       "path": "public_release_manifest.json",
-      "bytes": 14196,
-      "sha256": "01D45DE5AE57239A72B50AB9950A39D098A4AC099263AD897DE4071C396FACC2"
+      "bytes": 17147,
+      "sha256": "0C6D933CD41E0D29E820617FA8F378DCBF914E9E90733C24C64C75CAE679BDAD"
     },
     {
       "path": "pyproject.toml",
@@ -2060,11 +2060,67 @@
       "path": "src/mietf_skin/ssh.py",
       "bytes": 5259,
       "sha256": "28606DCCEA4FF32009F86EC497A936AFC8F0612F3BB0354A4F159AD10BFBBDB9"
+    },
+    {
+      "path": "scripts/plot_physics_narrative_figures.py",
+      "bytes": 14289,
+      "sha256": "2F523061EB4A7C2DBF079DB9F71E0A1E5F60B17873357E0174FCA2D5A9C988EB"
+    },
+    {
+      "path": "figures/prl_physics_narrative/figure_narrative_manifest.json",
+      "bytes": 23056,
+      "sha256": "54E47093B8F29959EF5B5F8ECB6F1F210B503743CA1A8D15AF81A6E96420D479"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig3_reflection_response.pdf",
+      "bytes": 18863,
+      "sha256": "AC5BDBA676A17777063CF28C179F9E0878A9F1EB96857F0F35CE61B5D46DAD5D"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig3_reflection_response.png",
+      "bytes": 154762,
+      "sha256": "E0520F9A8171EF4BA9A96FB672F0E9AB9664BAC7EE2DCC1A7898D78C456F4F89"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig3_reflection_response.svg",
+      "bytes": 47490,
+      "sha256": "0E592158EEF65B81CD50D3C0EB3CF5316891A9950E2FC11237350128023A58AF"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig4_continuous_window.pdf",
+      "bytes": 15323,
+      "sha256": "C32DA9E2D2AB408B2CED5F9DE37A6BBEF48CD60D415C70886282434792B6C01A"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig4_continuous_window.png",
+      "bytes": 112029,
+      "sha256": "AA0E7E0182BAD8065078873F1613895B94C24E5237328C4E0DC4AF6E16415772"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig4_continuous_window.svg",
+      "bytes": 40739,
+      "sha256": "2646F0ACAE492FDFF9B3367EC20B59EC890F8B5C794F76F849D8D39AF4A1A8D5"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig_s_narrative_checks.pdf",
+      "bytes": 21566,
+      "sha256": "8DDC3DF32F7883CEB55313E2F148BF70D94C5BF62C044D286786886C35962670"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig_s_narrative_checks.png",
+      "bytes": 104978,
+      "sha256": "552522D4857EABB808F6983E258795B372135F1A5967627DFACFB498C452DC50"
+    },
+    {
+      "path": "figures/prl_physics_narrative/fig_s_narrative_checks.svg",
+      "bytes": 50870,
+      "sha256": "0E102BA2849A34C46D780C83141E7535C54FF39ADF72875581A759CE73C228B2"
     }
   ],
   "scope": "Scientific code, parameters, compact numerical tables and reference figures; original MIT license retained",
   "excluded": "Large raw matrices, baseline archives, scheduler logs, internal notes and manuscript projects",
   "updated_utc": "2026-10-09T21:21:44.332089+00:00",
   "fixed_site_protocol": "L4 N2 g0.15 t0.5, A1 readout, 768 frozen controls; numerical proposal, no experimental data",
-  "closure_upgrade_utc": "2026-10-13T04:07:26.208994+00:00"
+  "closure_upgrade_utc": "2026-10-13T04:07:26.208994+00:00",
+  "physics_narrative_upgrade_utc": "2026-10-13T16:04:19.378645+00:00"
 }
